@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs/rosidl_typesupport_fastrtps_cpp/mesh_msgs/srv/detail/get_texture__rosidl_typesupport_fastrtps_cpp.hpp

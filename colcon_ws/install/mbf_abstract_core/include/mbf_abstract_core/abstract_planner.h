@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/src/move_base_flex/mbf_abstract_core/include/mbf_abstract_core/abstract_planner.h

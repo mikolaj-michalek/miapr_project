@@ -1,3 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_test_utility/lib/libmbf_test_utility_sim.so
-/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_test_utility/share/mbf_test_utility/cmake/export_mbf_test_utilityExport.cmake
-/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_test_utility/share/mbf_test_utility/cmake/export_mbf_test_utilityExport-noconfig.cmake

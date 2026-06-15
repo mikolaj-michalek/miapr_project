@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_utility/ament_cmake_core/mbf_utilityConfig-version.cmake

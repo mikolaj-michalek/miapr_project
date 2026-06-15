@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/src/move_base_flex/rviz_mbf_plugins/include/rviz_mbf_plugins/mbf_goal_actions_panel.hpp

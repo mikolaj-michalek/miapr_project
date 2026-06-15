@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/mesh_controller/include/mesh_controller/mesh_controller.h

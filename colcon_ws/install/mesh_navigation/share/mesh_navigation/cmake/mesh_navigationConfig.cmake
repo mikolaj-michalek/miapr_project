@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_navigation/ament_cmake_core/mesh_navigationConfig.cmake

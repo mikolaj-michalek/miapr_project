@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs/rosidl_generator_cpp/mesh_msgs/msg/mesh_texture.hpp

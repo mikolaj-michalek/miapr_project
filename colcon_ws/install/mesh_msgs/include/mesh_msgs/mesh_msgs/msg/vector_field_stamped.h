@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs/rosidl_generator_c/mesh_msgs/msg/vector_field_stamped.h

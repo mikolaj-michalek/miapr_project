@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager/rosidl_generator_cpp/label_manager/srv/delete_label.hpp

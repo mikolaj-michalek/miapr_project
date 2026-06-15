@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager/rosidl_generator_c/label_manager/msg/rosidl_generator_c__visibility_control.h

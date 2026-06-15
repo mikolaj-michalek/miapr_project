@@ -1,8 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/cvp_mesh_planner.dir/src/cvp_mesh_planner.cpp.o[0m
-[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/src/cvp_mesh_planner.cpp:[m[K In member function ‘[01m[Kvirtual uint32_t cvp_mesh_planner::CVPMeshPlanner::[01;32m[KmakePlan[m[K(const geometry_msgs::msg::PoseStamped&, const geometry_msgs::msg::PoseStamped&, double, std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >&, double&, std::string&)[m[K’:
-[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/src/cvp_mesh_planner.cpp:93:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector_map_[m[K’ was not declared in this scope
-   93 |   [01;31m[Kvector_map_[m[K.clear();
-      |   [01;31m[K^~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/cvp_mesh_planner.dir/build.make:76: CMakeFiles/cvp_mesh_planner.dir/src/cvp_mesh_planner.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cvp_mesh_planner.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

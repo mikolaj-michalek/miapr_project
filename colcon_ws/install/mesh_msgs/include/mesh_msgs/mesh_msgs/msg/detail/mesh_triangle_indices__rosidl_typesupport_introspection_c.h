@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs/rosidl_typesupport_introspection_c/mesh_msgs/msg/detail/mesh_triangle_indices__rosidl_typesupport_introspection_c.h

@@ -1,9 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_navigation_pluto/CMakeFiles/uninstall.dir
-/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_navigation_pluto/CMakeFiles/mesh_navigation_pluto_uninstall.dir
-/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_navigation_pluto/CMakeFiles/test.dir
-/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_navigation_pluto/CMakeFiles/edit_cache.dir
-/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_navigation_pluto/CMakeFiles/rebuild_cache.dir
-/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_navigation_pluto/CMakeFiles/list_install_components.dir
-/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_navigation_pluto/CMakeFiles/install.dir
-/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_navigation_pluto/CMakeFiles/install/local.dir
-/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_navigation_pluto/CMakeFiles/install/strip.dir

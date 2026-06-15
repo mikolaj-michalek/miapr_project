@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs/rosidl_typesupport_fastrtps_c/mesh_msgs/msg/detail/vector_field_stamped__rosidl_typesupport_fastrtps_c.h

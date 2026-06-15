@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs/rosidl_generator_cpp/mesh_msgs/srv/detail/get_uui_ds__type_support.hpp

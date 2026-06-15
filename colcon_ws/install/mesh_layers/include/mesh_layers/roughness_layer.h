@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/mesh_layers/include/mesh_layers/roughness_layer.h

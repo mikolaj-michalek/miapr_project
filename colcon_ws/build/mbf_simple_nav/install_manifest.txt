@@ -1,3 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_simple_nav/lib/libmbf_simple_nav_lib.so
-/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_simple_nav/share/mbf_simple_nav/cmake/export_mbf_simple_navExport.cmake
-/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_simple_nav/share/mbf_simple_nav/cmake/export_mbf_simple_navExport-noconfig.cmake

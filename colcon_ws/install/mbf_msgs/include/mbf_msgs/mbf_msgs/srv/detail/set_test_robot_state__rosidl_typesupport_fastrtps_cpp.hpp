@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_msgs/rosidl_typesupport_fastrtps_cpp/mbf_msgs/srv/detail/set_test_robot_state__rosidl_typesupport_fastrtps_cpp.hpp

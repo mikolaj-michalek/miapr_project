@@ -1,9 +1,0 @@
-[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/src/thetastar_mesh_planner.cpp:[m[K In member function ‘[01m[Kuint32_t thetastar_mesh_planner::ThetaStarMeshPlanner::[01;32m[KrunThetaStar[m[K(const mesh_map::Vector&, const mesh_map::Vector&, std::__cxx11::list<pmp::Vertex>&, std::string&)[m[K’:
-[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/src/thetastar_mesh_planner.cpp:418:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcancel_planning[m[K’ was not declared in this scope; did you mean ‘[01m[Kcancel_planning_[m[K’?
-  418 |   [01;31m[Kcancel_planning[m[K = false;
-      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
-      |   [32m[Kcancel_planning_[m[K
-gmake[2]: *** [CMakeFiles/cvp_mesh_planner.dir/build.make:104: CMakeFiles/cvp_mesh_planner.dir/src/thetastar_mesh_planner.cpp.o] Error 1
-gmake[2]: *** Waiting for unfinished jobs....
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cvp_mesh_planner.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

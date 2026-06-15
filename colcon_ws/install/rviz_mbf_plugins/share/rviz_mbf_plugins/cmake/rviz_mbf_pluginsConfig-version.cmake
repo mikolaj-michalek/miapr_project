@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/build/rviz_mbf_plugins/ament_cmake_core/rviz_mbf_pluginsConfig-version.cmake

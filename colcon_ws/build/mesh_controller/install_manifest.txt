@@ -1,3 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_controller/lib/libmesh_controller.so
-/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_controller/share/mesh_controller/cmake/export_mesh_controllerExport.cmake
-/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_controller/share/mesh_controller/cmake/export_mesh_controllerExport-release.cmake

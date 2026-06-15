@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/src/move_base_flex/mbf_utility/include/mbf_utility/navigation_utility.h

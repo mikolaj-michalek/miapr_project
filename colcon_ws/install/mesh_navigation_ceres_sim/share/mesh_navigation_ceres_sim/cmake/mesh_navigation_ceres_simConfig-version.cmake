@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_navigation_ceres_sim/ament_cmake_core/mesh_navigation_ceres_simConfig-version.cmake

@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs/rosidl_typesupport_fastrtps_cpp/mesh_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

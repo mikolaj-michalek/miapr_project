@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager/rosidl_generator_py/label_manager/label_manager_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "label_manager_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/label_manager")

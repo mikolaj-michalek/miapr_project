@@ -1,3 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/lib/librviz_mesh_tools_plugins.so
-/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/cmake/rviz_mesh_tools_pluginsExport.cmake
-/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/cmake/rviz_mesh_tools_pluginsExport-release.cmake

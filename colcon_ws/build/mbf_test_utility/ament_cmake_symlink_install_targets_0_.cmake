@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_test_utility/mbf_test_utility_sim_node" "TARGETS" "mbf_test_utility_sim_node" "DESTINATION" "lib/mbf_test_utility")

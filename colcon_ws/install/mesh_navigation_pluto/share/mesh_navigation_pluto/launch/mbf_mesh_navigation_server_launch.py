@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation_tutorials/mesh_navigation_pluto/launch/mbf_mesh_navigation_server_launch.py

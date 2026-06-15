@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/dijkstra_mesh_planner/include/dijkstra_mesh_planner/theta_star_mesh_planner copy.h

@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_msgs/rosidl_generator_c/mbf_msgs/srv/detail/set_test_robot_state__functions.h

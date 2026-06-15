@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/build/dijkstra_mesh_planner/ament_cmake_core/dijkstra_mesh_plannerConfig.cmake

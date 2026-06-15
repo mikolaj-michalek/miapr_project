@@ -1,1 +1,0 @@
-/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs/rosidl_typesupport_fastrtps_c/mesh_msgs/msg/detail/mesh_vertex_tex_coords__rosidl_typesupport_fastrtps_c.h
