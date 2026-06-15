@@ -1,3 +1,0 @@
-gmake[2]: *** [CMakeFiles/mesh_map.dir/build.make:90: CMakeFiles/mesh_map.dir/src/mesh_map.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:159: CMakeFiles/mesh_map.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

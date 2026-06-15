@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmesh_msgs_transform.a CMakeFiles/mesh_msgs_transform.dir/src/transforms.cpp.o
-/usr/bin/ranlib libmesh_msgs_transform.a

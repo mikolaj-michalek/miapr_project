@@ -1,3 +1,0 @@
-gmake[2]: *** [CMakeFiles/planner_action_test.dir/build.make:76: CMakeFiles/planner_action_test.dir/test/planner_action.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:326: CMakeFiles/planner_action_test.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt
