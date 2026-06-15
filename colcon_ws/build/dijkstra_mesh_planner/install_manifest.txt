@@ -1,0 +1,3 @@
+/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/lib/libdijkstra_mesh_planner.so
+/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/cmake/export_dijkstra_mesh_plannerExport.cmake
+/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/cmake/export_dijkstra_mesh_plannerExport-release.cmake

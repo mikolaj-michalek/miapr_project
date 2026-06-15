@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from label_manager/srv/GetLabelGroups.srv
+// generated code does not contain a copyright notice
+
+
+module label_manager {
+  module srv {
+    struct GetLabelGroups_Request {
+      string uuid;
+    };
+    struct GetLabelGroups_Response {
+      sequence<string> labels;
+    };
+  };
+};

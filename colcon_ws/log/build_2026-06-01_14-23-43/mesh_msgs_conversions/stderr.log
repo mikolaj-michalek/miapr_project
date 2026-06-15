@@ -1,0 +1,8 @@
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs_conversions/src/conversions.cpp:[m[K In function ‘[01m[Kbool mesh_msgs_conversions::[01;32m[KfromMeshBufferToMeshMessages[m[K(const lvr2::MeshBufferPtr&, mesh_msgs::msg::MeshGeometry&, mesh_msgs::msg::MeshMaterials&, mesh_msgs::msg::MeshVertexColors&, boost::optional<std::vector<mesh_msgs::msg::MeshTexture_<std::allocator<void> > >&>, std::string)[m[K’:
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs_conversions/src/conversions.cpp:99:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kn_faces[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   99 |     size_t [01;35m[Kn_faces[m[K = buffer->numFaces();
+      |            [01;35m[K^~~~~~~[m[K
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs_conversions/src/conversions.cpp:[m[K In function ‘[01m[Kvoid mesh_msgs_conversions::[01;32m[KPointBufferToPointCloud2[m[K(const lvr2::PointBufferPtr&, std::string, std::shared_ptr<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >&)[m[K’:
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs_conversions/src/conversions.cpp:589:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KucharType[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  589 |   int [01;35m[KucharType[m[K = buffer->getAllChannelsOfType<unsigned char>(uCharChannels);
+      |       [01;35m[K^~~~~~~~~[m[K

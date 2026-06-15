@@ -1,0 +1,21 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/Shared/MIAPR_Projekt/build/mesh_tools
+-- Install configuration: ""
+-- Installing: /root/Shared/MIAPR_Projekt/install/mesh_tools/share/ament_index/resource_index/package_run_dependencies/mesh_tools
+-- Installing: /root/Shared/MIAPR_Projekt/install/mesh_tools/share/ament_index/resource_index/parent_prefix_path/mesh_tools
+-- Installing: /root/Shared/MIAPR_Projekt/install/mesh_tools/share/mesh_tools/environment/ament_prefix_path.sh
+-- Installing: /root/Shared/MIAPR_Projekt/install/mesh_tools/share/mesh_tools/environment/ament_prefix_path.dsv
+-- Installing: /root/Shared/MIAPR_Projekt/install/mesh_tools/share/mesh_tools/environment/path.sh
+-- Installing: /root/Shared/MIAPR_Projekt/install/mesh_tools/share/mesh_tools/environment/path.dsv
+-- Installing: /root/Shared/MIAPR_Projekt/install/mesh_tools/share/mesh_tools/local_setup.bash
+-- Installing: /root/Shared/MIAPR_Projekt/install/mesh_tools/share/mesh_tools/local_setup.sh
+-- Installing: /root/Shared/MIAPR_Projekt/install/mesh_tools/share/mesh_tools/local_setup.zsh
+-- Installing: /root/Shared/MIAPR_Projekt/install/mesh_tools/share/mesh_tools/local_setup.dsv
+-- Installing: /root/Shared/MIAPR_Projekt/install/mesh_tools/share/mesh_tools/package.dsv
+-- Installing: /root/Shared/MIAPR_Projekt/install/mesh_tools/share/ament_index/resource_index/packages/mesh_tools
+-- Installing: /root/Shared/MIAPR_Projekt/install/mesh_tools/share/mesh_tools/cmake/mesh_toolsConfig.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/mesh_tools/share/mesh_tools/cmake/mesh_toolsConfig-version.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/mesh_tools/share/mesh_tools/package.xml

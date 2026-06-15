@@ -1,0 +1,31 @@
+{
+  "package_name": "mesh_msgs",
+  "non_idl_tuples": [
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:msg/MeshFaceCluster.msg",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:msg/MeshFaceClusterStamped.msg",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:msg/MeshMaterial.msg",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:msg/MeshGeometry.msg",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:msg/MeshGeometryStamped.msg",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:msg/MeshMaterials.msg",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:msg/MeshMaterialsStamped.msg",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:msg/MeshVertexColors.msg",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:msg/MeshVertexColorsStamped.msg",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:msg/MeshVertexCosts.msg",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:msg/MeshVertexCostsStamped.msg",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:msg/MeshVertexCostsSparse.msg",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:msg/MeshVertexCostsSparseStamped.msg",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:msg/MeshTexture.msg",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:msg/MeshTriangleIndices.msg",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:msg/VectorField.msg",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:msg/VectorFieldStamped.msg",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:msg/MeshVertexTexCoords.msg",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:srv/GetGeometry.srv",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:srv/GetLabeledClusters.srv",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:srv/GetMaterials.srv",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:srv/GetTexture.srv",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:srv/GetUUIDs.srv",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:srv/GetVertexColors.srv",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:srv/GetVertexCosts.srv",
+    "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs:srv/GetVertexCostLayers.srv"
+  ]
+}

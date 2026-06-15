@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager/label_manager_node" "TARGETS" "label_manager_node" "ARCHIVE_DESTINATION" "lib/label_manager" "LIBRARY_DESTINATION" "lib/label_manager" "RUNTIME_DESTINATION" "bin/label_manager")

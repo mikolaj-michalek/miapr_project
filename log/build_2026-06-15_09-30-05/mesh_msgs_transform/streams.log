@@ -1,0 +1,66 @@
+[0.019s] Invoking command in '/root/Shared/MIAPR_Projekt/build/mesh_msgs_transform': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs_transform -DCMAKE_INSTALL_PREFIX=/root/Shared/MIAPR_Projekt/install/mesh_msgs_transform
+[0.102s] -- The C compiler identification is GNU 13.3.0
+[0.198s] -- The CXX compiler identification is GNU 13.3.0
+[0.224s] -- Detecting C compiler ABI info
+[0.377s] -- Detecting C compiler ABI info - done
+[0.391s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.391s] -- Detecting C compile features
+[0.392s] -- Detecting C compile features - done
+[0.408s] -- Detecting CXX compiler ABI info
+[0.563s] -- Detecting CXX compiler ABI info - done
+[0.576s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.577s] -- Detecting CXX compile features
+[0.577s] -- Detecting CXX compile features - done
+[0.586s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.838s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.064s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.169s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.204s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.267s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.394s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.403s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.567s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.594s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.624s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.740s] -- Found mesh_msgs: 2.1.1 (/root/Shared/MIAPR_Projekt/install/mesh_msgs/share/mesh_msgs/cmake)
+[1.876s] -- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+[1.886s] -- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[2.235s] -- Configuring done (2.2s)
+[2.264s] -- Generating done (0.0s)
+[2.270s] -- Build files have been written to: /root/Shared/MIAPR_Projekt/build/mesh_msgs_transform
+[2.288s] Invoked command in '/root/Shared/MIAPR_Projekt/build/mesh_msgs_transform' returned '0': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs_transform -DCMAKE_INSTALL_PREFIX=/root/Shared/MIAPR_Projekt/install/mesh_msgs_transform
+[2.289s] Invoking command in '/root/Shared/MIAPR_Projekt/build/mesh_msgs_transform': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/build/mesh_msgs_transform -- -j12 -l12
+[2.373s] [ 50%] [32mBuilding CXX object CMakeFiles/mesh_msgs_transform.dir/src/transforms.cpp.o[0m
+[14.780s] [100%] [32m[1mLinking CXX static library libmesh_msgs_transform.a[0m
+[15.134s] [100%] Built target mesh_msgs_transform
+[15.245s] Invoked command in '/root/Shared/MIAPR_Projekt/build/mesh_msgs_transform' returned '0': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/build/mesh_msgs_transform -- -j12 -l12
+[15.245s] Invoking command in '/root/Shared/MIAPR_Projekt/build/mesh_msgs_transform': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/build/mesh_msgs_transform
+[15.275s] -- Install configuration: ""
+[15.276s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/share/mesh_msgs_transform/environment/library_path.sh
+[15.277s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/share/mesh_msgs_transform/environment/library_path.dsv
+[15.278s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/lib/libmesh_msgs_transform.a
+[15.282s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/include/mesh_msgs_transform
+[15.283s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/include/mesh_msgs_transform/mesh_msgs_transform
+[15.283s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/include/mesh_msgs_transform/mesh_msgs_transform/transforms.h
+[15.285s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/share/ament_index/resource_index/package_run_dependencies/mesh_msgs_transform
+[15.285s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/share/ament_index/resource_index/parent_prefix_path/mesh_msgs_transform
+[15.286s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/share/mesh_msgs_transform/environment/ament_prefix_path.sh
+[15.287s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/share/mesh_msgs_transform/environment/ament_prefix_path.dsv
+[15.287s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/share/mesh_msgs_transform/environment/path.sh
+[15.289s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/share/mesh_msgs_transform/environment/path.dsv
+[15.289s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/share/mesh_msgs_transform/local_setup.bash
+[15.290s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/share/mesh_msgs_transform/local_setup.sh
+[15.290s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/share/mesh_msgs_transform/local_setup.zsh
+[15.291s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/share/mesh_msgs_transform/local_setup.dsv
+[15.292s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/share/mesh_msgs_transform/package.dsv
+[15.293s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/share/ament_index/resource_index/packages/mesh_msgs_transform
+[15.294s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/share/mesh_msgs_transform/cmake/mesh_msgs_transformExport.cmake
+[15.294s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/share/mesh_msgs_transform/cmake/mesh_msgs_transformExport-noconfig.cmake
+[15.296s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/share/mesh_msgs_transform/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.296s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/share/mesh_msgs_transform/cmake/ament_cmake_export_targets-extras.cmake
+[15.297s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/share/mesh_msgs_transform/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.298s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/share/mesh_msgs_transform/cmake/mesh_msgs_transformConfig.cmake
+[15.299s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/share/mesh_msgs_transform/cmake/mesh_msgs_transformConfig-version.cmake
+[15.300s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/share/mesh_msgs_transform/package.xml
+[15.308s] Invoked command in '/root/Shared/MIAPR_Projekt/build/mesh_msgs_transform' returned '0': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/build/mesh_msgs_transform

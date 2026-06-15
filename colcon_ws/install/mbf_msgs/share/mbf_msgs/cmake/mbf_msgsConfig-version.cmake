@@ -1,0 +1,1 @@
+/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_msgs/ament_cmake_core/mbf_msgsConfig-version.cmake

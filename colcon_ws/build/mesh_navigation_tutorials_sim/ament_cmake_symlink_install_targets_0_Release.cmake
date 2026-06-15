@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_navigation_tutorials_sim/ground_truth_localization_node" "TARGETS" "ground_truth_localization_node" "DESTINATION" "lib/mesh_navigation_tutorials_sim")

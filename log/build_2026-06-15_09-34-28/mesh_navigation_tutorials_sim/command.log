@@ -1,0 +1,4 @@
+Invoking command in '/root/Shared/MIAPR_Projekt/build/mesh_navigation_tutorials_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/build/mesh_navigation_tutorials_sim -- -j12 -l12
+Invoked command in '/root/Shared/MIAPR_Projekt/build/mesh_navigation_tutorials_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/build/mesh_navigation_tutorials_sim -- -j12 -l12
+Invoking command in '/root/Shared/MIAPR_Projekt/build/mesh_navigation_tutorials_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/build/mesh_navigation_tutorials_sim
+Invoked command in '/root/Shared/MIAPR_Projekt/build/mesh_navigation_tutorials_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/build/mesh_navigation_tutorials_sim

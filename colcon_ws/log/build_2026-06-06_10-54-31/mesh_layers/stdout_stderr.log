@@ -1,0 +1,38 @@
+[ 25%] Built target gtest
+[ 25%] Built target gtest_main
+[ 87%] Built target mesh_layers
+[100%] Built target mesh_layers_inflation_layer_test
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/share/mesh_layers//mesh_layers.xml
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/include/mesh_layers/border_layer.h
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/include/mesh_layers/clearance_layer.h
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/include/mesh_layers/combination_layer.h
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/include/mesh_layers/height_diff_layer.h
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/include/mesh_layers/inflation_layer.h
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/include/mesh_layers/obstacle_layer.h
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/include/mesh_layers/ridge_layer.h
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/include/mesh_layers/roughness_layer.h
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/include/mesh_layers/steepness_layer.h
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/lib/libmesh_layers.so
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/share/mesh_layers/environment/library_path.sh
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/share/mesh_layers/environment/library_path.dsv
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/share/ament_index/resource_index/package_run_dependencies/mesh_layers
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/share/ament_index/resource_index/parent_prefix_path/mesh_layers
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/share/mesh_layers/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/share/mesh_layers/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/share/mesh_layers/environment/path.sh
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/share/mesh_layers/environment/path.dsv
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/share/mesh_layers/local_setup.bash
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/share/mesh_layers/local_setup.sh
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/share/mesh_layers/local_setup.zsh
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/share/mesh_layers/local_setup.dsv
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/share/mesh_layers/package.dsv
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/share/ament_index/resource_index/packages/mesh_layers
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/share/ament_index/resource_index/mesh_map__pluginlib__plugin/mesh_layers
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/share/mesh_layers/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/share/mesh_layers/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/share/mesh_layers/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/share/mesh_layers/cmake/mesh_layersConfig.cmake
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/share/mesh_layers/cmake/mesh_layersConfig-version.cmake
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/share/mesh_layers/package.xml

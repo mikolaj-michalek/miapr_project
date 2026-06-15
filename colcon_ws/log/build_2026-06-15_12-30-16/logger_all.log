@@ -1,0 +1,723 @@
+[0.206s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'cvp_mesh_planner']
+[0.206s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['cvp_mesh_planner'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ee4d00e9910>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ee4d00e92b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ee4d00e92b0>>, mixin_verb=('build',))
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.265s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.266s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[0.266s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.267s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/Shared/MIAPR_Projekt/colcon_ws'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/lvr2) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/lvr2) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/lvr2) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/lvr2) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/lvr2) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/lvr2) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/lvr2) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/lvr2) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/lvr2) by extension 'ros'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/lvr2) by extensions ['cmake', 'python']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/lvr2) by extension 'cmake'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/lvr2) by extension 'python'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/lvr2) by extensions ['python_setup_py']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/lvr2) by extension 'python_setup_py'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extension 'ros'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extensions ['cmake', 'python']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extension 'cmake'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extension 'python'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extensions ['python_setup_py']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extension 'python_setup_py'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner) by extension 'ros'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner) by extensions ['cmake', 'python']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner) by extension 'cmake'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner) by extension 'python'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner) by extensions ['python_setup_py']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner) by extension 'python_setup_py'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/include) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/include) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/include) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/include) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/include) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/include) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/include) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/include) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/include) by extension 'ros'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/include) by extensions ['cmake', 'python']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/include) by extension 'cmake'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/include) by extension 'python'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/include) by extensions ['python_setup_py']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/include) by extension 'python_setup_py'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/src) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/src) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/src) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/src) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/src) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/src) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/src) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/src) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/src) by extension 'ros'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/src) by extensions ['cmake', 'python']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/src) by extension 'cmake'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/src) by extension 'python'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/src) by extensions ['python_setup_py']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/astar_mesh_planner/src) by extension 'python_setup_py'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/cvp_mesh_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/cvp_mesh_planner) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/cvp_mesh_planner) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/cvp_mesh_planner) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/cvp_mesh_planner) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/cvp_mesh_planner) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/cvp_mesh_planner) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/cvp_mesh_planner) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/cvp_mesh_planner) by extension 'ros'
+[0.309s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_navigation/cvp_mesh_planner' with type 'ros.ament_cmake' and name 'cvp_mesh_planner'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/dijkstra_mesh_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/dijkstra_mesh_planner) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/dijkstra_mesh_planner) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/dijkstra_mesh_planner) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/dijkstra_mesh_planner) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/dijkstra_mesh_planner) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/dijkstra_mesh_planner) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/dijkstra_mesh_planner) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/dijkstra_mesh_planner) by extension 'ros'
+[0.310s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_navigation/dijkstra_mesh_planner' with type 'ros.ament_cmake' and name 'dijkstra_mesh_planner'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extension 'ros'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extensions ['cmake', 'python']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extension 'cmake'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extension 'python'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extensions ['python_setup_py']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extension 'python_setup_py'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extension 'ros'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extensions ['cmake', 'python']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extension 'cmake'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extension 'python'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extensions ['python_setup_py']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extension 'python_setup_py'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extension 'ros'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extensions ['cmake', 'python']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extension 'cmake'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extension 'python'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extensions ['python_setup_py']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extension 'python_setup_py'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_core) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_core) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_core) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_core) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_core) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_core) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_core) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_core) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_core) by extension 'ros'
+[0.315s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_navigation/mbf_mesh_core' with type 'ros.ament_cmake' and name 'mbf_mesh_core'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_nav) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_nav) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_nav) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_nav) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_nav) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_nav) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_nav) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_nav) by extension 'ros'
+[0.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_navigation/mbf_mesh_nav' with type 'ros.ament_cmake' and name 'mbf_mesh_nav'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_controller) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_controller) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_controller) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_controller) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_controller) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_controller) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_controller) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_controller) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_navigation/mesh_controller' with type 'ros.ament_cmake' and name 'mesh_controller'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_layers) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_layers) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_layers) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_layers) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_layers) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_layers) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_layers) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_layers) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_layers) by extension 'ros'
+[0.319s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_navigation/mesh_layers' with type 'ros.ament_cmake' and name 'mesh_layers'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_map) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_map) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_map) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_map) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_map) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_map) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_map) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_map) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_map) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_navigation/mesh_map' with type 'ros.ament_cmake' and name 'mesh_map'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_navigation) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_navigation) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_navigation) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_navigation) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_navigation) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_navigation) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_navigation) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_navigation) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_navigation/mesh_navigation' with type 'ros.ament_cmake' and name 'mesh_navigation'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner) by extension 'python'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner) by extension 'python_setup_py'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/include) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/include) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/include) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/include) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/include) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/include) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/include) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/include) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/include) by extension 'ros'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/include) by extensions ['cmake', 'python']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/include) by extension 'cmake'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/include) by extension 'python'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/include) by extensions ['python_setup_py']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/include) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/src) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/src) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/src) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/src) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/src) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/src) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/src) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/src) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/src) by extension 'ros'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/src) by extensions ['cmake', 'python']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/src) by extension 'cmake'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/src) by extension 'python'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/src) by extensions ['python_setup_py']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/thetastar_mesh_planner/src) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_ceres) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_ceres) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_ceres) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_ceres) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_ceres) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_ceres) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_ceres) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_ceres) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_ceres) by extension 'ros'
+[0.325s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_navigation_tutorials/mesh_navigation_ceres' with type 'ros.ament_cmake' and name 'mesh_navigation_ceres'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_ceres_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_ceres_sim) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_ceres_sim) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_ceres_sim) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_ceres_sim) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_ceres_sim) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_ceres_sim) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_ceres_sim) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_ceres_sim) by extension 'ros'
+[0.326s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_navigation_tutorials/mesh_navigation_ceres_sim' with type 'ros.ament_cmake' and name 'mesh_navigation_ceres_sim'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_pluto) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_pluto) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_pluto) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_pluto) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_pluto) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_pluto) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_pluto) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_pluto) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_pluto) by extension 'ros'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_navigation_tutorials/mesh_navigation_pluto' with type 'ros.ament_cmake' and name 'mesh_navigation_pluto'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_pluto_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_pluto_sim) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_pluto_sim) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_pluto_sim) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_pluto_sim) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_pluto_sim) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_pluto_sim) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_pluto_sim) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_pluto_sim) by extension 'ros'
+[0.328s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_navigation_tutorials/mesh_navigation_pluto_sim' with type 'ros.ament_cmake' and name 'mesh_navigation_pluto_sim'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_tutorials) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_tutorials) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_tutorials) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_tutorials) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_tutorials) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_tutorials) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_tutorials) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_tutorials) by extension 'ros'
+[0.329s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_navigation_tutorials/mesh_navigation_tutorials' with type 'ros.ament_cmake' and name 'mesh_navigation_tutorials'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_tutorials_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_tutorials_sim) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_tutorials_sim) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_tutorials_sim) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_tutorials_sim) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_tutorials_sim) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_tutorials_sim) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_tutorials_sim) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation_tutorials/mesh_navigation_tutorials_sim) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_navigation_tutorials/mesh_navigation_tutorials_sim' with type 'ros.ament_cmake' and name 'mesh_navigation_tutorials_sim'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extension 'ros'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extensions ['cmake', 'python']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extension 'cmake'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extension 'python'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extensions ['python_setup_py']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extension 'python_setup_py'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/label_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/label_manager) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/label_manager) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/label_manager) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/label_manager) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/label_manager) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/label_manager) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/label_manager) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/label_manager) by extension 'ros'
+[0.333s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_tools/label_manager' with type 'ros.ament_cmake' and name 'label_manager'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs) by extension 'ros'
+[0.334s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_tools/mesh_msgs' with type 'ros.ament_cmake' and name 'mesh_msgs'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_conversions) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_conversions) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_conversions) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_conversions) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_conversions) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_conversions) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_conversions) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_conversions) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_conversions) by extension 'ros'
+[0.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_tools/mesh_msgs_conversions' with type 'ros.ament_cmake' and name 'mesh_msgs_conversions'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_transform) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_transform) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_transform) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_transform) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_transform) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_transform) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_transform) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_transform) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_transform) by extension 'ros'
+[0.337s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_tools/mesh_msgs_transform' with type 'ros.ament_cmake' and name 'mesh_msgs_transform'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_tools) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_tools) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_tools) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_tools) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_tools) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_tools) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_tools) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_tools) by extension 'ros'
+[0.338s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_tools/mesh_tools' with type 'ros.ament_cmake' and name 'mesh_tools'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/rviz_mesh_tools_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/rviz_mesh_tools_plugins) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/rviz_mesh_tools_plugins) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/rviz_mesh_tools_plugins) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/rviz_mesh_tools_plugins) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/rviz_mesh_tools_plugins) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/rviz_mesh_tools_plugins) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/rviz_mesh_tools_plugins) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/rviz_mesh_tools_plugins) by extension 'ros'
+[0.340s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_tools/rviz_mesh_tools_plugins' with type 'ros.ament_cmake' and name 'rviz_mesh_tools_plugins'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex) by extension 'ros'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex) by extensions ['cmake', 'python']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex) by extension 'cmake'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex) by extension 'python'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex) by extensions ['python_setup_py']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex) by extension 'python_setup_py'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc) by extension 'ros'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc) by extensions ['cmake', 'python']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc) by extension 'cmake'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc) by extension 'python'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc) by extensions ['python_setup_py']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc) by extension 'python_setup_py'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images) by extension 'ros'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images) by extensions ['cmake', 'python']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images) by extension 'cmake'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images) by extension 'python'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images) by extensions ['python_setup_py']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images) by extension 'python_setup_py'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images/logos) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images/logos) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images/logos) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images/logos) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images/logos) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images/logos) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images/logos) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images/logos) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images/logos) by extension 'ros'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images/logos) by extensions ['cmake', 'python']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images/logos) by extension 'cmake'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images/logos) by extension 'python'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images/logos) by extensions ['python_setup_py']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/doc/images/logos) by extension 'python_setup_py'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_abstract_core) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_abstract_core) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_abstract_core) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_abstract_core) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_abstract_core) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_abstract_core) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_abstract_core) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_abstract_core) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_abstract_core) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/move_base_flex/mbf_abstract_core' with type 'ros.ament_cmake' and name 'mbf_abstract_core'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_abstract_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_abstract_nav) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_abstract_nav) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_abstract_nav) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_abstract_nav) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_abstract_nav) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_abstract_nav) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_abstract_nav) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_abstract_nav) by extension 'ros'
+[0.345s] DEBUG:colcon.colcon_core.package_identification:Package 'src/move_base_flex/mbf_abstract_nav' with type 'ros.ament_cmake' and name 'mbf_abstract_nav'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_msgs) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_msgs) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_msgs) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_msgs) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_msgs) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_msgs) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_msgs) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_msgs) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/move_base_flex/mbf_msgs' with type 'ros.ament_cmake' and name 'mbf_msgs'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_simple_core) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_simple_core) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_simple_core) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_simple_core) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_simple_core) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_simple_core) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_simple_core) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_simple_core) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_simple_core) by extension 'ros'
+[0.348s] DEBUG:colcon.colcon_core.package_identification:Package 'src/move_base_flex/mbf_simple_core' with type 'ros.ament_cmake' and name 'mbf_simple_core'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_simple_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_simple_nav) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_simple_nav) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_simple_nav) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_simple_nav) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_simple_nav) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_simple_nav) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_simple_nav) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_simple_nav) by extension 'ros'
+[0.349s] DEBUG:colcon.colcon_core.package_identification:Package 'src/move_base_flex/mbf_simple_nav' with type 'ros.ament_cmake' and name 'mbf_simple_nav'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_test_utility) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_test_utility) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_test_utility) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_test_utility) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_test_utility) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_test_utility) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_test_utility) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_test_utility) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_test_utility) by extension 'ros'
+[0.351s] DEBUG:colcon.colcon_core.package_identification:Package 'src/move_base_flex/mbf_test_utility' with type 'ros.ament_cmake' and name 'mbf_test_utility'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_utility) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_utility) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_utility) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_utility) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_utility) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_utility) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_utility) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_utility) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/mbf_utility) by extension 'ros'
+[0.352s] DEBUG:colcon.colcon_core.package_identification:Package 'src/move_base_flex/mbf_utility' with type 'ros.ament_cmake' and name 'mbf_utility'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/move_base_flex) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/move_base_flex) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/move_base_flex) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/move_base_flex) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/move_base_flex) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/move_base_flex) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/move_base_flex) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/move_base_flex) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/move_base_flex) by extension 'ros'
+[0.353s] DEBUG:colcon.colcon_core.package_identification:Package 'src/move_base_flex/move_base_flex' with type 'ros.ament_cmake' and name 'move_base_flex'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/rviz_mbf_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/rviz_mbf_plugins) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/rviz_mbf_plugins) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/rviz_mbf_plugins) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/rviz_mbf_plugins) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/rviz_mbf_plugins) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/rviz_mbf_plugins) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/rviz_mbf_plugins) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_base_flex/rviz_mbf_plugins) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package 'src/move_base_flex/rviz_mbf_plugins' with type 'ros.ament_cmake' and name 'rviz_mbf_plugins'
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.389s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mbf_abstract_core' in 'src/move_base_flex/mbf_abstract_core'
+[0.389s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mbf_msgs' in 'src/move_base_flex/mbf_msgs'
+[0.389s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mesh_msgs' in 'src/mesh_tools/mesh_msgs'
+[0.389s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mesh_navigation_tutorials_sim' in 'src/mesh_navigation_tutorials/mesh_navigation_tutorials_sim'
+[0.389s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'label_manager' in 'src/mesh_tools/label_manager'
+[0.389s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mbf_test_utility' in 'src/move_base_flex/mbf_test_utility'
+[0.389s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mbf_utility' in 'src/move_base_flex/mbf_utility'
+[0.389s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mesh_msgs_conversions' in 'src/mesh_tools/mesh_msgs_conversions'
+[0.389s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mesh_msgs_transform' in 'src/mesh_tools/mesh_msgs_transform'
+[0.389s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mesh_navigation_ceres_sim' in 'src/mesh_navigation_tutorials/mesh_navigation_ceres_sim'
+[0.389s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mesh_navigation_pluto_sim' in 'src/mesh_navigation_tutorials/mesh_navigation_pluto_sim'
+[0.390s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rviz_mbf_plugins' in 'src/move_base_flex/rviz_mbf_plugins'
+[0.390s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rviz_mesh_tools_plugins' in 'src/mesh_tools/rviz_mesh_tools_plugins'
+[0.390s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mbf_abstract_nav' in 'src/move_base_flex/mbf_abstract_nav'
+[0.390s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mbf_simple_core' in 'src/move_base_flex/mbf_simple_core'
+[0.390s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mesh_map' in 'src/mesh_navigation/mesh_map'
+[0.390s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mesh_tools' in 'src/mesh_tools/mesh_tools'
+[0.390s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mbf_mesh_core' in 'src/mesh_navigation/mbf_mesh_core'
+[0.390s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mbf_simple_nav' in 'src/move_base_flex/mbf_simple_nav'
+[0.390s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mesh_layers' in 'src/mesh_navigation/mesh_layers'
+[0.390s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dijkstra_mesh_planner' in 'src/mesh_navigation/dijkstra_mesh_planner'
+[0.390s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mbf_mesh_nav' in 'src/mesh_navigation/mbf_mesh_nav'
+[0.390s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mesh_controller' in 'src/mesh_navigation/mesh_controller'
+[0.390s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'move_base_flex' in 'src/move_base_flex/move_base_flex'
+[0.390s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mesh_navigation' in 'src/mesh_navigation/mesh_navigation'
+[0.390s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mesh_navigation_tutorials' in 'src/mesh_navigation_tutorials/mesh_navigation_tutorials'
+[0.390s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mesh_navigation_ceres' in 'src/mesh_navigation_tutorials/mesh_navigation_ceres'
+[0.390s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mesh_navigation_pluto' in 'src/mesh_navigation_tutorials/mesh_navigation_pluto'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'cvp_mesh_planner' build argument 'cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'cvp_mesh_planner' build argument 'cmake_target' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'cvp_mesh_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'cvp_mesh_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'cvp_mesh_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'cvp_mesh_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'cvp_mesh_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'cvp_mesh_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'cvp_mesh_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.390s] DEBUG:colcon.colcon_core.verb:Building package 'cvp_mesh_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Shared/MIAPR_Projekt/colcon_ws/build/cvp_mesh_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner', 'merge_install': False, 'path': '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner', 'symlink_install': False, 'test_result_base': None}
+[0.391s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.392s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.392s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner' with build type 'ament_cmake'
+[0.392s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner'
+[0.397s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.397s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.397s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/cvp_mesh_planner': CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_tools:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_pluto:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_ceres:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_tutorials:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mbf_plugins:/root/Shared/MIAPR_Projekt/colcon_ws/install/move_base_flex:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_pluto_sim:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_ceres_sim:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_tutorials_sim:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_controller:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_simple_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_simple_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_test_utility:/root/Shared/MIAPR_Projekt/install/mesh_tools:/root/Shared/MIAPR_Projekt/install/rviz_mesh_tools_plugins:/root/Shared/MIAPR_Projekt/install/rviz_mbf_plugins:/root/Shared/MIAPR_Projekt/install/move_base_flex:/root/Shared/MIAPR_Projekt/install/mesh_navigation_pluto_sim:/root/Shared/MIAPR_Projekt/install/mesh_navigation_ceres_sim:/root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim:/root/Shared/MIAPR_Projekt/install/mesh_msgs_transform:/root/Shared/MIAPR_Projekt/install/mbf_mesh_core:/root/Shared/MIAPR_Projekt/install/mesh_map:/root/Shared/MIAPR_Projekt/install/mesh_msgs_conversions:/root/Shared/MIAPR_Projekt/install/label_manager:/root/Shared/MIAPR_Projekt/install/mesh_msgs:/root/Shared/MIAPR_Projekt/install/mbf_simple_nav:/root/Shared/MIAPR_Projekt/install/mbf_simple_core:/root/Shared/MIAPR_Projekt/install/mbf_abstract_nav:/root/Shared/MIAPR_Projekt/install/mbf_utility:/root/Shared/MIAPR_Projekt/install/mbf_test_utility:/root/Shared/MIAPR_Projekt/install/mbf_msgs:/root/Shared/MIAPR_Projekt/install/mbf_abstract_core:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mbf_plugins/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_tutorials_sim/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_controller/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_nav/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_simple_nav/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_test_utility/lib:/root/Shared/MIAPR_Projekt/install/rviz_mesh_tools_plugins/lib:/root/Shared/MIAPR_Projekt/install/rviz_mbf_plugins/lib:/root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/lib:/root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/lib:/root/Shared/MIAPR_Projekt/install/mesh_map/lib:/root/Shared/MIAPR_Projekt/install/mesh_msgs_conversions/lib:/root/Shared/MIAPR_Projekt/install/label_manager/lib:/root/Shared/MIAPR_Projekt/install/mesh_msgs/lib:/root/Shared/MIAPR_Projekt/install/mbf_simple_nav/lib:/root/Shared/MIAPR_Projekt/install/mbf_abstract_nav/lib:/root/Shared/MIAPR_Projekt/install/mbf_utility/lib:/root/Shared/MIAPR_Projekt/install/mbf_test_utility/lib:/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/lib/python3.12/site-packages:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages:/root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages:/root/Shared/MIAPR_Projekt/install/mesh_msgs/lib/python3.12/site-packages:/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/colcon_ws/build/cvp_mesh_planner -- -j12 -l12
+[15.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/cvp_mesh_planner' returned '0': CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_tools:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_pluto:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_ceres:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_tutorials:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mbf_plugins:/root/Shared/MIAPR_Projekt/colcon_ws/install/move_base_flex:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_pluto_sim:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_ceres_sim:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_tutorials_sim:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_controller:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_simple_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_simple_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_test_utility:/root/Shared/MIAPR_Projekt/install/mesh_tools:/root/Shared/MIAPR_Projekt/install/rviz_mesh_tools_plugins:/root/Shared/MIAPR_Projekt/install/rviz_mbf_plugins:/root/Shared/MIAPR_Projekt/install/move_base_flex:/root/Shared/MIAPR_Projekt/install/mesh_navigation_pluto_sim:/root/Shared/MIAPR_Projekt/install/mesh_navigation_ceres_sim:/root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim:/root/Shared/MIAPR_Projekt/install/mesh_msgs_transform:/root/Shared/MIAPR_Projekt/install/mbf_mesh_core:/root/Shared/MIAPR_Projekt/install/mesh_map:/root/Shared/MIAPR_Projekt/install/mesh_msgs_conversions:/root/Shared/MIAPR_Projekt/install/label_manager:/root/Shared/MIAPR_Projekt/install/mesh_msgs:/root/Shared/MIAPR_Projekt/install/mbf_simple_nav:/root/Shared/MIAPR_Projekt/install/mbf_simple_core:/root/Shared/MIAPR_Projekt/install/mbf_abstract_nav:/root/Shared/MIAPR_Projekt/install/mbf_utility:/root/Shared/MIAPR_Projekt/install/mbf_test_utility:/root/Shared/MIAPR_Projekt/install/mbf_msgs:/root/Shared/MIAPR_Projekt/install/mbf_abstract_core:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mbf_plugins/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_tutorials_sim/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_controller/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_nav/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_simple_nav/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_test_utility/lib:/root/Shared/MIAPR_Projekt/install/rviz_mesh_tools_plugins/lib:/root/Shared/MIAPR_Projekt/install/rviz_mbf_plugins/lib:/root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/lib:/root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/lib:/root/Shared/MIAPR_Projekt/install/mesh_map/lib:/root/Shared/MIAPR_Projekt/install/mesh_msgs_conversions/lib:/root/Shared/MIAPR_Projekt/install/label_manager/lib:/root/Shared/MIAPR_Projekt/install/mesh_msgs/lib:/root/Shared/MIAPR_Projekt/install/mbf_simple_nav/lib:/root/Shared/MIAPR_Projekt/install/mbf_abstract_nav/lib:/root/Shared/MIAPR_Projekt/install/mbf_utility/lib:/root/Shared/MIAPR_Projekt/install/mbf_test_utility/lib:/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/lib/python3.12/site-packages:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages:/root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages:/root/Shared/MIAPR_Projekt/install/mesh_msgs/lib/python3.12/site-packages:/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/colcon_ws/build/cvp_mesh_planner -- -j12 -l12
+[15.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/cvp_mesh_planner': CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_tools:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_pluto:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_ceres:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_tutorials:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mbf_plugins:/root/Shared/MIAPR_Projekt/colcon_ws/install/move_base_flex:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_pluto_sim:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_ceres_sim:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_tutorials_sim:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_controller:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_simple_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_simple_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_test_utility:/root/Shared/MIAPR_Projekt/install/mesh_tools:/root/Shared/MIAPR_Projekt/install/rviz_mesh_tools_plugins:/root/Shared/MIAPR_Projekt/install/rviz_mbf_plugins:/root/Shared/MIAPR_Projekt/install/move_base_flex:/root/Shared/MIAPR_Projekt/install/mesh_navigation_pluto_sim:/root/Shared/MIAPR_Projekt/install/mesh_navigation_ceres_sim:/root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim:/root/Shared/MIAPR_Projekt/install/mesh_msgs_transform:/root/Shared/MIAPR_Projekt/install/mbf_mesh_core:/root/Shared/MIAPR_Projekt/install/mesh_map:/root/Shared/MIAPR_Projekt/install/mesh_msgs_conversions:/root/Shared/MIAPR_Projekt/install/label_manager:/root/Shared/MIAPR_Projekt/install/mesh_msgs:/root/Shared/MIAPR_Projekt/install/mbf_simple_nav:/root/Shared/MIAPR_Projekt/install/mbf_simple_core:/root/Shared/MIAPR_Projekt/install/mbf_abstract_nav:/root/Shared/MIAPR_Projekt/install/mbf_utility:/root/Shared/MIAPR_Projekt/install/mbf_test_utility:/root/Shared/MIAPR_Projekt/install/mbf_msgs:/root/Shared/MIAPR_Projekt/install/mbf_abstract_core:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mbf_plugins/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_tutorials_sim/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_controller/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_nav/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_simple_nav/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_test_utility/lib:/root/Shared/MIAPR_Projekt/install/rviz_mesh_tools_plugins/lib:/root/Shared/MIAPR_Projekt/install/rviz_mbf_plugins/lib:/root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/lib:/root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/lib:/root/Shared/MIAPR_Projekt/install/mesh_map/lib:/root/Shared/MIAPR_Projekt/install/mesh_msgs_conversions/lib:/root/Shared/MIAPR_Projekt/install/label_manager/lib:/root/Shared/MIAPR_Projekt/install/mesh_msgs/lib:/root/Shared/MIAPR_Projekt/install/mbf_simple_nav/lib:/root/Shared/MIAPR_Projekt/install/mbf_abstract_nav/lib:/root/Shared/MIAPR_Projekt/install/mbf_utility/lib:/root/Shared/MIAPR_Projekt/install/mbf_test_utility/lib:/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/lib/python3.12/site-packages:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages:/root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages:/root/Shared/MIAPR_Projekt/install/mesh_msgs/lib/python3.12/site-packages:/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/colcon_ws/build/cvp_mesh_planner
+[15.205s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cvp_mesh_planner)
+[15.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/cvp_mesh_planner' returned '0': CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_tools:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_pluto:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_ceres:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_tutorials:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mbf_plugins:/root/Shared/MIAPR_Projekt/colcon_ws/install/move_base_flex:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_pluto_sim:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_ceres_sim:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_tutorials_sim:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_controller:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_simple_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_simple_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_test_utility:/root/Shared/MIAPR_Projekt/install/mesh_tools:/root/Shared/MIAPR_Projekt/install/rviz_mesh_tools_plugins:/root/Shared/MIAPR_Projekt/install/rviz_mbf_plugins:/root/Shared/MIAPR_Projekt/install/move_base_flex:/root/Shared/MIAPR_Projekt/install/mesh_navigation_pluto_sim:/root/Shared/MIAPR_Projekt/install/mesh_navigation_ceres_sim:/root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim:/root/Shared/MIAPR_Projekt/install/mesh_msgs_transform:/root/Shared/MIAPR_Projekt/install/mbf_mesh_core:/root/Shared/MIAPR_Projekt/install/mesh_map:/root/Shared/MIAPR_Projekt/install/mesh_msgs_conversions:/root/Shared/MIAPR_Projekt/install/label_manager:/root/Shared/MIAPR_Projekt/install/mesh_msgs:/root/Shared/MIAPR_Projekt/install/mbf_simple_nav:/root/Shared/MIAPR_Projekt/install/mbf_simple_core:/root/Shared/MIAPR_Projekt/install/mbf_abstract_nav:/root/Shared/MIAPR_Projekt/install/mbf_utility:/root/Shared/MIAPR_Projekt/install/mbf_test_utility:/root/Shared/MIAPR_Projekt/install/mbf_msgs:/root/Shared/MIAPR_Projekt/install/mbf_abstract_core:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mbf_plugins/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_tutorials_sim/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_controller/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_nav/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_simple_nav/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_test_utility/lib:/root/Shared/MIAPR_Projekt/install/rviz_mesh_tools_plugins/lib:/root/Shared/MIAPR_Projekt/install/rviz_mbf_plugins/lib:/root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/lib:/root/Shared/MIAPR_Projekt/install/mesh_msgs_transform/lib:/root/Shared/MIAPR_Projekt/install/mesh_map/lib:/root/Shared/MIAPR_Projekt/install/mesh_msgs_conversions/lib:/root/Shared/MIAPR_Projekt/install/label_manager/lib:/root/Shared/MIAPR_Projekt/install/mesh_msgs/lib:/root/Shared/MIAPR_Projekt/install/mbf_simple_nav/lib:/root/Shared/MIAPR_Projekt/install/mbf_abstract_nav/lib:/root/Shared/MIAPR_Projekt/install/mbf_utility/lib:/root/Shared/MIAPR_Projekt/install/mbf_test_utility/lib:/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/lib/python3.12/site-packages:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages:/root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages:/root/Shared/MIAPR_Projekt/install/mesh_msgs/lib/python3.12/site-packages:/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/colcon_ws/build/cvp_mesh_planner
+[15.210s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner' for CMake module files
+[15.211s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner' for CMake config files
+[15.211s] Level 1:colcon.colcon_core.shell:create_environment_hook('cvp_mesh_planner', 'cmake_prefix_path')
+[15.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/cvp_mesh_planner/hook/cmake_prefix_path.ps1'
+[15.212s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/cvp_mesh_planner/hook/cmake_prefix_path.dsv'
+[15.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/cvp_mesh_planner/hook/cmake_prefix_path.sh'
+[15.214s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/lib'
+[15.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('cvp_mesh_planner', 'ld_library_path_lib')
+[15.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/cvp_mesh_planner/hook/ld_library_path_lib.ps1'
+[15.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/cvp_mesh_planner/hook/ld_library_path_lib.dsv'
+[15.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/cvp_mesh_planner/hook/ld_library_path_lib.sh'
+[15.216s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/bin'
+[15.216s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/lib/pkgconfig/cvp_mesh_planner.pc'
+[15.218s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/lib/python3.12/site-packages'
+[15.219s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/bin'
+[15.219s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/cvp_mesh_planner/package.ps1'
+[15.220s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/cvp_mesh_planner/package.dsv'
+[15.220s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/cvp_mesh_planner/package.sh'
+[15.221s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/cvp_mesh_planner/package.bash'
+[15.222s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/cvp_mesh_planner/package.zsh'
+[15.223s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/colcon-core/packages/cvp_mesh_planner)
+[15.223s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cvp_mesh_planner)
+[15.223s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner' for CMake module files
+[15.224s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner' for CMake config files
+[15.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('cvp_mesh_planner', 'cmake_prefix_path')
+[15.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/cvp_mesh_planner/hook/cmake_prefix_path.ps1'
+[15.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/cvp_mesh_planner/hook/cmake_prefix_path.dsv'
+[15.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/cvp_mesh_planner/hook/cmake_prefix_path.sh'
+[15.226s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/lib'
+[15.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('cvp_mesh_planner', 'ld_library_path_lib')
+[15.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/cvp_mesh_planner/hook/ld_library_path_lib.ps1'
+[15.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/cvp_mesh_planner/hook/ld_library_path_lib.dsv'
+[15.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/cvp_mesh_planner/hook/ld_library_path_lib.sh'
+[15.227s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/bin'
+[15.227s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/lib/pkgconfig/cvp_mesh_planner.pc'
+[15.227s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/lib/python3.12/site-packages'
+[15.228s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/bin'
+[15.228s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/cvp_mesh_planner/package.ps1'
+[15.228s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/cvp_mesh_planner/package.dsv'
+[15.229s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/cvp_mesh_planner/package.sh'
+[15.229s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/cvp_mesh_planner/package.bash'
+[15.229s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/cvp_mesh_planner/package.zsh'
+[15.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/share/colcon-core/packages/cvp_mesh_planner)
+[15.230s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.231s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.231s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.231s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.241s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[15.242s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.242s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.242s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.245s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[15.245s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.246s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Shared/MIAPR_Projekt/colcon_ws/install/local_setup.ps1'
+[15.247s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/Shared/MIAPR_Projekt/colcon_ws/install/_local_setup_util_ps1.py'
+[15.249s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Shared/MIAPR_Projekt/colcon_ws/install/setup.ps1'
+[15.253s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Shared/MIAPR_Projekt/colcon_ws/install/local_setup.sh'
+[15.253s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/Shared/MIAPR_Projekt/colcon_ws/install/_local_setup_util_sh.py'
+[15.254s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Shared/MIAPR_Projekt/colcon_ws/install/setup.sh'
+[15.257s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Shared/MIAPR_Projekt/colcon_ws/install/local_setup.bash'
+[15.258s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Shared/MIAPR_Projekt/colcon_ws/install/setup.bash'
+[15.261s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Shared/MIAPR_Projekt/colcon_ws/install/local_setup.zsh'
+[15.262s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Shared/MIAPR_Projekt/colcon_ws/install/setup.zsh'

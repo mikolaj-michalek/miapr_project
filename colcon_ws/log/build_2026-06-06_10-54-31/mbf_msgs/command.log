@@ -1,0 +1,4 @@
+Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_msgs -- -j12 -l12
+Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_msgs -- -j12 -l12
+Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_msgs
+Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_msgs

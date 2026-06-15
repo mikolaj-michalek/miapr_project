@@ -1,0 +1,1 @@
+/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_abstract_core/ament_cmake_core/mbf_abstract_coreConfig-version.cmake

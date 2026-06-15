@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-106848e4f3e7964287c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cvp_mesh_planner",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cvp_mesh_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cvp_mesh_planner-Release-fdfd184baa41c9c8916c.json",
+					"name" : "cvp_mesh_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cvp_mesh_planner_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cvp_mesh_planner_uninstall-Release-16271d288e0bddb22aae.json",
+					"name" : "cvp_mesh_planner_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-56883081b5ef0ebcde5b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/Shared/MIAPR_Projekt/colcon_ws/build/cvp_mesh_planner",
+		"source" : "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

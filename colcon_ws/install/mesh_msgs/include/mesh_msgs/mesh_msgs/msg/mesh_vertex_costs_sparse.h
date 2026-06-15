@@ -1,0 +1,1 @@
+/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs/rosidl_generator_c/mesh_msgs/msg/mesh_vertex_costs_sparse.h

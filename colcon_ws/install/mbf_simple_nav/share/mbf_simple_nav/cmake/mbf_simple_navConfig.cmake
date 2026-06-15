@@ -1,0 +1,1 @@
+/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_simple_nav/ament_cmake_core/mbf_simple_navConfig.cmake

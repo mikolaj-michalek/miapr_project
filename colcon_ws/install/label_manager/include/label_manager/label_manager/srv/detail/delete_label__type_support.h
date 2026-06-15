@@ -1,0 +1,1 @@
+/root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager/rosidl_generator_c/label_manager/srv/detail/delete_label__type_support.h

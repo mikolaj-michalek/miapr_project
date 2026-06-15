@@ -1,0 +1,9 @@
+/root/Shared/MIAPR_Projekt/build/mbf_msgs/rosidl_adapter/mbf_msgs:action/ExePath.idl
+/root/Shared/MIAPR_Projekt/build/mbf_msgs/rosidl_adapter/mbf_msgs:action/GetPath.idl
+/root/Shared/MIAPR_Projekt/build/mbf_msgs/rosidl_adapter/mbf_msgs:action/MoveBase.idl
+/root/Shared/MIAPR_Projekt/build/mbf_msgs/rosidl_adapter/mbf_msgs:action/Recovery.idl
+/root/Shared/MIAPR_Projekt/build/mbf_msgs/rosidl_adapter/mbf_msgs:srv/CheckPath.idl
+/root/Shared/MIAPR_Projekt/build/mbf_msgs/rosidl_adapter/mbf_msgs:srv/CheckPoint.idl
+/root/Shared/MIAPR_Projekt/build/mbf_msgs/rosidl_adapter/mbf_msgs:srv/CheckPose.idl
+/root/Shared/MIAPR_Projekt/build/mbf_msgs/rosidl_adapter/mbf_msgs:srv/FindValidPose.idl
+/root/Shared/MIAPR_Projekt/build/mbf_msgs/rosidl_adapter/mbf_msgs:srv/SetTestRobotState.idl

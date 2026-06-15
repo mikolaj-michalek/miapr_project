@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9ae21ac239a87f64a6c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "mesh_msgs__py",
+					"jsonFile" : "directory-mesh_msgs__py-0a34e80d1e947eb0c8f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/Shared/MIAPR_Projekt/build/mesh_msgs/mesh_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "mesh_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mesh_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mesh_msgs_egg-6785ee82cca7113494e7.json",
+					"name" : "ament_cmake_python_build_mesh_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_mesh_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_mesh_msgs-7aaf5f89226343357237.json",
+					"name" : "ament_cmake_python_copy_mesh_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mesh_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mesh_msgs-03ed75aa352bbb393ace.json",
+					"name" : "mesh_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mesh_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mesh_msgs__cpp-fed93bf363a27234f9a1.json",
+					"name" : "mesh_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mesh_msgs__py::@b0162e0ef752201189fe",
+					"jsonFile" : "target-mesh_msgs__py-6202f6596e08950e0fe0.json",
+					"name" : "mesh_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mesh_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mesh_msgs__rosidl_generator_c-3f976c24cb5b2d535c25.json",
+					"name" : "mesh_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mesh_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mesh_msgs__rosidl_generator_py-d437c1699ee724e8c3b2.json",
+					"name" : "mesh_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mesh_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mesh_msgs__rosidl_generator_type_description-f6428a4a10ec05ac9a16.json",
+					"name" : "mesh_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mesh_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mesh_msgs__rosidl_typesupport_c-37ccc491e552fc098891.json",
+					"name" : "mesh_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mesh_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mesh_msgs__rosidl_typesupport_cpp-fe486b9805773e98d284.json",
+					"name" : "mesh_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mesh_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mesh_msgs__rosidl_typesupport_fastrtps_c-bd1e5c3b48edf9214180.json",
+					"name" : "mesh_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mesh_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mesh_msgs__rosidl_typesupport_fastrtps_cpp-2304c4206a7556679749.json",
+					"name" : "mesh_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mesh_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mesh_msgs__rosidl_typesupport_introspection_c-eb5a2d28e02fed039d3b.json",
+					"name" : "mesh_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mesh_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mesh_msgs__rosidl_typesupport_introspection_cpp-c6a0dd2b72e3a63ab3a6.json",
+					"name" : "mesh_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mesh_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mesh_msgs_s__rosidl_typesupport_c-13c78e3d39c978ba4a7d.json",
+					"name" : "mesh_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mesh_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mesh_msgs_s__rosidl_typesupport_fastrtps_c-f9052c874cc89a618e40.json",
+					"name" : "mesh_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mesh_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mesh_msgs_s__rosidl_typesupport_introspection_c-f0366952dfe61f0aee38.json",
+					"name" : "mesh_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mesh_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mesh_msgs_uninstall-86d01cfcdee8feeb6c72.json",
+					"name" : "mesh_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0efcef76d7312f0bda12.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/Shared/MIAPR_Projekt/build/mesh_msgs",
+		"source" : "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,1 @@
+/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_navigation/ament_cmake_environment_hooks/local_setup.zsh

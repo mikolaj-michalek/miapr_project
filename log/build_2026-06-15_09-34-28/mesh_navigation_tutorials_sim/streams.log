@@ -1,0 +1,61 @@
+[0.022s] Invoking command in '/root/Shared/MIAPR_Projekt/build/mesh_navigation_tutorials_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/build/mesh_navigation_tutorials_sim -- -j12 -l12
+[0.130s] [ 50%] Built target ground_truth_localization_node
+[0.139s] [100%] Built target ground_truth_localization
+[0.167s] Invoked command in '/root/Shared/MIAPR_Projekt/build/mesh_navigation_tutorials_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/build/mesh_navigation_tutorials_sim -- -j12 -l12
+[0.169s] Invoking command in '/root/Shared/MIAPR_Projekt/build/mesh_navigation_tutorials_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/build/mesh_navigation_tutorials_sim
+[0.186s] -- Install configuration: "Release"
+[0.186s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/environment/mesh_navigation_tutorials_sim.dsv
+[0.186s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/environment/mesh_navigation_tutorials_sim.sh
+[0.186s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/config
+[0.187s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/config/ros_gazebo_bridge.yaml
+[0.187s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/launch
+[0.187s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/launch/simulation_launch.py
+[0.187s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/launch/base_simulation_launch.py
+[0.187s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/models
+[0.188s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/models/floor_is_lava
+[0.188s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/models/floor_is_lava/meshes
+[0.188s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/models/floor_is_lava/meshes/floor_is_lava.dae
+[0.189s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/models/floor_is_lava/meshes/floor_is_lava.ply
+[0.189s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/models/floor_is_lava/model.sdf
+[0.189s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/models/floor_is_lava/model.config
+[0.189s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/models/tray
+[0.189s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/models/tray/meshes
+[0.189s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/models/tray/meshes/tray.dae
+[0.189s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/models/tray/meshes/tray.ply
+[0.190s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/models/tray/model.sdf
+[0.190s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/models/tray/model.config
+[0.190s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/models/parking_garage
+[0.190s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/models/parking_garage/meshes
+[0.190s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/models/parking_garage/meshes/parking_garage.dae
+[0.190s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/models/parking_garage/meshes/parking_garage_flipped.dae
+[0.191s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/models/parking_garage/model.sdf
+[0.191s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/models/parking_garage/model.config
+[0.191s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/worlds
+[0.191s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/worlds/floor_is_lava.sdf
+[0.191s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/worlds/tray.sdf
+[0.191s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/worlds/parking_garage.sdf
+[0.191s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/meshes
+[0.191s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/meshes/wheel.stl
+[0.192s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/urdf
+[0.192s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/urdf/common.urdf.xacro
+[0.192s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/urdf/ceres.urdf.xacro
+[0.192s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/urdf/wheel.urdf.xacro
+[0.193s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/lib/mesh_navigation_tutorials_sim/ground_truth_localization_node
+[0.194s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/lib/libground_truth_localization.so
+[0.195s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/ament_index/resource_index/package_run_dependencies/mesh_navigation_tutorials_sim
+[0.195s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/ament_index/resource_index/parent_prefix_path/mesh_navigation_tutorials_sim
+[0.195s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/environment/ament_prefix_path.sh
+[0.195s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/environment/ament_prefix_path.dsv
+[0.196s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/environment/path.sh
+[0.196s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/environment/path.dsv
+[0.196s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/local_setup.bash
+[0.196s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/local_setup.sh
+[0.196s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/local_setup.zsh
+[0.196s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/local_setup.dsv
+[0.196s] -- Installing: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/package.dsv
+[0.196s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/ament_index/resource_index/packages/mesh_navigation_tutorials_sim
+[0.196s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/ament_index/resource_index/rclcpp_components/mesh_navigation_tutorials_sim
+[0.197s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/cmake/mesh_navigation_tutorials_simConfig.cmake
+[0.197s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/cmake/mesh_navigation_tutorials_simConfig-version.cmake
+[0.197s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/package.xml
+[0.200s] Invoked command in '/root/Shared/MIAPR_Projekt/build/mesh_navigation_tutorials_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/build/mesh_navigation_tutorials_sim

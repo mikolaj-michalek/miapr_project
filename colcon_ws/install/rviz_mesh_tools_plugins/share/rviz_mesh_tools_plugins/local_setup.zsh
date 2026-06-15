@@ -1,0 +1,1 @@
+/root/Shared/MIAPR_Projekt/colcon_ws/build/rviz_mesh_tools_plugins/ament_cmake_environment_hooks/local_setup.zsh

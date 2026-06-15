@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "label_manager/srv/GetLabelGroups_Request",
+      "fields": [
+        {
+          "name": "uuid",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "label_manager/srv/GetLabelGroups_Request",
+      "hash_string": "RIHS01_daf7137b66c85dd7b5b8de7a6867b6984ad6ec43940d3cdbdf4f980e4bfd9ea5"
+    }
+  ]
+}

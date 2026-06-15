@@ -1,0 +1,47 @@
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found mbf_mesh_core: 3.0.1 (/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_core/share/mbf_mesh_core/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found mbf_msgs: 1.0.5 (/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/share/mbf_msgs/cmake)
+-- Found mbf_utility: 1.0.5 (/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility/share/mbf_utility/cmake)
+-- Try to find LZ4: find_path + find_library
+-- Try to find LZ4: FindPackageHandleStandardArgs
+-- Configuring done (3.5s)
+-- Generating done (0.1s)
+-- Build files have been written to: /root/Shared/MIAPR_Projekt/colcon_ws/build/cvp_mesh_planner
+[ 75%] [32mBuilding CXX object CMakeFiles/cvp_mesh_planner.dir/src/cvp_mesh_planner.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/cvp_mesh_planner.dir/src/thetastar_mesh_planner.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/cvp_mesh_planner.dir/src/astar_mesh_planner.cpp.o[0m
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/src/thetastar_mesh_planner.cpp:39:10:[m[K [01;31m[Kfatal error: [m[Kdijkstra_mesh_planner/theta_star_mesh_planner.h: No such file or directory
+   39 | #include [01;31m[K<dijkstra_mesh_planner/theta_star_mesh_planner.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/cvp_mesh_planner.dir/build.make:104: CMakeFiles/cvp_mesh_planner.dir/src/thetastar_mesh_planner.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/src/astar_mesh_planner.cpp:[m[K In member function ‘[01m[Kuint32_t astar_mesh_planner::AStarMeshPlanner::[01;32m[KrunAStar[m[K(const mesh_map::Vector&, const mesh_map::Vector&, std::__cxx11::list<pmp::Vertex>&, std::string&)[m[K’:
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/src/astar_mesh_planner.cpp:540:75:[m[K [01;31m[Kerror: [m[Kbinding reference of type ‘[01m[Kmesh_map::Vector&[m[K’ {aka ‘[01m[Klvr2::BaseVector<float>&[m[K’} to ‘[01m[Kconst mesh_map::Vector[m[K’ {aka ‘[01m[Kconst lvr2::BaseVector<float>[m[K’} discards qualifiers
+  540 |   const lvr2::OptionalFaceHandle start_opt = mesh_map_->getContainingFace([01;31m[Kstart[m[K, 0.4);
+      |                                                                           [01;31m[K^~~~~[m[K
+In file included from [01m[K/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_core/include/mbf_mesh_core/mesh_planner.h:46[m[K,
+                 from [01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/include/cvp_mesh_planner/astar_mesh_planner.h:221[m[K,
+                 from [01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/src/astar_mesh_planner.cpp:437[m[K:
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/include/mesh_map/mesh_map.h:114:54:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Klvr2::OptionalFaceHandle mesh_map::MeshMap::[01;32m[KgetContainingFace[m[K(mesh_map::Vector&, const float&)[m[K’
+  114 |   lvr2::OptionalFaceHandle getContainingFace([01;36m[KVector& position[m[K, const float& max_dist);
+      |                                              [01;36m[K~~~~~~~~^~~~~~~~[m[K
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/src/astar_mesh_planner.cpp:541:74:[m[K [01;31m[Kerror: [m[Kbinding reference of type ‘[01m[Kmesh_map::Vector&[m[K’ {aka ‘[01m[Klvr2::BaseVector<float>&[m[K’} to ‘[01m[Kconst mesh_map::Vector[m[K’ {aka ‘[01m[Kconst lvr2::BaseVector<float>[m[K’} discards qualifiers
+  541 |   const lvr2::OptionalFaceHandle goal_opt = mesh_map_->getContainingFace([01;31m[Kgoal[m[K, 0.4);
+      |                                                                          [01;31m[K^~~~[m[K
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/include/mesh_map/mesh_map.h:114:54:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Klvr2::OptionalFaceHandle mesh_map::MeshMap::[01;32m[KgetContainingFace[m[K(mesh_map::Vector&, const float&)[m[K’
+  114 |   lvr2::OptionalFaceHandle getContainingFace([01;36m[KVector& position[m[K, const float& max_dist);
+      |                                              [01;36m[K~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cvp_mesh_planner.dir/build.make:90: CMakeFiles/cvp_mesh_planner.dir/src/astar_mesh_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cvp_mesh_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

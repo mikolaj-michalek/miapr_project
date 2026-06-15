@@ -1,0 +1,1 @@
+/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_mesh_nav/ament_cmake_environment_hooks/local_setup.bash

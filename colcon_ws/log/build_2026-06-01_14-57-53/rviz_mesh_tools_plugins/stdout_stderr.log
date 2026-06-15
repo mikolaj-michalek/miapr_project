@@ -1,0 +1,52 @@
+[  0%] Built target rviz_mesh_tools_plugins_autogen_timestamp_deps
+[  6%] Built target rviz_mesh_tools_plugins_autogen
+[100%] Built target rviz_mesh_tools_plugins
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins//plugins_description.xml
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/environment/library_path.sh
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/environment/library_path.dsv
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/ClusterLabelDisplay.hpp
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/ClusterLabelPanel.hpp
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/ClusterLabelTool.hpp
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/ClusterLabelVisual.hpp
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/InteractionHelper.hpp
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/MapDisplay.hpp
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/MeshDisplay.hpp
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/MeshGoalTool.hpp
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/MeshPoseGuessTool.hpp
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/MeshPoseTool.hpp
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/MeshVisual.hpp
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/RVizMessageFilter.hpp
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/RvizFileProperty.hpp
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/ThreadSafeQueue.hpp
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/Types.hpp
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/kernels/cast_rays.cl
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/icons/classes/ClusterLabel.png
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/icons/classes/Map3D.png
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/icons/classes/Mesh.png
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/icons/classes/MeshGoal.png
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/icons/classes/MeshPoseGuess.png
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/ament_index/resource_index/package_run_dependencies/rviz_mesh_tools_plugins
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/ament_index/resource_index/parent_prefix_path/rviz_mesh_tools_plugins
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/environment/path.sh
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/environment/path.dsv
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/local_setup.bash
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/local_setup.sh
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/local_setup.zsh
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/local_setup.dsv
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/package.dsv
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/ament_index/resource_index/packages/rviz_mesh_tools_plugins
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_mesh_tools_plugins
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/cmake/rviz_mesh_tools_plugins-extras.cmake
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/cmake/rviz_mesh_tools_pluginsConfig.cmake
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/cmake/rviz_mesh_tools_pluginsConfig-version.cmake
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/package.xml
+-- Up-to-date: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/lib/librviz_mesh_tools_plugins.so
+-- Up-to-date: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/cmake/rviz_mesh_tools_pluginsExport.cmake
+-- Up-to-date: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/cmake/rviz_mesh_tools_pluginsExport-release.cmake

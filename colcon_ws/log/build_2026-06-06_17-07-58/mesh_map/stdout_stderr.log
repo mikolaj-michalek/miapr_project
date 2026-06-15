@@ -1,0 +1,39 @@
+[ 28%] Built target gtest
+[ 28%] Built target gtest_main
+[ 71%] Built target mesh_map
+[ 85%] Built target mesh_map_test_layer_plugin
+[100%] Built target mesh_map_mesh_map_test
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/include/mesh_map/abstract_layer.h
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/include/mesh_map/definitions.h
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/include/mesh_map/layer_manager.h
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/include/mesh_map/mesh_map.h
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/include/mesh_map/nanoflann.hpp
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/include/mesh_map/nanoflann_mesh_adaptor.h
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/include/mesh_map/timer.h
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/include/mesh_map/util.h
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/share/mesh_map/test/layer_plugin.xml
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/lib/libmesh_map_test_layer_plugin.so
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/share/mesh_map/environment/library_path.sh
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/share/mesh_map/environment/library_path.dsv
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/share/ament_index/resource_index/package_run_dependencies/mesh_map
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/share/ament_index/resource_index/parent_prefix_path/mesh_map
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/share/mesh_map/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/share/mesh_map/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/share/mesh_map/environment/path.sh
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/share/mesh_map/environment/path.dsv
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/share/mesh_map/local_setup.bash
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/share/mesh_map/local_setup.sh
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/share/mesh_map/local_setup.zsh
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/share/mesh_map/local_setup.dsv
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/share/mesh_map/package.dsv
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/share/ament_index/resource_index/packages/mesh_map
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/share/ament_index/resource_index/mesh_map__pluginlib__plugin/mesh_map
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/share/mesh_map/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/share/mesh_map/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/share/mesh_map/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/share/mesh_map/cmake/mesh_mapConfig.cmake
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/share/mesh_map/cmake/mesh_mapConfig-version.cmake
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/share/mesh_map/package.xml
+-- Up-to-date: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/lib/libmesh_map.so

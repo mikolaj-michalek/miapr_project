@@ -1,0 +1,523 @@
+[0.023s] Invoking command in '/root/Shared/MIAPR_Projekt/build/mbf_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/Shared/MIAPR_Projekt/colcon_ws/src/move_base_flex/mbf_msgs -DCMAKE_INSTALL_PREFIX=/root/Shared/MIAPR_Projekt/install/mbf_msgs
+[0.265s] -- The C compiler identification is GNU 13.3.0
+[0.407s] -- The CXX compiler identification is GNU 13.3.0
+[0.435s] -- Detecting C compiler ABI info
+[0.592s] -- Detecting C compiler ABI info - done
+[0.605s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.605s] -- Detecting C compile features
+[0.606s] -- Detecting C compile features - done
+[0.621s] -- Detecting CXX compiler ABI info
+[0.761s] -- Detecting CXX compiler ABI info - done
+[0.772s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.772s] -- Detecting CXX compile features
+[0.773s] -- Detecting CXX compile features - done
+[0.799s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.104s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.337s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.361s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.485s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.582s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.592s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.657s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.681s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.638s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.305s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.187s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.196s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.383s] -- Found PythonExtra: /usr/bin/python3  
+[5.066s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.163s] -- Configuring done (5.1s)
+[5.246s] -- Generating done (0.1s)
+[5.263s] -- Build files have been written to: /root/Shared/MIAPR_Projekt/build/mbf_msgs
+[5.282s] Invoked command in '/root/Shared/MIAPR_Projekt/build/mbf_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/Shared/MIAPR_Projekt/colcon_ws/src/move_base_flex/mbf_msgs -DCMAKE_INSTALL_PREFIX=/root/Shared/MIAPR_Projekt/install/mbf_msgs
+[5.283s] Invoking command in '/root/Shared/MIAPR_Projekt/build/mbf_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/build/mbf_msgs -- -j12 -l12
+[5.377s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.390s] [  1%] Built target ament_cmake_python_copy_mbf_msgs
+[5.733s] running egg_info
+[5.734s] creating mbf_msgs.egg-info
+[5.752s] writing mbf_msgs.egg-info/PKG-INFO
+[5.752s] writing dependency_links to mbf_msgs.egg-info/dependency_links.txt
+[5.752s] writing top-level names to mbf_msgs.egg-info/top_level.txt
+[5.752s] writing manifest file 'mbf_msgs.egg-info/SOURCES.txt'
+[5.805s] reading manifest file 'mbf_msgs.egg-info/SOURCES.txt'
+[5.806s] writing manifest file 'mbf_msgs.egg-info/SOURCES.txt'
+[5.866s] [  1%] Built target ament_cmake_python_build_mbf_msgs_egg
+[7.379s] [  1%] Built target mbf_msgs__rosidl_generator_type_description
+[7.396s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.413s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.005s] [  2%] Built target mbf_msgs__cpp
+[12.431s] [  3%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/action/detail/get_path__functions.c.o[0m
+[12.437s] [  4%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/action/detail/exe_path__description.c.o[0m
+[12.438s] [  5%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/action/detail/exe_path__type_support.c.o[0m
+[12.438s] [  6%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/action/detail/move_base__description.c.o[0m
+[12.438s] [  7%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/action/detail/exe_path__functions.c.o[0m
+[12.438s] [  8%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/action/detail/get_path__description.c.o[0m
+[12.446s] [  9%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/action/detail/recovery__description.c.o[0m
+[12.446s] [ 10%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/action/detail/recovery__functions.c.o[0m
+[12.451s] [ 11%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/action/detail/move_base__functions.c.o[0m
+[12.452s] [ 12%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/action/detail/recovery__type_support.c.o[0m
+[12.459s] [ 12%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/action/detail/get_path__type_support.c.o[0m
+[12.483s] [ 13%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/action/detail/move_base__type_support.c.o[0m
+[12.728s] [ 14%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/srv/detail/check_path__description.c.o[0m
+[12.745s] [ 14%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/srv/detail/check_path__functions.c.o[0m
+[12.755s] [ 15%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/srv/detail/check_path__type_support.c.o[0m
+[12.825s] [ 16%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/srv/detail/check_point__description.c.o[0m
+[12.885s] [ 17%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/srv/detail/check_point__functions.c.o[0m
+[12.911s] [ 18%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/srv/detail/check_point__type_support.c.o[0m
+[12.924s] [ 19%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/srv/detail/check_pose__description.c.o[0m
+[12.966s] [ 20%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/srv/detail/check_pose__functions.c.o[0m
+[13.075s] [ 21%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/srv/detail/check_pose__type_support.c.o[0m
+[13.093s] [ 21%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/srv/detail/find_valid_pose__description.c.o[0m
+[13.139s] [ 22%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/srv/detail/find_valid_pose__functions.c.o[0m
+[13.147s] [ 23%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/srv/detail/set_test_robot_state__description.c.o[0m
+[13.169s] [ 24%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/srv/detail/find_valid_pose__type_support.c.o[0m
+[13.194s] [ 25%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/srv/detail/set_test_robot_state__type_support.c.o[0m
+[13.203s] [ 26%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_c.dir/rosidl_generator_c/mbf_msgs/srv/detail/set_test_robot_state__functions.c.o[0m
+[13.445s] [ 27%] [32m[1mLinking C shared library libmbf_msgs__rosidl_generator_c.so[0m
+[13.631s] [ 27%] Built target mbf_msgs__rosidl_generator_c
+[13.680s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[13.684s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[13.688s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[13.693s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[13.703s] [ 32%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[13.703s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[19.695s] [ 33%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mbf_msgs/action/move_base__type_support.cpp.o[0m
+[19.707s] [ 34%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mbf_msgs/action/get_path__type_support.cpp.o[0m
+[19.715s] [ 35%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mbf_msgs/action/exe_path__type_support.cpp.o[0m
+[19.726s] [ 35%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mbf_msgs/srv/check_point__type_support.cpp.o[0m
+[19.731s] [ 36%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mbf_msgs/action/recovery__type_support.cpp.o[0m
+[19.732s] [ 37%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mbf_msgs/srv/check_pose__type_support.cpp.o[0m
+[19.737s] [ 38%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mbf_msgs/srv/check_path__type_support.cpp.o[0m
+[19.979s] [ 39%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mbf_msgs/srv/find_valid_pose__type_support.cpp.o[0m
+[20.024s] [ 40%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mbf_msgs/srv/set_test_robot_state__type_support.cpp.o[0m
+[20.123s] [ 42%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mbf_msgs/action/exe_path__type_support.cpp.o[0m
+[20.126s] [ 43%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mbf_msgs/action/move_base__type_support.cpp.o[0m
+[20.132s] [ 43%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mbf_msgs/action/recovery__type_support.cpp.o[0m
+[20.132s] [ 43%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mbf_msgs/action/get_path__type_support.cpp.o[0m
+[20.135s] [ 45%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mbf_msgs/srv/check_path__type_support.cpp.o[0m
+[20.136s] [ 45%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mbf_msgs/srv/check_point__type_support.cpp.o[0m
+[20.216s] [ 46%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mbf_msgs/srv/check_pose__type_support.cpp.o[0m
+[20.254s] [ 47%] [32m[1mLinking CXX shared library libmbf_msgs__rosidl_typesupport_c.so[0m
+[20.524s] [ 47%] Built target mbf_msgs__rosidl_typesupport_c
+[20.574s] [ 48%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mbf_msgs/srv/find_valid_pose__type_support.cpp.o[0m
+[21.347s] [ 49%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mbf_msgs/srv/set_test_robot_state__type_support.cpp.o[0m
+[22.725s] [ 50%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mbf_msgs/action/detail/get_path__type_support.c.o[0m
+[22.740s] [ 51%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mbf_msgs/action/detail/move_base__type_support.c.o[0m
+[22.740s] [ 51%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mbf_msgs/action/detail/exe_path__type_support.c.o[0m
+[22.751s] [ 52%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mbf_msgs/srv/detail/check_path__type_support.c.o[0m
+[22.751s] [ 53%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mbf_msgs/action/detail/recovery__type_support.c.o[0m
+[22.961s] [ 54%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mbf_msgs/srv/detail/check_point__type_support.c.o[0m
+[22.993s] [ 55%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mbf_msgs/srv/detail/check_pose__type_support.c.o[0m
+[23.024s] [ 56%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mbf_msgs/srv/detail/find_valid_pose__type_support.c.o[0m
+[23.059s] [ 57%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mbf_msgs/srv/detail/set_test_robot_state__type_support.c.o[0m
+[23.336s] [ 58%] [32m[1mLinking C shared library libmbf_msgs__rosidl_typesupport_introspection_c.so[0m
+[23.359s] [ 59%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mbf_msgs/action/detail/get_path__type_support.cpp.o[0m
+[23.359s] [ 60%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mbf_msgs/action/detail/move_base__type_support.cpp.o[0m
+[23.373s] [ 61%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mbf_msgs/action/detail/recovery__type_support.cpp.o[0m
+[23.373s] [ 62%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mbf_msgs/action/detail/exe_path__type_support.cpp.o[0m
+[23.380s] [ 63%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mbf_msgs/srv/detail/check_point__type_support.cpp.o[0m
+[23.394s] [ 65%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mbf_msgs/srv/detail/check_pose__type_support.cpp.o[0m
+[23.394s] [ 65%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mbf_msgs/srv/detail/check_path__type_support.cpp.o[0m
+[23.524s] [ 65%] Built target mbf_msgs__rosidl_typesupport_introspection_c
+[23.568s] [ 65%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mbf_msgs/srv/detail/find_valid_pose__type_support.cpp.o[0m
+[23.595s] [ 66%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mbf_msgs/srv/detail/set_test_robot_state__type_support.cpp.o[0m
+[23.881s] [ 67%] [32m[1mLinking CXX shared library libmbf_msgs__rosidl_typesupport_cpp.so[0m
+[24.536s] [ 67%] Built target mbf_msgs__rosidl_typesupport_cpp
+[24.698s] [ 68%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mbf_msgs/action/detail/dds_fastrtps/exe_path__type_support.cpp.o[0m
+[24.874s] [ 69%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mbf_msgs/action/detail/dds_fastrtps/get_path__type_support.cpp.o[0m
+[24.979s] [ 69%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mbf_msgs/action/detail/exe_path__type_support_c.cpp.o[0m
+[25.208s] [ 70%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mbf_msgs/action/detail/dds_fastrtps/move_base__type_support.cpp.o[0m
+[25.311s] [ 71%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mbf_msgs/action/detail/dds_fastrtps/recovery__type_support.cpp.o[0m
+[25.392s] [ 72%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mbf_msgs/action/detail/get_path__type_support_c.cpp.o[0m
+[25.540s] [ 73%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mbf_msgs/srv/detail/dds_fastrtps/check_path__type_support.cpp.o[0m
+[25.721s] [ 73%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mbf_msgs/srv/detail/dds_fastrtps/check_point__type_support.cpp.o[0m
+[26.466s] [ 74%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mbf_msgs/action/detail/move_base__type_support_c.cpp.o[0m
+[26.661s] [ 75%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mbf_msgs/srv/detail/dds_fastrtps/check_pose__type_support.cpp.o[0m
+[27.094s] [ 76%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mbf_msgs/action/detail/recovery__type_support_c.cpp.o[0m
+[27.369s] [ 77%] [32m[1mLinking CXX shared library libmbf_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[27.468s] [ 78%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mbf_msgs/srv/detail/check_path__type_support_c.cpp.o[0m
+[27.789s] [ 79%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mbf_msgs/srv/detail/check_point__type_support_c.cpp.o[0m
+[28.008s] [ 80%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mbf_msgs/srv/detail/dds_fastrtps/find_valid_pose__type_support.cpp.o[0m
+[28.027s] [ 81%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mbf_msgs/srv/detail/check_pose__type_support_c.cpp.o[0m
+[28.082s] [ 81%] Built target mbf_msgs__rosidl_typesupport_introspection_cpp
+[28.132s] [ 82%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mbf_msgs/srv/detail/find_valid_pose__type_support_c.cpp.o[0m
+[28.142s] [ 83%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mbf_msgs/srv/detail/dds_fastrtps/set_test_robot_state__type_support.cpp.o[0m
+[28.345s] [ 83%] [32mBuilding CXX object CMakeFiles/mbf_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mbf_msgs/srv/detail/set_test_robot_state__type_support_c.cpp.o[0m
+[29.090s] [ 84%] [32m[1mLinking CXX shared library libmbf_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[29.139s] [ 85%] [32m[1mLinking CXX shared library libmbf_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[29.275s] [ 85%] Built target mbf_msgs__rosidl_typesupport_fastrtps_cpp
+[29.278s] [ 85%] Built target mbf_msgs__rosidl_typesupport_fastrtps_c
+[29.313s] [ 85%] Built target mbf_msgs
+[29.348s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[35.817s] [ 86%] Built target mbf_msgs__py
+[35.857s] [ 89%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_py.dir/rosidl_generator_py/mbf_msgs/action/_get_path_s.c.o[0m
+[35.857s] [ 89%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_py.dir/rosidl_generator_py/mbf_msgs/action/_recovery_s.c.o[0m
+[35.857s] [ 89%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_py.dir/rosidl_generator_py/mbf_msgs/action/_move_base_s.c.o[0m
+[35.857s] [ 89%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_py.dir/rosidl_generator_py/mbf_msgs/action/_exe_path_s.c.o[0m
+[35.857s] [ 90%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_py.dir/rosidl_generator_py/mbf_msgs/srv/_check_point_s.c.o[0m
+[35.858s] [ 91%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_py.dir/rosidl_generator_py/mbf_msgs/srv/_check_path_s.c.o[0m
+[35.861s] [ 92%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_py.dir/rosidl_generator_py/mbf_msgs/srv/_check_pose_s.c.o[0m
+[35.862s] [ 93%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_py.dir/rosidl_generator_py/mbf_msgs/srv/_find_valid_pose_s.c.o[0m
+[35.872s] [ 94%] [32mBuilding C object CMakeFiles/mbf_msgs__rosidl_generator_py.dir/rosidl_generator_py/mbf_msgs/srv/_set_test_robot_state_s.c.o[0m
+[36.295s] [ 94%] [32m[1mLinking C shared library libmbf_msgs__rosidl_generator_py.so[0m
+[36.387s] [ 94%] Built target mbf_msgs__rosidl_generator_py
+[36.419s] [ 96%] [32mBuilding C object CMakeFiles/mbf_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/mbf_msgs/_mbf_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[36.420s] [ 96%] [32mBuilding C object CMakeFiles/mbf_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/mbf_msgs/_mbf_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[36.421s] [ 97%] [32mBuilding C object CMakeFiles/mbf_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/mbf_msgs/_mbf_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[36.750s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/mbf_msgs/mbf_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[36.760s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/mbf_msgs/mbf_msgs_s__rosidl_typesupport_c.so[0m
+[36.787s] [100%] [32m[1mLinking C shared module rosidl_generator_py/mbf_msgs/mbf_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[36.814s] [100%] Built target mbf_msgs_s__rosidl_typesupport_introspection_c
+[36.823s] [100%] Built target mbf_msgs_s__rosidl_typesupport_c
+[36.853s] [100%] Built target mbf_msgs_s__rosidl_typesupport_fastrtps_c
+[36.874s] Invoked command in '/root/Shared/MIAPR_Projekt/build/mbf_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/build/mbf_msgs -- -j12 -l12
+[36.876s] Invoking command in '/root/Shared/MIAPR_Projekt/build/mbf_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/build/mbf_msgs
+[36.890s] -- Install configuration: ""
+[36.890s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/ament_index/resource_index/rosidl_interfaces/mbf_msgs
+[36.890s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/action/ExePath.json
+[36.891s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/action/GetPath.json
+[36.891s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/action/MoveBase.json
+[36.891s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/action/Recovery.json
+[36.891s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/srv/CheckPath.json
+[36.891s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/srv/CheckPoint.json
+[36.892s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/srv/CheckPose.json
+[36.892s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/srv/FindValidPose.json
+[36.892s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/srv/SetTestRobotState.json
+[36.892s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs
+[36.893s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/msg
+[36.893s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/msg/rosidl_generator_c__visibility_control.h
+[36.893s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action
+[36.893s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/get_path.h
+[36.894s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/recovery.h
+[36.894s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail
+[36.894s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/exe_path__functions.h
+[36.894s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/move_base__functions.h
+[36.894s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/recovery__type_support.c
+[36.894s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/move_base__functions.c
+[36.894s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/get_path__struct.h
+[36.895s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/get_path__functions.h
+[36.895s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/move_base__struct.h
+[36.895s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/move_base__type_support.c
+[36.895s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/exe_path__struct.h
+[36.895s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/get_path__functions.c
+[36.895s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/exe_path__functions.c
+[36.896s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/move_base__description.c
+[36.896s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/exe_path__type_support.c
+[36.896s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/get_path__description.c
+[36.896s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/exe_path__type_support.h
+[36.897s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/recovery__type_support.h
+[36.897s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/recovery__functions.h
+[36.897s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/move_base__type_support.h
+[36.897s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/exe_path__description.c
+[36.897s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/get_path__type_support.h
+[36.898s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/recovery__struct.h
+[36.898s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/get_path__type_support.c
+[36.898s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/recovery__description.c
+[36.898s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/recovery__functions.c
+[36.898s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/move_base.h
+[36.898s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/exe_path.h
+[36.899s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv
+[36.899s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/set_test_robot_state.h
+[36.899s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/find_valid_pose.h
+[36.899s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/check_pose.h
+[36.899s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail
+[36.899s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_pose__description.c
+[36.900s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_path__functions.c
+[36.900s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/set_test_robot_state__description.c
+[36.900s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/find_valid_pose__functions.c
+[36.900s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/set_test_robot_state__functions.h
+[36.900s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_point__struct.h
+[36.900s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_path__description.c
+[36.901s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_path__type_support.c
+[36.901s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_point__type_support.h
+[36.901s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/set_test_robot_state__type_support.c
+[36.901s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_point__functions.c
+[36.901s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_pose__functions.h
+[36.901s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_pose__functions.c
+[36.902s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_point__type_support.c
+[36.902s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_path__struct.h
+[36.902s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_point__description.c
+[36.902s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_point__functions.h
+[36.902s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/find_valid_pose__type_support.c
+[36.902s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/set_test_robot_state__functions.c
+[36.902s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_pose__type_support.h
+[36.903s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_pose__struct.h
+[36.903s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/set_test_robot_state__struct.h
+[36.903s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/find_valid_pose__description.c
+[36.903s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/find_valid_pose__type_support.h
+[36.904s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_path__type_support.h
+[36.904s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/find_valid_pose__struct.h
+[36.904s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/find_valid_pose__functions.h
+[36.904s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_pose__type_support.c
+[36.904s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/set_test_robot_state__type_support.h
+[36.904s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_path__functions.h
+[36.904s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/check_point.h
+[36.905s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/check_path.h
+[36.905s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/environment/library_path.sh
+[36.905s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/environment/library_path.dsv
+[36.905s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/libmbf_msgs__rosidl_generator_c.so
+[36.906s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/libmbf_msgs__rosidl_generator_c.so" to ""
+[36.907s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs
+[36.907s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/msg
+[36.907s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[36.907s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action
+[36.907s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail
+[36.907s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/recovery__rosidl_typesupport_fastrtps_c.h
+[36.908s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/move_base__rosidl_typesupport_fastrtps_c.h
+[36.908s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/exe_path__rosidl_typesupport_fastrtps_c.h
+[36.908s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/get_path__rosidl_typesupport_fastrtps_c.h
+[36.908s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv
+[36.908s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail
+[36.908s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_point__rosidl_typesupport_fastrtps_c.h
+[36.909s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/set_test_robot_state__rosidl_typesupport_fastrtps_c.h
+[36.909s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_path__rosidl_typesupport_fastrtps_c.h
+[36.909s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_pose__rosidl_typesupport_fastrtps_c.h
+[36.909s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/find_valid_pose__rosidl_typesupport_fastrtps_c.h
+[36.909s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/libmbf_msgs__rosidl_typesupport_fastrtps_c.so
+[36.909s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/libmbf_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[36.910s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs
+[36.910s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/msg
+[36.910s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[36.910s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action
+[36.910s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail
+[36.910s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/recovery__type_support.c
+[36.911s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/recovery__rosidl_typesupport_introspection_c.h
+[36.911s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/move_base__type_support.c
+[36.911s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/get_path__rosidl_typesupport_introspection_c.h
+[36.911s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/exe_path__type_support.c
+[36.911s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/move_base__rosidl_typesupport_introspection_c.h
+[36.912s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/get_path__type_support.c
+[36.912s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/exe_path__rosidl_typesupport_introspection_c.h
+[36.912s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv
+[36.912s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail
+[36.912s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_path__rosidl_typesupport_introspection_c.h
+[36.912s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_path__type_support.c
+[36.913s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/set_test_robot_state__type_support.c
+[36.913s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_point__type_support.c
+[36.913s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_pose__rosidl_typesupport_introspection_c.h
+[36.913s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_point__rosidl_typesupport_introspection_c.h
+[36.913s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/find_valid_pose__type_support.c
+[36.913s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_pose__type_support.c
+[36.914s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/find_valid_pose__rosidl_typesupport_introspection_c.h
+[36.914s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/set_test_robot_state__rosidl_typesupport_introspection_c.h
+[36.914s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/libmbf_msgs__rosidl_typesupport_introspection_c.so
+[36.914s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/libmbf_msgs__rosidl_typesupport_introspection_c.so" to ""
+[36.915s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/libmbf_msgs__rosidl_typesupport_c.so
+[36.915s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/libmbf_msgs__rosidl_typesupport_c.so" to ""
+[36.915s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs
+[36.916s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/msg
+[36.916s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[36.916s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action
+[36.916s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/exe_path.hpp
+[36.916s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/recovery.hpp
+[36.916s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail
+[36.916s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/move_base__builder.hpp
+[36.916s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/move_base__traits.hpp
+[36.917s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/recovery__struct.hpp
+[36.917s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/recovery__builder.hpp
+[36.918s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/get_path__builder.hpp
+[36.918s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/get_path__traits.hpp
+[36.918s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/get_path__type_support.hpp
+[36.918s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/recovery__traits.hpp
+[36.918s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/move_base__struct.hpp
+[36.918s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/exe_path__traits.hpp
+[36.919s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/recovery__type_support.hpp
+[36.919s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/move_base__type_support.hpp
+[36.919s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/exe_path__struct.hpp
+[36.919s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/get_path__struct.hpp
+[36.920s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/exe_path__type_support.hpp
+[36.920s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/exe_path__builder.hpp
+[36.920s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/move_base.hpp
+[36.920s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/get_path.hpp
+[36.920s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv
+[36.920s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/find_valid_pose.hpp
+[36.921s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/set_test_robot_state.hpp
+[36.921s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/check_path.hpp
+[36.921s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/check_point.hpp
+[36.921s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail
+[36.921s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/set_test_robot_state__traits.hpp
+[36.922s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_path__traits.hpp
+[36.922s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_pose__builder.hpp
+[36.922s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_pose__type_support.hpp
+[36.922s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_path__type_support.hpp
+[36.922s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/set_test_robot_state__struct.hpp
+[36.923s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/find_valid_pose__struct.hpp
+[36.923s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_point__builder.hpp
+[36.923s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_path__struct.hpp
+[36.923s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/set_test_robot_state__builder.hpp
+[36.923s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_point__type_support.hpp
+[36.924s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_pose__traits.hpp
+[36.924s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_point__struct.hpp
+[36.924s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/find_valid_pose__type_support.hpp
+[36.924s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_pose__struct.hpp
+[36.924s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/find_valid_pose__builder.hpp
+[36.925s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/find_valid_pose__traits.hpp
+[36.925s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_path__builder.hpp
+[36.925s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_point__traits.hpp
+[36.925s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/set_test_robot_state__type_support.hpp
+[36.926s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/check_pose.hpp
+[36.926s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs
+[36.926s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/msg
+[36.926s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[36.926s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action
+[36.926s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail
+[36.927s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/move_base__rosidl_typesupport_fastrtps_cpp.hpp
+[36.927s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/exe_path__rosidl_typesupport_fastrtps_cpp.hpp
+[36.927s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/recovery__rosidl_typesupport_fastrtps_cpp.hpp
+[36.927s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/get_path__rosidl_typesupport_fastrtps_cpp.hpp
+[36.927s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/dds_fastrtps
+[36.928s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv
+[36.928s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail
+[36.928s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[36.928s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/set_test_robot_state__rosidl_typesupport_fastrtps_cpp.hpp
+[36.928s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/find_valid_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[36.928s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_point__rosidl_typesupport_fastrtps_cpp.hpp
+[36.929s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/dds_fastrtps
+[36.929s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_path__rosidl_typesupport_fastrtps_cpp.hpp
+[36.929s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/libmbf_msgs__rosidl_typesupport_fastrtps_cpp.so
+[36.932s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/libmbf_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[36.932s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs
+[36.932s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action
+[36.932s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail
+[36.932s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/exe_path__type_support.cpp
+[36.932s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/get_path__rosidl_typesupport_introspection_cpp.hpp
+[36.932s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/recovery__type_support.cpp
+[36.933s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/get_path__type_support.cpp
+[36.933s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/move_base__type_support.cpp
+[36.933s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/exe_path__rosidl_typesupport_introspection_cpp.hpp
+[36.933s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/move_base__rosidl_typesupport_introspection_cpp.hpp
+[36.934s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/action/detail/recovery__rosidl_typesupport_introspection_cpp.hpp
+[36.934s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv
+[36.934s] -- Up-to-date: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail
+[36.934s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/find_valid_pose__type_support.cpp
+[36.934s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_path__rosidl_typesupport_introspection_cpp.hpp
+[36.935s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/set_test_robot_state__type_support.cpp
+[36.935s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/find_valid_pose__rosidl_typesupport_introspection_cpp.hpp
+[36.935s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_pose__rosidl_typesupport_introspection_cpp.hpp
+[36.935s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_pose__type_support.cpp
+[36.935s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/set_test_robot_state__rosidl_typesupport_introspection_cpp.hpp
+[36.935s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_path__type_support.cpp
+[36.936s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_point__rosidl_typesupport_introspection_cpp.hpp
+[36.936s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/include/mbf_msgs/mbf_msgs/srv/detail/check_point__type_support.cpp
+[36.936s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/libmbf_msgs__rosidl_typesupport_introspection_cpp.so
+[36.938s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/libmbf_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[36.938s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/libmbf_msgs__rosidl_typesupport_cpp.so
+[36.940s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/libmbf_msgs__rosidl_typesupport_cpp.so" to ""
+[36.940s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/environment/pythonpath.sh
+[36.940s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/environment/pythonpath.dsv
+[36.941s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs-1.0.5-py3.12.egg-info
+[36.941s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs-1.0.5-py3.12.egg-info/dependency_links.txt
+[36.941s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs-1.0.5-py3.12.egg-info/top_level.txt
+[36.941s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs-1.0.5-py3.12.egg-info/SOURCES.txt
+[36.941s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs-1.0.5-py3.12.egg-info/PKG-INFO
+[36.941s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs
+[36.942s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/_mbf_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[36.942s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/__init__.py
+[36.942s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/mbf_msgs_s__rosidl_typesupport_fastrtps_c.so
+[36.943s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/action
+[36.943s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/action/_move_base_s.c
+[36.943s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/action/__init__.py
+[36.944s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/action/_move_base.py
+[36.944s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/action/_recovery_s.c
+[36.944s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/action/_get_path.py
+[36.944s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/action/_exe_path_s.c
+[36.945s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/action/_get_path_s.c
+[36.945s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/action/_recovery.py
+[36.945s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/action/_exe_path.py
+[36.945s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/_mbf_msgs_s.ep.rosidl_typesupport_c.c
+[36.947s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/mbf_msgs_s__rosidl_typesupport_c.so
+[36.947s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/_mbf_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[36.948s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/mbf_msgs_s__rosidl_typesupport_introspection_c.so
+[36.948s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/srv
+[36.948s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/srv/_check_point.py
+[36.949s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/srv/_set_test_robot_state_s.c
+[36.949s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/srv/__init__.py
+[36.949s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/srv/_check_pose.py
+[36.949s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/srv/_check_pose_s.c
+[36.949s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/srv/_set_test_robot_state.py
+[36.950s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/srv/_check_path_s.c
+[36.950s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/srv/_find_valid_pose.py
+[36.950s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/srv/_find_valid_pose_s.c
+[36.950s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/srv/_check_path.py
+[36.951s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/srv/_check_point_s.c
+[37.068s] Listing '/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs'...
+[37.068s] Compiling '/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/__init__.py'...
+[37.069s] Listing '/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/action'...
+[37.069s] Compiling '/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/action/__init__.py'...
+[37.069s] Compiling '/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/action/_exe_path.py'...
+[37.069s] Compiling '/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/action/_get_path.py'...
+[37.069s] Compiling '/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/action/_move_base.py'...
+[37.069s] Compiling '/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/action/_recovery.py'...
+[37.069s] Listing '/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/srv'...
+[37.069s] Compiling '/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/srv/__init__.py'...
+[37.069s] Compiling '/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/srv/_check_path.py'...
+[37.070s] Compiling '/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/srv/_check_point.py'...
+[37.070s] Compiling '/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/srv/_check_pose.py'...
+[37.070s] Compiling '/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/srv/_find_valid_pose.py'...
+[37.070s] Compiling '/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/srv/_set_test_robot_state.py'...
+[37.079s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/mbf_msgs_s__rosidl_typesupport_fastrtps_c.so
+[37.080s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/mbf_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[37.080s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/mbf_msgs_s__rosidl_typesupport_introspection_c.so
+[37.081s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/mbf_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[37.082s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/mbf_msgs_s__rosidl_typesupport_c.so
+[37.082s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages/mbf_msgs/mbf_msgs_s__rosidl_typesupport_c.so" to ""
+[37.083s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/libmbf_msgs__rosidl_generator_py.so
+[37.084s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/libmbf_msgs__rosidl_generator_py.so" to ""
+[37.084s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/action/ExePath.idl
+[37.084s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/action/GetPath.idl
+[37.084s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/action/MoveBase.idl
+[37.084s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/action/Recovery.idl
+[37.084s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/srv/CheckPath.idl
+[37.085s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/srv/CheckPoint.idl
+[37.085s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/srv/CheckPose.idl
+[37.085s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/srv/FindValidPose.idl
+[37.086s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/srv/SetTestRobotState.idl
+[37.086s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/action/ExePath.action
+[37.086s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/action/GetPath.action
+[37.086s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/action/MoveBase.action
+[37.086s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/action/Recovery.action
+[37.087s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/srv/CheckPath.srv
+[37.087s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/srv/CheckPoint.srv
+[37.087s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/srv/CheckPose.srv
+[37.087s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/srv/FindValidPose.srv
+[37.087s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/srv/SetTestRobotState.srv
+[37.087s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/ament_index/resource_index/package_run_dependencies/mbf_msgs
+[37.088s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/ament_index/resource_index/parent_prefix_path/mbf_msgs
+[37.088s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/environment/ament_prefix_path.sh
+[37.088s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/environment/ament_prefix_path.dsv
+[37.088s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/environment/path.sh
+[37.088s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/environment/path.dsv
+[37.089s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/local_setup.bash
+[37.089s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/local_setup.sh
+[37.089s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/local_setup.zsh
+[37.089s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/local_setup.dsv
+[37.089s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/package.dsv
+[37.089s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/ament_index/resource_index/packages/mbf_msgs
+[37.090s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/export_mbf_msgs__rosidl_generator_cExport.cmake
+[37.090s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/export_mbf_msgs__rosidl_generator_cExport-noconfig.cmake
+[37.090s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/export_mbf_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[37.090s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/export_mbf_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[37.091s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/mbf_msgs__rosidl_typesupport_introspection_cExport.cmake
+[37.091s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/mbf_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[37.091s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/mbf_msgs__rosidl_typesupport_cExport.cmake
+[37.091s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/mbf_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[37.091s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/export_mbf_msgs__rosidl_generator_cppExport.cmake
+[37.092s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/export_mbf_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[37.092s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/export_mbf_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[37.092s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/mbf_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[37.092s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/mbf_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[37.092s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/mbf_msgs__rosidl_typesupport_cppExport.cmake
+[37.093s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/mbf_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[37.094s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/export_mbf_msgs__rosidl_generator_pyExport.cmake
+[37.094s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/export_mbf_msgs__rosidl_generator_pyExport-noconfig.cmake
+[37.094s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/rosidl_cmake-extras.cmake
+[37.094s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[37.094s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[37.094s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[37.095s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[37.095s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[37.095s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[37.095s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/mbf_msgsConfig.cmake
+[37.095s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake/mbf_msgsConfig-version.cmake
+[37.095s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/package.xml
+[37.099s] Invoked command in '/root/Shared/MIAPR_Projekt/build/mbf_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/build/mbf_msgs

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_layers/libmesh_layers.so" "TARGETS" "mesh_layers" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

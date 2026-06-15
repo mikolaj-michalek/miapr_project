@@ -1,0 +1,1 @@
+/root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager/ament_cmake_core/label_managerConfig-version.cmake

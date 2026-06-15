@@ -1,0 +1,33 @@
+[0.000000] (-) TimerEvent: {}
+[0.000766] (-) JobUnselected: {'identifier': 'cvp_mesh_planner'}
+[0.000813] (-) JobUnselected: {'identifier': 'dijkstra_mesh_planner'}
+[0.000837] (-) JobUnselected: {'identifier': 'label_manager'}
+[0.000857] (-) JobUnselected: {'identifier': 'mbf_abstract_core'}
+[0.000879] (-) JobUnselected: {'identifier': 'mbf_abstract_nav'}
+[0.000901] (-) JobUnselected: {'identifier': 'mbf_mesh_core'}
+[0.000920] (-) JobUnselected: {'identifier': 'mbf_mesh_nav'}
+[0.000976] (-) JobUnselected: {'identifier': 'mbf_msgs'}
+[0.000998] (-) JobUnselected: {'identifier': 'mbf_simple_core'}
+[0.001019] (-) JobUnselected: {'identifier': 'mbf_simple_nav'}
+[0.001040] (-) JobUnselected: {'identifier': 'mbf_test_utility'}
+[0.001059] (-) JobUnselected: {'identifier': 'mbf_utility'}
+[0.001079] (-) JobUnselected: {'identifier': 'mesh_controller'}
+[0.001099] (-) JobUnselected: {'identifier': 'mesh_layers'}
+[0.001118] (-) JobUnselected: {'identifier': 'mesh_map'}
+[0.001150] (-) JobUnselected: {'identifier': 'mesh_msgs'}
+[0.001177] (-) JobUnselected: {'identifier': 'mesh_msgs_conversions'}
+[0.001197] (-) JobUnselected: {'identifier': 'mesh_msgs_transform'}
+[0.001217] (-) JobUnselected: {'identifier': 'mesh_navigation'}
+[0.001241] (-) JobUnselected: {'identifier': 'mesh_navigation_ceres_sim'}
+[0.001262] (-) JobUnselected: {'identifier': 'mesh_navigation_pluto'}
+[0.001282] (-) JobUnselected: {'identifier': 'mesh_navigation_pluto_sim'}
+[0.001303] (-) JobUnselected: {'identifier': 'mesh_navigation_tutorials'}
+[0.001323] (-) JobUnselected: {'identifier': 'mesh_navigation_tutorials_sim'}
+[0.001342] (-) JobUnselected: {'identifier': 'mesh_tools'}
+[0.001362] (-) JobUnselected: {'identifier': 'move_base_flex'}
+[0.001382] (-) JobUnselected: {'identifier': 'rviz_mbf_plugins'}
+[0.001402] (-) JobUnselected: {'identifier': 'rviz_mesh_tools_plugins'}
+[0.001423] (mesh_navigation_ceres) JobQueued: {'identifier': 'mesh_navigation_ceres', 'dependencies': OrderedDict({'mbf_abstract_core': '/root/Shared/MIAPR_Projekt/install/mbf_abstract_core', 'mbf_msgs': '/root/Shared/MIAPR_Projekt/install/mbf_msgs', 'mesh_msgs': '/root/Shared/MIAPR_Projekt/install/mesh_msgs', 'mesh_navigation_tutorials_sim': '/root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials_sim', 'mbf_utility': '/root/Shared/MIAPR_Projekt/install/mbf_utility', 'mesh_msgs_conversions': '/root/Shared/MIAPR_Projekt/install/mesh_msgs_conversions', 'rviz_mbf_plugins': '/root/Shared/MIAPR_Projekt/install/rviz_mbf_plugins', 'rviz_mesh_tools_plugins': '/root/Shared/MIAPR_Projekt/install/rviz_mesh_tools_plugins', 'mbf_abstract_nav': '/root/Shared/MIAPR_Projekt/install/mbf_abstract_nav', 'mbf_simple_core': '/root/Shared/MIAPR_Projekt/install/mbf_simple_core', 'mesh_map': '/root/Shared/MIAPR_Projekt/install/mesh_map', 'mbf_mesh_core': '/root/Shared/MIAPR_Projekt/install/mbf_mesh_core', 'mesh_layers': '/root/Shared/MIAPR_Projekt/install/mesh_layers', 'cvp_mesh_planner': '/root/Shared/MIAPR_Projekt/install/cvp_mesh_planner', 'mbf_mesh_nav': '/root/Shared/MIAPR_Projekt/install/mbf_mesh_nav', 'mesh_controller': '/root/Shared/MIAPR_Projekt/install/mesh_controller', 'mesh_navigation_tutorials': '/root/Shared/MIAPR_Projekt/install/mesh_navigation_tutorials'})}
+[0.001465] (mesh_navigation_ceres) JobStarted: {'identifier': 'mesh_navigation_ceres'}
+[0.024578] (mesh_navigation_ceres) JobEnded: {'identifier': 'mesh_navigation_ceres', 'rc': 1}
+[0.035034] (-) EventReactorShutdown: {}

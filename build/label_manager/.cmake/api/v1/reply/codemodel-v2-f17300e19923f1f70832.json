@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9a69ee8ab6e8c0ce14be.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "label_manager__py",
+					"jsonFile" : "directory-label_manager__py-3a99c27fa13740b2c41d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/Shared/MIAPR_Projekt/build/label_manager/label_manager__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "label_manager",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_label_manager_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_label_manager_egg-794bbc3c89737deda368.json",
+					"name" : "ament_cmake_python_build_label_manager_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_label_manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_label_manager-6a04398b1bda71211d97.json",
+					"name" : "ament_cmake_python_copy_label_manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "label_manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-label_manager-bbca1be654d13b270e25.json",
+					"name" : "label_manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "label_manager__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-label_manager__cpp-de05d6f7189137c01c9b.json",
+					"name" : "label_manager__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "label_manager__py::@b62611298629665f3389",
+					"jsonFile" : "target-label_manager__py-6a4321fa2d7d96ba6842.json",
+					"name" : "label_manager__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "label_manager__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-label_manager__rosidl_generator_c-97781175bd2fdf5b56f2.json",
+					"name" : "label_manager__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "label_manager__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-label_manager__rosidl_generator_py-0af9983b665cab7e6756.json",
+					"name" : "label_manager__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "label_manager__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-label_manager__rosidl_generator_type_description-5403888d7f5f554eefd3.json",
+					"name" : "label_manager__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "label_manager__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-label_manager__rosidl_typesupport_c-2a2cdbcf31e3210daf7c.json",
+					"name" : "label_manager__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "label_manager__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-label_manager__rosidl_typesupport_cpp-f69a09ce69559b837060.json",
+					"name" : "label_manager__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "label_manager__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-label_manager__rosidl_typesupport_fastrtps_c-c428458e0c6c794ea77f.json",
+					"name" : "label_manager__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "label_manager__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-label_manager__rosidl_typesupport_fastrtps_cpp-063a904f90678873cfcc.json",
+					"name" : "label_manager__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "label_manager__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-label_manager__rosidl_typesupport_introspection_c-586e5fd1b8f89b274a04.json",
+					"name" : "label_manager__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "label_manager__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-label_manager__rosidl_typesupport_introspection_cpp-5ca05f27d1af290a89f9.json",
+					"name" : "label_manager__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "label_manager_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-label_manager_node-a19b34830f34d3549505.json",
+					"name" : "label_manager_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "label_manager_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-label_manager_s__rosidl_typesupport_c-9db5c64f1588ef660b5d.json",
+					"name" : "label_manager_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "label_manager_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-label_manager_s__rosidl_typesupport_fastrtps_c-2f48ffaa345acc14e160.json",
+					"name" : "label_manager_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "label_manager_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-label_manager_s__rosidl_typesupport_introspection_c-495ab3cac39fa956dc21.json",
+					"name" : "label_manager_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "label_manager_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-label_manager_uninstall-851f892c9151929ee175.json",
+					"name" : "label_manager_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-68c992adfc44e1edfd43.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/Shared/MIAPR_Projekt/build/label_manager",
+		"source" : "/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/label_manager"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

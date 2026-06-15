@@ -1,0 +1,174 @@
+[0.015s] Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager -- -j12 -l12
+[0.101s] [  1%] Built target label_manager__rosidl_generator_type_description
+[0.111s] [  1%] Built target ament_cmake_python_symlink_label_manager
+[0.130s] [  3%] Built target label_manager__cpp
+[0.143s] [ 22%] Built target label_manager__rosidl_generator_c
+[0.180s] [ 49%] Built target label_manager__rosidl_typesupport_c
+[0.180s] [ 49%] Built target label_manager__rosidl_typesupport_introspection_cpp
+[0.180s] [ 49%] Built target label_manager__rosidl_typesupport_cpp
+[0.182s] [ 66%] Built target label_manager__rosidl_typesupport_fastrtps_cpp
+[0.182s] [ 66%] Built target label_manager__rosidl_typesupport_introspection_c
+[0.185s] [ 75%] Built target label_manager__rosidl_typesupport_fastrtps_c
+[0.214s] [ 75%] Built target label_manager
+[0.243s] [ 77%] Built target label_manager__py
+[0.250s] [ 78%] [32mBuilding CXX object CMakeFiles/label_manager_node.dir/src/manager.cpp.o[0m
+[0.280s] [ 85%] Built target label_manager__rosidl_generator_py
+[0.311s] [ 96%] Built target label_manager_s__rosidl_typesupport_introspection_c
+[0.311s] [ 96%] Built target label_manager_s__rosidl_typesupport_c
+[0.311s] [ 96%] Built target label_manager_s__rosidl_typesupport_fastrtps_c
+[0.432s] running egg_info
+[0.448s] writing label_manager.egg-info/PKG-INFO
+[0.449s] writing dependency_links to label_manager.egg-info/dependency_links.txt
+[0.449s] writing top-level names to label_manager.egg-info/top_level.txt
+[0.496s] reading manifest file 'label_manager.egg-info/SOURCES.txt'
+[0.497s] writing manifest file 'label_manager.egg-info/SOURCES.txt'
+[0.532s] [ 96%] Built target ament_cmake_python_build_label_manager_egg
+[10.864s] [ 98%] [32m[1mLinking CXX executable label_manager_node[0m
+[11.509s] [100%] Built target label_manager_node
+[11.527s] Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager' returned '0': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager -- -j12 -l12
+[11.528s] Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager
+[11.539s] -- Install configuration: ""
+[11.540s] -- Execute custom install script
+[11.540s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/ament_index/resource_index/rosidl_interfaces/label_manager
+[11.553s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/srv/DeleteLabel.json
+[11.565s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/srv/GetLabelGroups.json
+[11.576s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/srv/GetLabeledClusterGroup.json
+[11.589s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/msg/rosidl_generator_c__visibility_control.h
+[11.601s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/delete_label.h
+[11.614s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__functions.h
+[11.625s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__struct.h
+[11.636s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__type_support.h
+[11.647s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__functions.h
+[11.659s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__struct.h
+[11.670s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__type_support.h
+[11.681s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__functions.h
+[11.693s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__struct.h
+[11.704s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__type_support.h
+[11.715s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/get_label_groups.h
+[11.726s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/get_labeled_cluster_group.h
+[11.738s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/environment/library_path.sh
+[11.750s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/environment/library_path.dsv
+[11.762s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.774s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__rosidl_typesupport_fastrtps_c.h
+[11.785s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__rosidl_typesupport_fastrtps_c.h
+[11.798s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__rosidl_typesupport_fastrtps_c.h
+[11.811s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.822s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/delete_label.hpp
+[11.834s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__builder.hpp
+[11.845s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__struct.hpp
+[11.857s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__traits.hpp
+[11.868s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__type_support.hpp
+[11.880s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__builder.hpp
+[11.891s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__struct.hpp
+[11.903s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__traits.hpp
+[11.914s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__type_support.hpp
+[11.926s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__builder.hpp
+[11.938s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__struct.hpp
+[11.949s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__traits.hpp
+[11.960s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__type_support.hpp
+[11.971s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/get_label_groups.hpp
+[11.983s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/get_labeled_cluster_group.hpp
+[11.996s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.008s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__rosidl_typesupport_fastrtps_cpp.hpp
+[12.020s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__rosidl_typesupport_fastrtps_cpp.hpp
+[12.031s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__rosidl_typesupport_fastrtps_cpp.hpp
+[12.044s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.056s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__rosidl_typesupport_introspection_c.h
+[12.067s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__rosidl_typesupport_introspection_c.h
+[12.077s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__rosidl_typesupport_introspection_c.h
+[12.091s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__rosidl_typesupport_introspection_cpp.hpp
+[12.102s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__rosidl_typesupport_introspection_cpp.hpp
+[12.114s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__rosidl_typesupport_introspection_cpp.hpp
+[12.125s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/environment/pythonpath.sh
+[12.137s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/environment/pythonpath.dsv
+[12.150s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager-2.1.1-py3.12.egg-info/PKG-INFO
+[12.162s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager-2.1.1-py3.12.egg-info/SOURCES.txt
+[12.173s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager-2.1.1-py3.12.egg-info/dependency_links.txt
+[12.184s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager-2.1.1-py3.12.egg-info/top_level.txt
+[12.197s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/__init__.py
+[12.210s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/_label_manager_s.ep.rosidl_typesupport_c.c
+[12.222s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/_label_manager_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.233s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/_label_manager_s.ep.rosidl_typesupport_introspection_c.c
+[12.245s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/label_manager_s__rosidl_typesupport_c.so
+[12.256s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/label_manager_s__rosidl_typesupport_fastrtps_c.so
+[12.267s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/label_manager_s__rosidl_typesupport_introspection_c.so
+[12.279s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/srv/__init__.py
+[12.291s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/srv/_delete_label.py
+[12.303s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/srv/_delete_label_s.c
+[12.314s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/srv/_get_label_groups.py
+[12.325s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/srv/_get_label_groups_s.c
+[12.337s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/srv/_get_labeled_cluster_group.py
+[12.348s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/srv/_get_labeled_cluster_group_s.c
+[12.362s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/label_manager_s__rosidl_typesupport_fastrtps_c.so
+[12.362s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/label_manager_s__rosidl_typesupport_introspection_c.so
+[12.363s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/label_manager_s__rosidl_typesupport_c.so
+[12.363s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/srv/DeleteLabel.idl
+[12.375s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/srv/GetLabelGroups.idl
+[12.387s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/srv/GetLabeledClusterGroup.idl
+[12.399s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/srv/DeleteLabel.srv
+[12.411s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/srv/GetLabelGroups.srv
+[12.422s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/srv/GetLabeledClusterGroup.srv
+[12.435s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/bin/label_manager/label_manager_node
+[12.446s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/ament_index/resource_index/package_run_dependencies/label_manager
+[12.458s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/ament_index/resource_index/parent_prefix_path/label_manager
+[12.469s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/environment/ament_prefix_path.sh
+[12.481s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/environment/ament_prefix_path.dsv
+[12.493s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/environment/path.sh
+[12.506s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/environment/path.dsv
+[12.518s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/local_setup.bash
+[12.531s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/local_setup.sh
+[12.543s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/local_setup.zsh
+[12.554s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/local_setup.dsv
+[12.566s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/package.dsv
+[12.577s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/ament_index/resource_index/packages/label_manager
+[12.589s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/rosidl_cmake-extras.cmake
+[12.601s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.613s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.624s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[12.636s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/ament_cmake_export_targets-extras.cmake
+[12.648s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.659s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.671s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/label_managerConfig.cmake
+[12.682s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/label_managerConfig-version.cmake
+[12.692s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/package.xml
+[12.704s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/liblabel_manager__rosidl_generator_c.so
+[12.707s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/liblabel_manager__rosidl_generator_c.so" to ""
+[12.707s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/liblabel_manager__rosidl_typesupport_fastrtps_c.so
+[12.708s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/liblabel_manager__rosidl_typesupport_fastrtps_c.so" to ""
+[12.708s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/liblabel_manager__rosidl_typesupport_fastrtps_cpp.so
+[12.709s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/liblabel_manager__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.709s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/liblabel_manager__rosidl_typesupport_introspection_c.so
+[12.710s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/liblabel_manager__rosidl_typesupport_introspection_c.so" to ""
+[12.710s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/liblabel_manager__rosidl_typesupport_c.so
+[12.711s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/liblabel_manager__rosidl_typesupport_c.so" to ""
+[12.711s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/liblabel_manager__rosidl_typesupport_introspection_cpp.so
+[12.712s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/liblabel_manager__rosidl_typesupport_introspection_cpp.so" to ""
+[12.712s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/liblabel_manager__rosidl_typesupport_cpp.so
+[12.713s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/liblabel_manager__rosidl_typesupport_cpp.so" to ""
+[12.759s] Listing '/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager'...
+[12.759s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/__init__.py'...
+[12.759s] Listing '/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/srv'...
+[12.759s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/srv/__init__.py'...
+[12.759s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/srv/_delete_label.py'...
+[12.760s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/srv/_get_label_groups.py'...
+[12.760s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages/label_manager/srv/_get_labeled_cluster_group.py'...
+[12.766s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/liblabel_manager__rosidl_generator_py.so
+[12.767s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/liblabel_manager__rosidl_generator_py.so" to ""
+[12.767s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/export_label_manager__rosidl_generator_cExport.cmake
+[12.768s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/export_label_manager__rosidl_generator_cExport-noconfig.cmake
+[12.768s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/export_label_manager__rosidl_typesupport_fastrtps_cExport.cmake
+[12.768s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/export_label_manager__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.768s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/export_label_manager__rosidl_generator_cppExport.cmake
+[12.769s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/export_label_manager__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.769s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/export_label_manager__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.769s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/label_manager__rosidl_typesupport_introspection_cExport.cmake
+[12.770s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/label_manager__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.770s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/label_manager__rosidl_typesupport_cExport.cmake
+[12.770s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/label_manager__rosidl_typesupport_cExport-noconfig.cmake
+[12.770s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/label_manager__rosidl_typesupport_introspection_cppExport.cmake
+[12.771s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/label_manager__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.771s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/label_manager__rosidl_typesupport_cppExport.cmake
+[12.771s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/label_manager__rosidl_typesupport_cppExport-noconfig.cmake
+[12.771s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/export_label_manager__rosidl_generator_pyExport.cmake
+[12.772s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/share/label_manager/cmake/export_label_manager__rosidl_generator_pyExport-noconfig.cmake
+[12.775s] Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager' returned '0': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager

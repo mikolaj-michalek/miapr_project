@@ -1,0 +1,125 @@
+[0.016s] Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_abstract_nav': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_tools:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_controller:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/Shared/MIAPR_Projekt/colcon_ws/src/move_base_flex/mbf_abstract_nav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav
+[0.083s] -- The C compiler identification is GNU 13.3.0
+[0.150s] -- The CXX compiler identification is GNU 13.3.0
+[0.175s] -- Detecting C compiler ABI info
+[0.295s] -- Detecting C compiler ABI info - done
+[0.303s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.304s] -- Detecting C compile features
+[0.304s] -- Detecting C compile features - done
+[0.316s] -- Detecting CXX compiler ABI info
+[0.448s] -- Detecting CXX compiler ABI info - done
+[0.457s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.458s] -- Detecting CXX compile features
+[0.458s] -- Detecting CXX compile features - done
+[0.465s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.649s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.728s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.798s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.871s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.893s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.918s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.947s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.003s] -- Found mbf_abstract_core: 1.0.5 (/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core/share/mbf_abstract_core/cmake)
+[1.006s] -- Found mbf_msgs: 1.0.5 (/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/share/mbf_msgs/cmake)
+[1.122s] -- Found mbf_utility: 1.0.5 (/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility/share/mbf_utility/cmake)
+[1.199s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.205s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.350s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.373s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.401s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.656s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.658s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.658s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.665s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.700s] -- Found ament_cmake_gtest: 2.5.5 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.708s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.712s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.830s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.831s] -- Found Threads: TRUE  
+[1.836s] -- Found ament_cmake_gmock: 2.5.5 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[1.843s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.947s] -- Configuring done (1.9s)
+[2.155s] -- Generating done (0.2s)
+[2.171s] -- Build files have been written to: /root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_abstract_nav
+[2.186s] Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_abstract_nav' returned '0': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_tools:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_controller:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/Shared/MIAPR_Projekt/colcon_ws/src/move_base_flex/mbf_abstract_nav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav
+[2.187s] Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_abstract_nav': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_tools:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_controller:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_abstract_nav -- -j12 -l12
+[2.270s] [ 19%] [32mBuilding CXX object CMakeFiles/mbf_abstract_server.dir/src/recovery_action.cpp.o[0m
+[2.270s] [ 19%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.270s] [ 29%] [32mBuilding CXX object CMakeFiles/mbf_abstract_server.dir/src/planner_action.cpp.o[0m
+[2.270s] [ 19%] [32mBuilding CXX object CMakeFiles/mbf_abstract_server.dir/src/abstract_execution_base.cpp.o[0m
+[2.270s] [ 29%] [32mBuilding CXX object CMakeFiles/mbf_abstract_server.dir/src/controller_action.cpp.o[0m
+[2.270s] [ 29%] [32mBuilding CXX object CMakeFiles/mbf_abstract_server.dir/src/abstract_navigation_server.cpp.o[0m
+[2.270s] [ 19%] [32mBuilding CXX object CMakeFiles/mbf_abstract_server.dir/src/move_base_action.cpp.o[0m
+[2.270s] [ 29%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.271s] [ 29%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.271s] [ 32%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.271s] [ 35%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.271s] [ 38%] [32mBuilding CXX object CMakeFiles/mbf_abstract_server.dir/src/abstract_planner_execution.cpp.o[0m
+[3.783s] [ 41%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.893s] [ 41%] Built target gtest_main
+[3.935s] [ 45%] [32mBuilding CXX object CMakeFiles/mbf_abstract_server.dir/src/abstract_controller_execution.cpp.o[0m
+[4.083s] [ 48%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[4.172s] [ 48%] Built target gmock_main
+[4.196s] [ 51%] [32mBuilding CXX object CMakeFiles/mbf_abstract_server.dir/src/abstract_recovery_execution.cpp.o[0m
+[19.102s] [ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[19.361s] [ 54%] Built target gmock
+[19.853s] [ 58%] [32m[1mLinking CXX static library libgtest.a[0m
+[19.974s] [ 58%] Built target gtest
+[24.757s] [ 61%] [32m[1mLinking CXX shared library libmbf_abstract_server.so[0m
+[26.271s] [ 61%] Built target mbf_abstract_server
+[26.305s] [ 74%] [32mBuilding CXX object CMakeFiles/mbf_abstract_server_gtest.dir/test/abstract_execution_base.cpp.o[0m
+[26.305s] [ 74%] [32mBuilding CXX object CMakeFiles/abstract_controller_execution_test.dir/test/abstract_controller_execution.cpp.o[0m
+[26.305s] [ 74%] [32mBuilding CXX object CMakeFiles/abstract_planner_execution_test.dir/test/abstract_planner_execution.cpp.o[0m
+[26.305s] [ 74%] [32mBuilding CXX object CMakeFiles/planner_action_test.dir/test/planner_action.cpp.o[0m
+[26.306s] [ 77%] [32mBuilding CXX object CMakeFiles/abstract_action_base_test.dir/test/abstract_action_base.cpp.o[0m
+[26.309s] [ 80%] [32mBuilding CXX object CMakeFiles/abstract_plugin_manager_test.dir/test/abstract_plugin_manager.cpp.o[0m
+[31.385s] [ 83%] [32m[1mLinking CXX executable abstract_plugin_manager_test[0m
+[31.403s] [ 87%] [32m[1mLinking CXX executable mbf_abstract_server_gtest[0m
+[32.245s] [ 87%] Built target abstract_plugin_manager_test
+[33.427s] [ 90%] [32m[1mLinking CXX executable abstract_action_base_test[0m
+[33.458s] [ 90%] Built target mbf_abstract_server_gtest
+[34.076s] [ 93%] [32m[1mLinking CXX executable abstract_planner_execution_test[0m
+[35.468s] [ 93%] Built target abstract_action_base_test
+[35.487s] [ 96%] [32m[1mLinking CXX executable planner_action_test[0m
+[35.777s] [100%] [32m[1mLinking CXX executable abstract_controller_execution_test[0m
+[36.355s] [100%] Built target abstract_planner_execution_test
+[37.667s] [100%] Built target planner_action_test
+[37.823s] [100%] Built target abstract_controller_execution_test
+[37.842s] Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_abstract_nav' returned '0': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_tools:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_controller:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_abstract_nav -- -j12 -l12
+[37.843s] Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_abstract_nav': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_tools:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_controller:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_abstract_nav
+[37.854s] -- Install configuration: ""
+[37.854s] -- Execute custom install script
+[37.855s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/lib/libmbf_abstract_server.so
+[37.868s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/include/mbf_abstract_nav/abstract_action_base.hpp
+[37.881s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/include/mbf_abstract_nav/abstract_controller_execution.h
+[37.894s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/include/mbf_abstract_nav/abstract_execution_base.h
+[37.906s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/include/mbf_abstract_nav/abstract_navigation_server.h
+[37.919s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/include/mbf_abstract_nav/abstract_planner_execution.h
+[37.932s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/include/mbf_abstract_nav/abstract_plugin_manager.h
+[37.944s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/include/mbf_abstract_nav/abstract_recovery_execution.h
+[37.957s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/include/mbf_abstract_nav/controller_action.h
+[37.970s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/include/mbf_abstract_nav/impl/abstract_plugin_manager.tcc
+[37.983s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/include/mbf_abstract_nav/move_base_action.h
+[37.996s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/include/mbf_abstract_nav/planner_action.h
+[38.008s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/include/mbf_abstract_nav/recovery_action.h
+[38.022s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/share/mbf_abstract_nav/environment/library_path.sh
+[38.035s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/share/mbf_abstract_nav/environment/library_path.dsv
+[38.048s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/share/ament_index/resource_index/package_run_dependencies/mbf_abstract_nav
+[38.060s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/share/ament_index/resource_index/parent_prefix_path/mbf_abstract_nav
+[38.074s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/share/mbf_abstract_nav/environment/ament_prefix_path.sh
+[38.087s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/share/mbf_abstract_nav/environment/ament_prefix_path.dsv
+[38.100s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/share/mbf_abstract_nav/environment/path.sh
+[38.113s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/share/mbf_abstract_nav/environment/path.dsv
+[38.126s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/share/mbf_abstract_nav/local_setup.bash
+[38.139s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/share/mbf_abstract_nav/local_setup.sh
+[38.152s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/share/mbf_abstract_nav/local_setup.zsh
+[38.165s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/share/mbf_abstract_nav/local_setup.dsv
+[38.179s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/share/mbf_abstract_nav/package.dsv
+[38.192s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/share/ament_index/resource_index/packages/mbf_abstract_nav
+[38.205s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/share/mbf_abstract_nav/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.218s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/share/mbf_abstract_nav/cmake/ament_cmake_export_libraries-extras.cmake
+[38.232s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/share/mbf_abstract_nav/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.245s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/share/mbf_abstract_nav/cmake/mbf_abstract_navConfig.cmake
+[38.257s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/share/mbf_abstract_nav/cmake/mbf_abstract_navConfig-version.cmake
+[38.270s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/share/mbf_abstract_nav/package.xml
+[38.288s] Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_abstract_nav' returned '0': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_tools:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_controller:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_abstract_nav

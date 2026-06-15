@@ -1,0 +1,229 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e488cf81ac80c34afbba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-0908a8c91ddba5d6c989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/jazzy/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "gmock",
+					"jsonFile" : "directory-gmock-4c8667082ed8f149e75b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "/opt/ros/jazzy/src/gmock_vendor",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mbf_abstract_nav",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gmock",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "abstract_action_base_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abstract_action_base_test-db97cd4e14d86c1be6bf.json",
+					"name" : "abstract_action_base_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "abstract_controller_execution_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abstract_controller_execution_test-37046a0433f470336dd7.json",
+					"name" : "abstract_controller_execution_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "abstract_planner_execution_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abstract_planner_execution_test-63c698e9e84ba78c8823.json",
+					"name" : "abstract_planner_execution_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "abstract_plugin_manager_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abstract_plugin_manager_test-ac598a2aee42decc90f2.json",
+					"name" : "abstract_plugin_manager_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock-2fc4705249661ca90fc7.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock_main::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock_main-64588569cb1d44711ebc.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-2a2ee71d6c4e5428a0bc.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-541a6833444a071dc829.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mbf_abstract_nav_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mbf_abstract_nav_uninstall-fb60e10d13d01eab5968.json",
+					"name" : "mbf_abstract_nav_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mbf_abstract_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mbf_abstract_server-0c677f6e1f8a61ec7ea3.json",
+					"name" : "mbf_abstract_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mbf_abstract_server_gtest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mbf_abstract_server_gtest-8ffa8c2bb38229d5df52.json",
+					"name" : "mbf_abstract_server_gtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "planner_action_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-planner_action_test-57d2ff3f571a1117d124.json",
+					"name" : "planner_action_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-27fe76d53ede3831f2d6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/Shared/MIAPR_Projekt/build/mbf_abstract_nav",
+		"source" : "/root/Shared/MIAPR_Projekt/colcon_ws/src/move_base_flex/mbf_abstract_nav"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

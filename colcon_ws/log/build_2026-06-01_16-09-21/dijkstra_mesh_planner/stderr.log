@@ -1,0 +1,7 @@
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/dijkstra_mesh_planner/src/a_star_mesh_planner.cpp:39:10:[m[K [01;31m[Kfatal error: [m[Ka_star_mesh_planner/a_star_mesh_planner.h: No such file or directory
+   39 | #include [01;31m[K<a_star_mesh_planner/a_star_mesh_planner.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/dijkstra_mesh_planner.dir/build.make:90: CMakeFiles/dijkstra_mesh_planner.dir/src/a_star_mesh_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dijkstra_mesh_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

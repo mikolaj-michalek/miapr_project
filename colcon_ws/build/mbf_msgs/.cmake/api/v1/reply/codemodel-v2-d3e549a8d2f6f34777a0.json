@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c2efff35d39dbe384de1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "mbf_msgs__py",
+					"jsonFile" : "directory-mbf_msgs__py-1dd01030eb73c94245c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_msgs/mbf_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "mbf_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mbf_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mbf_msgs_egg-3d2773ec973d696fa2c7.json",
+					"name" : "ament_cmake_python_build_mbf_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_mbf_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_mbf_msgs-674c82766f2b25a42926.json",
+					"name" : "ament_cmake_python_symlink_mbf_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mbf_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mbf_msgs-d135c423daa574e49a74.json",
+					"name" : "mbf_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mbf_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mbf_msgs__cpp-cf1b19fe9bcabfd3e9d4.json",
+					"name" : "mbf_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mbf_msgs__py::@647ae663624457668ffe",
+					"jsonFile" : "target-mbf_msgs__py-71df8f8c85e40989a15c.json",
+					"name" : "mbf_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mbf_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mbf_msgs__rosidl_generator_c-4cba8e2042014f25e845.json",
+					"name" : "mbf_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mbf_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mbf_msgs__rosidl_generator_py-d683c6cba35ba6892944.json",
+					"name" : "mbf_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mbf_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mbf_msgs__rosidl_generator_type_description-714703d2c1bc86e98327.json",
+					"name" : "mbf_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mbf_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mbf_msgs__rosidl_typesupport_c-0a5cc20d3043c720b741.json",
+					"name" : "mbf_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mbf_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mbf_msgs__rosidl_typesupport_cpp-9844f1ce1f15016a1471.json",
+					"name" : "mbf_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mbf_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mbf_msgs__rosidl_typesupport_fastrtps_c-bf0f6154568040f9d7d2.json",
+					"name" : "mbf_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mbf_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mbf_msgs__rosidl_typesupport_fastrtps_cpp-d5357db9559567b26d9b.json",
+					"name" : "mbf_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mbf_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mbf_msgs__rosidl_typesupport_introspection_c-117816ebd015c53c0c9d.json",
+					"name" : "mbf_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mbf_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mbf_msgs__rosidl_typesupport_introspection_cpp-d226454d4a23ed843ad1.json",
+					"name" : "mbf_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mbf_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mbf_msgs_s__rosidl_typesupport_c-1dd36a22a36545730310.json",
+					"name" : "mbf_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mbf_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mbf_msgs_s__rosidl_typesupport_fastrtps_c-fc31f6e4e12809ff30a0.json",
+					"name" : "mbf_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mbf_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mbf_msgs_s__rosidl_typesupport_introspection_c-1d8f28e3e906ad542827.json",
+					"name" : "mbf_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mbf_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mbf_msgs_uninstall-076ba47e44febe236fb6.json",
+					"name" : "mbf_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5b0f41262b9c06eada3c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_msgs",
+		"source" : "/root/Shared/MIAPR_Projekt/colcon_ws/src/move_base_flex/mbf_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

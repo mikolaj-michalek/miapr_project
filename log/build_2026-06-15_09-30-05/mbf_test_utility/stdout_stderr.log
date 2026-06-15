@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found mbf_msgs: 1.0.5 (/root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake)
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2_geometry_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/Shared/MIAPR_Projekt/colcon_ws/src/move_base_flex/mbf_test_utility/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/Shared/MIAPR_Projekt/build/mbf_test_utility
+[ 25%] [32mBuilding CXX object CMakeFiles/mbf_test_utility_sim.dir/src/robot_simulator.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libmbf_test_utility_sim.so[0m
+[ 50%] Built target mbf_test_utility_sim
+[ 75%] [32mBuilding CXX object CMakeFiles/mbf_test_utility_sim_node.dir/src/robot_simulator_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable mbf_test_utility_sim_node[0m
+[100%] Built target mbf_test_utility_sim_node
+-- Install configuration: ""
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/include
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/include/mbf_test_utility
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/include/mbf_test_utility/robot_simulator.hpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/lib/libmbf_test_utility_sim.so
+-- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/mbf_test_utility/lib/libmbf_test_utility_sim.so" to ""
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/lib/mbf_test_utility/mbf_test_utility_sim_node
+-- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/mbf_test_utility/lib/mbf_test_utility/mbf_test_utility_sim_node" to ""
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/environment/library_path.sh
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/environment/library_path.dsv
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/ament_index/resource_index/package_run_dependencies/mbf_test_utility
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/ament_index/resource_index/parent_prefix_path/mbf_test_utility
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/environment/ament_prefix_path.sh
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/environment/ament_prefix_path.dsv
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/environment/path.sh
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/environment/path.dsv
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/local_setup.bash
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/local_setup.sh
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/local_setup.zsh
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/local_setup.dsv
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/package.dsv
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/ament_index/resource_index/packages/mbf_test_utility
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/cmake/export_mbf_test_utilityExport.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/cmake/export_mbf_test_utilityExport-noconfig.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/cmake/mbf_test_utilityConfig.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/cmake/mbf_test_utilityConfig-version.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/package.xml

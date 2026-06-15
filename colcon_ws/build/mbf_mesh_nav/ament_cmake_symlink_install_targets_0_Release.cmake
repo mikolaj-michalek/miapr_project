@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_mesh_nav/libmbf_mesh_server.so" "TARGETS" "mbf_mesh_server" "LIBRARY_DESTINATION" "lib" "ARCHIVE_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

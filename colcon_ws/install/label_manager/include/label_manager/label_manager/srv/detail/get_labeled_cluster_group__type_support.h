@@ -1,0 +1,1 @@
+/root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager/rosidl_generator_c/label_manager/srv/detail/get_labeled_cluster_group__type_support.h

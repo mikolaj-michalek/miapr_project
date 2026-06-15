@@ -1,0 +1,1 @@
+/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/mbf_mesh_core/include/mbf_mesh_core/mesh_controller.h

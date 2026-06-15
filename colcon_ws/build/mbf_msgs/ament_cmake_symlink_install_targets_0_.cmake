@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_msgs/rosidl_generator_py/mbf_msgs/mbf_msgs_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "mbf_msgs_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/mbf_msgs")

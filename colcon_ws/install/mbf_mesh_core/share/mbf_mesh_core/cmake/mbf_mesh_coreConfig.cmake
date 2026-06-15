@@ -1,0 +1,1 @@
+/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_mesh_core/ament_cmake_core/mbf_mesh_coreConfig.cmake

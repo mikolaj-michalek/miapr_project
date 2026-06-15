@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mbf_msgs__py",
+		"source" : "/root/Shared/MIAPR_Projekt/build/mbf_msgs/mbf_msgs__py"
+	}
+}

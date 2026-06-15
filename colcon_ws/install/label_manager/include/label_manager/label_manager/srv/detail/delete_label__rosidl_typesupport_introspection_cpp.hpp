@@ -1,0 +1,1 @@
+/root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager/rosidl_typesupport_introspection_cpp/label_manager/srv/detail/delete_label__rosidl_typesupport_introspection_cpp.hpp

@@ -1,0 +1,15 @@
+/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation/share/ament_index/resource_index/package_run_dependencies/mesh_navigation
+/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation/share/ament_index/resource_index/parent_prefix_path/mesh_navigation
+/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation/share/mesh_navigation/environment/ament_prefix_path.sh
+/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation/share/mesh_navigation/environment/ament_prefix_path.dsv
+/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation/share/mesh_navigation/environment/path.sh
+/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation/share/mesh_navigation/environment/path.dsv
+/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation/share/mesh_navigation/local_setup.bash
+/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation/share/mesh_navigation/local_setup.sh
+/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation/share/mesh_navigation/local_setup.zsh
+/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation/share/mesh_navigation/local_setup.dsv
+/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation/share/mesh_navigation/package.dsv
+/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation/share/ament_index/resource_index/packages/mesh_navigation
+/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation/share/mesh_navigation/cmake/mesh_navigationConfig.cmake
+/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation/share/mesh_navigation/cmake/mesh_navigationConfig-version.cmake
+/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation/share/mesh_navigation/package.xml

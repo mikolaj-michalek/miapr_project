@@ -1,0 +1,316 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 28.1.16 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found rclcpp_components: 28.1.16 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found mesh_msgs: 2.1.1 (/root/Shared/MIAPR_Projekt/install/mesh_msgs/share/mesh_msgs/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem 
+-- Found ament_cmake_cppcheck: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_uncrustify: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found ament_cmake_flake8: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_pep257: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+-- Configuring done (6.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /root/Shared/MIAPR_Projekt/build/label_manager
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_copy_label_manager
+[  1%] Built target label_manager__rosidl_generator_type_description
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+running egg_info
+creating label_manager.egg-info
+writing label_manager.egg-info/PKG-INFO
+writing dependency_links to label_manager.egg-info/dependency_links.txt
+writing top-level names to label_manager.egg-info/top_level.txt
+writing manifest file 'label_manager.egg-info/SOURCES.txt'
+reading manifest file 'label_manager.egg-info/SOURCES.txt'
+writing manifest file 'label_manager.egg-info/SOURCES.txt'
+[  5%] Built target ament_cmake_python_build_label_manager_egg
+[  5%] Built target label_manager__cpp
+[  7%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_c.dir/rosidl_generator_c/label_manager/srv/detail/delete_label__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_c.dir/rosidl_generator_c/label_manager/srv/detail/delete_label__type_support.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_c.dir/rosidl_generator_c/label_manager/srv/detail/delete_label__description.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_c.dir/rosidl_generator_c/label_manager/srv/detail/get_label_groups__description.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_c.dir/rosidl_generator_c/label_manager/srv/detail/get_label_groups__functions.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_c.dir/rosidl_generator_c/label_manager/srv/detail/get_label_groups__type_support.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_c.dir/rosidl_generator_c/label_manager/srv/detail/get_labeled_cluster_group__type_support.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_c.dir/rosidl_generator_c/label_manager/srv/detail/get_labeled_cluster_group__description.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_c.dir/rosidl_generator_c/label_manager/srv/detail/get_labeled_cluster_group__functions.c.o[0m
+[ 22%] [32m[1mLinking C shared library liblabel_manager__rosidl_generator_c.so[0m
+[ 22%] Built target label_manager__rosidl_generator_c
+[ 24%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/label_manager/srv/delete_label__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/label_manager/srv/get_label_groups__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/label_manager/srv/get_labeled_cluster_group__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_c.dir/rosidl_typesupport_c/label_manager/srv/delete_label__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_c.dir/rosidl_typesupport_c/label_manager/srv/get_labeled_cluster_group__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_c.dir/rosidl_typesupport_c/label_manager/srv/get_label_groups__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/label_manager/srv/detail/delete_label__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/label_manager/srv/detail/get_label_groups__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/label_manager/srv/detail/get_labeled_cluster_group__type_support.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library liblabel_manager__rosidl_typesupport_c.so[0m
+[ 52%] [32mBuilding C object CMakeFiles/label_manager__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/label_manager/srv/detail/delete_label__type_support.c.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/label_manager__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/label_manager/srv/detail/get_label_groups__type_support.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/label_manager__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/label_manager/srv/detail/get_labeled_cluster_group__type_support.c.o[0m
+[ 56%] Built target label_manager__rosidl_typesupport_c
+[ 57%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/label_manager/srv/detail/dds_fastrtps/get_label_groups__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/label_manager/srv/detail/dds_fastrtps/delete_label__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/label_manager/srv/detail/dds_fastrtps/get_labeled_cluster_group__type_support.cpp.o[0m
+[ 63%] [32m[1mLinking C shared library liblabel_manager__rosidl_typesupport_introspection_c.so[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/label_manager/srv/detail/get_label_groups__type_support_c.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/label_manager/srv/detail/delete_label__type_support_c.cpp.o[0m
+[ 66%] Built target label_manager__rosidl_typesupport_introspection_c
+[ 68%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/label_manager/srv/detail/get_labeled_cluster_group__type_support_c.cpp.o[0m
+[ 70%] [32m[1mLinking CXX shared library liblabel_manager__rosidl_typesupport_cpp.so[0m
+[ 71%] [32m[1mLinking CXX shared library liblabel_manager__rosidl_typesupport_introspection_cpp.so[0m
+[ 71%] Built target label_manager__rosidl_typesupport_cpp
+[ 71%] Built target label_manager__rosidl_typesupport_introspection_cpp
+[ 73%] [32m[1mLinking CXX shared library liblabel_manager__rosidl_typesupport_fastrtps_c.so[0m
+[ 75%] [32m[1mLinking CXX shared library liblabel_manager__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 75%] Built target label_manager__rosidl_typesupport_fastrtps_c
+[ 75%] Built target label_manager__rosidl_typesupport_fastrtps_cpp
+[ 75%] Built target label_manager
+[ 77%] [32mBuilding CXX object CMakeFiles/label_manager_node.dir/src/manager_node.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/label_manager_node.dir/src/manager.cpp.o[0m
+[ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 80%] Built target label_manager__py
+[ 82%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_py.dir/rosidl_generator_py/label_manager/srv/_get_labeled_cluster_group_s.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_py.dir/rosidl_generator_py/label_manager/srv/_delete_label_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_py.dir/rosidl_generator_py/label_manager/srv/_get_label_groups_s.c.o[0m
+[ 87%] [32m[1mLinking C shared library liblabel_manager__rosidl_generator_py.so[0m
+[ 87%] Built target label_manager__rosidl_generator_py
+[ 89%] [32mBuilding C object CMakeFiles/label_manager_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/label_manager/_label_manager_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/label_manager_s__rosidl_typesupport_c.dir/rosidl_generator_py/label_manager/_label_manager_s.ep.rosidl_typesupport_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/label_manager_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/label_manager/_label_manager_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 94%] [32m[1mLinking C shared module rosidl_generator_py/label_manager/label_manager_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 94%] Built target label_manager_s__rosidl_typesupport_fastrtps_c
+[ 96%] [32m[1mLinking C shared module rosidl_generator_py/label_manager/label_manager_s__rosidl_typesupport_introspection_c.so[0m
+[ 98%] [32m[1mLinking C shared module rosidl_generator_py/label_manager/label_manager_s__rosidl_typesupport_c.so[0m
+[ 98%] Built target label_manager_s__rosidl_typesupport_c
+[ 98%] Built target label_manager_s__rosidl_typesupport_introspection_c
+[100%] [32m[1mLinking CXX executable label_manager_node[0m
+[100%] Built target label_manager_node
+-- Install configuration: ""
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/ament_index/resource_index/rosidl_interfaces/label_manager
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/srv/DeleteLabel.json
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/srv/GetLabelGroups.json
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/srv/GetLabeledClusterGroup.json
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/msg
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/get_label_groups.h
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/delete_label.h
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/get_labeled_cluster_group.h
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__type_support.c
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__functions.c
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__type_support.c
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__struct.h
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__struct.h
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__type_support.h
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__description.c
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__type_support.h
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__functions.h
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__functions.h
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__struct.h
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__functions.c
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__functions.c
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__functions.h
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__type_support.h
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__description.c
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__description.c
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__type_support.c
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/environment/library_path.sh
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/environment/library_path.dsv
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/liblabel_manager__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/label_manager/lib/liblabel_manager__rosidl_generator_c.so" to ""
+-- Up-to-date: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager
+-- Up-to-date: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/msg
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv
+-- Up-to-date: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/liblabel_manager__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/label_manager/lib/liblabel_manager__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager
+-- Up-to-date: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/msg
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/get_label_groups.hpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/delete_label.hpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/get_labeled_cluster_group.hpp
+-- Up-to-date: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__traits.hpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__struct.hpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__type_support.hpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__builder.hpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__struct.hpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__type_support.hpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__traits.hpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__struct.hpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__type_support.hpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__traits.hpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__builder.hpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__builder.hpp
+-- Up-to-date: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager
+-- Up-to-date: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/msg
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv
+-- Up-to-date: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/dds_fastrtps
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/liblabel_manager__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/label_manager/lib/liblabel_manager__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager
+-- Up-to-date: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/msg
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv
+-- Up-to-date: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__type_support.c
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__type_support.c
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__type_support.c
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/liblabel_manager__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/label_manager/lib/liblabel_manager__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/liblabel_manager__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/label_manager/lib/liblabel_manager__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager
+-- Up-to-date: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv
+-- Up-to-date: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__type_support.cpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_labeled_cluster_group__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__type_support.cpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/delete_label__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__type_support.cpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/include/label_manager/label_manager/srv/detail/get_label_groups__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/liblabel_manager__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/label_manager/lib/liblabel_manager__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/liblabel_manager__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/label_manager/lib/liblabel_manager__rosidl_typesupport_cpp.so" to ""
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/environment/pythonpath.sh
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/environment/pythonpath.dsv
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager-2.1.1-py3.12.egg-info
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager-2.1.1-py3.12.egg-info/dependency_links.txt
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager-2.1.1-py3.12.egg-info/top_level.txt
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager-2.1.1-py3.12.egg-info/SOURCES.txt
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager-2.1.1-py3.12.egg-info/PKG-INFO
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/label_manager_s__rosidl_typesupport_c.so
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/__init__.py
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/srv
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/srv/_delete_label_s.c
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/srv/__init__.py
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/srv/_get_label_groups.py
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/srv/_get_label_groups_s.c
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/srv/_get_labeled_cluster_group.py
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/srv/_get_labeled_cluster_group_s.c
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/srv/_delete_label.py
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/_label_manager_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/label_manager_s__rosidl_typesupport_introspection_c.so
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/_label_manager_s.ep.rosidl_typesupport_c.c
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/label_manager_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/_label_manager_s.ep.rosidl_typesupport_introspection_c.c
+Listing '/root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager'...
+Compiling '/root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/__init__.py'...
+Listing '/root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/srv'...
+Compiling '/root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/srv/__init__.py'...
+Compiling '/root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/srv/_delete_label.py'...
+Compiling '/root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/srv/_get_label_groups.py'...
+Compiling '/root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/srv/_get_labeled_cluster_group.py'...
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/label_manager_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/label_manager_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/label_manager_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/label_manager_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/label_manager_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/label_manager/lib/python3.12/site-packages/label_manager/label_manager_s__rosidl_typesupport_c.so" to ""
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/lib/liblabel_manager__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/label_manager/lib/liblabel_manager__rosidl_generator_py.so" to ""
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/srv/DeleteLabel.idl
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/srv/GetLabelGroups.idl
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/srv/GetLabeledClusterGroup.idl
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/srv/DeleteLabel.srv
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/srv/GetLabelGroups.srv
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/srv/GetLabeledClusterGroup.srv
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/bin/label_manager/label_manager_node
+-- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/label_manager/bin/label_manager/label_manager_node" to ""
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/ament_index/resource_index/package_run_dependencies/label_manager
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/ament_index/resource_index/parent_prefix_path/label_manager
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/environment/ament_prefix_path.sh
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/environment/ament_prefix_path.dsv
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/environment/path.sh
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/environment/path.dsv
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/local_setup.bash
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/local_setup.sh
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/local_setup.zsh
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/local_setup.dsv
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/package.dsv
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/ament_index/resource_index/packages/label_manager
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/export_label_manager__rosidl_generator_cExport.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/export_label_manager__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/export_label_manager__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/export_label_manager__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/export_label_manager__rosidl_generator_cppExport.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/export_label_manager__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/export_label_manager__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/label_manager__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/label_manager__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/label_manager__rosidl_typesupport_cExport.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/label_manager__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/label_manager__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/label_manager__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/label_manager__rosidl_typesupport_cppExport.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/label_manager__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/export_label_manager__rosidl_generator_pyExport.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/export_label_manager__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/rosidl_cmake-extras.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/label_managerConfig.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/cmake/label_managerConfig-version.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/install/label_manager/share/label_manager/package.xml

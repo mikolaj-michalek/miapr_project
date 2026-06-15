@@ -1,0 +1,32 @@
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found mbf_mesh_core: 3.0.1 (/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_core/share/mbf_mesh_core/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found mbf_msgs: 1.0.5 (/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/share/mbf_msgs/cmake)
+-- Found mbf_utility: 1.0.5 (/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility/share/mbf_utility/cmake)
+-- Try to find LZ4: find_path + find_library
+-- Try to find LZ4: FindPackageHandleStandardArgs
+-- Configuring done (4.0s)
+[31mCMake Error at CMakeLists.txt:23 (add_library):
+  Cannot find source file:
+
+    src/thetastar_mesh_planner.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+  .f95 .f03 .hip .ispc
+
+[0m
+[31mCMake Error at CMakeLists.txt:23 (add_library):
+  No SOURCES given to target: cvp_mesh_planner
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

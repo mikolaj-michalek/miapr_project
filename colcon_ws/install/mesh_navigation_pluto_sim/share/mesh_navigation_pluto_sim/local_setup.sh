@@ -1,0 +1,1 @@
+/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_navigation_pluto_sim/ament_cmake_environment_hooks/local_setup.sh

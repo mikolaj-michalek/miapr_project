@@ -1,0 +1,56 @@
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found mbf_mesh_core: 3.0.1 (/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_core/share/mbf_mesh_core/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found mbf_msgs: 1.0.5 (/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/share/mbf_msgs/cmake)
+-- Found mbf_utility: 1.0.5 (/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility/share/mbf_utility/cmake)
+-- Try to find LZ4: find_path + find_library
+-- Try to find LZ4: FindPackageHandleStandardArgs
+-- Configuring done (3.9s)
+-- Generating done (0.1s)
+-- Build files have been written to: /root/Shared/MIAPR_Projekt/colcon_ws/build/dijkstra_mesh_planner
+[ 33%] [32mBuilding CXX object CMakeFiles/dijkstra_mesh_planner.dir/src/dijkstra_mesh_planner.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/dijkstra_mesh_planner.dir/src/a_star_mesh_planner.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libdijkstra_mesh_planner.so[0m
+[100%] Built target dijkstra_mesh_planner
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner//dijkstra_mesh_planner.xml
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/include/dijkstra_mesh_planner/a_star_mesh_planner.h
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/include/dijkstra_mesh_planner/dijkstra_mesh_planner.h
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/include/dijkstra_mesh_planner/theta_star_mesh_planner copy.h
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/environment/library_path.sh
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/environment/library_path.dsv
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/ament_index/resource_index/package_run_dependencies/dijkstra_mesh_planner
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/ament_index/resource_index/parent_prefix_path/dijkstra_mesh_planner
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/environment/path.sh
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/environment/path.dsv
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/local_setup.bash
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/local_setup.sh
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/local_setup.zsh
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/local_setup.dsv
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/package.dsv
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/ament_index/resource_index/packages/dijkstra_mesh_planner
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/ament_index/resource_index/mbf_mesh_core__pluginlib__plugin/dijkstra_mesh_planner
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/cmake/dijkstra_mesh_plannerConfig.cmake
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/cmake/dijkstra_mesh_plannerConfig-version.cmake
+-- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/package.xml
+-- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/lib/libdijkstra_mesh_planner.so
+-- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/lib/libdijkstra_mesh_planner.so" to ""
+-- Old export file "/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/cmake/export_dijkstra_mesh_plannerExport.cmake" will be replaced.  Removing files [/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/cmake/export_dijkstra_mesh_plannerExport-release.cmake].
+-- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/cmake/export_dijkstra_mesh_plannerExport.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/share/dijkstra_mesh_planner/cmake/export_dijkstra_mesh_plannerExport-release.cmake

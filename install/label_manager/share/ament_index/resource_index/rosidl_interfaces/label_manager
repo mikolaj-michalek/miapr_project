@@ -1,0 +1,6 @@
+srv/DeleteLabel.idl
+srv/DeleteLabel.srv
+srv/GetLabelGroups.idl
+srv/GetLabelGroups.srv
+srv/GetLabeledClusterGroup.idl
+srv/GetLabeledClusterGroup.srv

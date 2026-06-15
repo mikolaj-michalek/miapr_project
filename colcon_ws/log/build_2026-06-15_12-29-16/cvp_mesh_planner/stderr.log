@@ -1,0 +1,13 @@
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/src/astar_mesh_planner.cpp:[m[K In member function ‘[01m[Kuint32_t astar_mesh_planner::AStarMeshPlanner::[01;32m[KrunAStar[m[K(const mesh_map::Vector&, const mesh_map::Vector&, std::__cxx11::list<pmp::Vertex>&, std::string&)[m[K’:
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/src/astar_mesh_planner.cpp:360:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcancel_planning[m[K’ was not declared in this scope; did you mean ‘[01m[Kcancel_planning_[m[K’?
+  360 |   [01;31m[Kcancel_planning[m[K = false;
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |   [32m[Kcancel_planning_[m[K
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/src/astar_mesh_planner.cpp:[m[K In member function ‘[01m[Kvirtual bool astar_mesh_planner::AStarMeshPlanner::[01;32m[Kinitialize[m[K(const std::string&, const std::shared_ptr<mesh_map::MeshMap>&, const rclcpp::Node::SharedPtr&)[m[K’:
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/src/astar_mesh_planner.cpp:472:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_pub[m[K’ was not declared in this scope; did you mean ‘[01m[Kpath_pub_[m[K’?
+  472 |   [01;31m[Kpath_pub[m[K = node->create_publisher<nav_msgs::msg::Path>("~/path", rclcpp::QoS(1).transient_local());
+      |   [01;31m[K^~~~~~~~[m[K
+      |   [32m[Kpath_pub_[m[K
+gmake[2]: *** [CMakeFiles/cvp_mesh_planner.dir/build.make:90: CMakeFiles/cvp_mesh_planner.dir/src/astar_mesh_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cvp_mesh_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

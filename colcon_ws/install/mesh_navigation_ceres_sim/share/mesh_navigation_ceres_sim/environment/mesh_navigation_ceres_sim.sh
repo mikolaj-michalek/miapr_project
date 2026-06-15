@@ -1,0 +1,1 @@
+/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_navigation_ceres_sim/ament_cmake_environment_hooks/mesh_navigation_ceres_sim.sh

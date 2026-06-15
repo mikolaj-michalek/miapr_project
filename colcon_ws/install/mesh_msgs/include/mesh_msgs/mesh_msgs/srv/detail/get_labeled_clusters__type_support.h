@@ -1,0 +1,1 @@
+/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs/rosidl_generator_c/mesh_msgs/srv/detail/get_labeled_clusters__type_support.h

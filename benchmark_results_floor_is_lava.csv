@@ -1,0 +1,10 @@
+ID_Symulacji;Algorytm;Start;Cel;Czas_Planowania_ms;Dlugosc_Sciezki_m;Czas_Przejazdu_s
+test_1780842397;dijkstra_planner;(0.0,0.0,0.0);(5.0,-7.0,0.0);15.85;27.1993;POMINIETO
+test_1780842397;astar_planner;(0.0,0.0,0.0);(5.0,-7.0,0.0);13.29;27.0416;POMINIETO
+test_1780842397;thetastar_planner;(0.0,0.0,0.0);(5.0,-7.0,0.0);7.78;25.0327;POMINIETO
+test_1780842468;dijkstra_planner;(0.0,0.0,0.0);(5.0,-7.0,0.0);18.66;27.1993;POMINIETO
+test_1780842468;astar_planner;(0.0,0.0,0.0);(5.0,-7.0,0.0);11.78;27.0416;POMINIETO
+test_1780842468;thetastar_planner;(0.0,0.0,0.0);(5.0,-7.0,0.0);11.54;25.2576;POMINIETO
+test_1780842553;dijkstra_planner;(0.0,0.0,0.0);(5.0,-7.0,0.0);15.46;27.1993;POMINIETO
+test_1780842553;astar_planner;(0.0,0.0,0.0);(5.0,-7.0,0.0);10.95;27.0416;POMINIETO
+test_1780842553;thetastar_planner;(0.0,0.0,0.0);(5.0,-7.0,0.0);22.76;25.5886;POMINIETO

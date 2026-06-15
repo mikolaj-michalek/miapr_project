@@ -1,0 +1,1 @@
+/root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager/rosidl_typesupport_fastrtps_c/label_manager/srv/detail/get_label_groups__rosidl_typesupport_fastrtps_c.h

@@ -1,0 +1,1 @@
+/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_navigation_pluto/ament_cmake_core/mesh_navigation_plutoConfig.cmake

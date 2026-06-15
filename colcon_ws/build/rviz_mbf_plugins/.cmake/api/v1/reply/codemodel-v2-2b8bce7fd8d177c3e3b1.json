@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-edbe8a133de818f1de1a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rviz_mbf_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_mbf_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_mbf_plugins-76162a618f86e23b27d1.json",
+					"name" : "rviz_mbf_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_mbf_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_mbf_plugins_uninstall-39a2c0649528380923d5.json",
+					"name" : "rviz_mbf_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e351a6ef8e1320cf2e7c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/Shared/MIAPR_Projekt/colcon_ws/build/rviz_mbf_plugins",
+		"source" : "/root/Shared/MIAPR_Projekt/colcon_ws/src/move_base_flex/rviz_mbf_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

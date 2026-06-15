@@ -1,0 +1,26 @@
+[0.022s] Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_abstract_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_abstract_core -- -j12 -l12
+[0.091s] Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_abstract_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_abstract_core -- -j12 -l12
+[0.110s] Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_abstract_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_abstract_core
+[0.123s] -- Install configuration: ""
+[0.124s] -- Execute custom install script
+[0.124s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core/include/mbf_abstract_core/abstract_controller.h
+[0.124s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core/include/mbf_abstract_core/abstract_planner.h
+[0.125s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core/include/mbf_abstract_core/abstract_recovery.h
+[0.125s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core/share/ament_index/resource_index/package_run_dependencies/mbf_abstract_core
+[0.125s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core/share/ament_index/resource_index/parent_prefix_path/mbf_abstract_core
+[0.125s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core/share/mbf_abstract_core/environment/ament_prefix_path.sh
+[0.126s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core/share/mbf_abstract_core/environment/ament_prefix_path.dsv
+[0.126s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core/share/mbf_abstract_core/environment/path.sh
+[0.126s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core/share/mbf_abstract_core/environment/path.dsv
+[0.126s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core/share/mbf_abstract_core/local_setup.bash
+[0.126s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core/share/mbf_abstract_core/local_setup.sh
+[0.129s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core/share/mbf_abstract_core/local_setup.zsh
+[0.130s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core/share/mbf_abstract_core/local_setup.dsv
+[0.130s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core/share/mbf_abstract_core/package.dsv
+[0.147s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core/share/ament_index/resource_index/packages/mbf_abstract_core
+[0.147s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core/share/mbf_abstract_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.147s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core/share/mbf_abstract_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.147s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core/share/mbf_abstract_core/cmake/mbf_abstract_coreConfig.cmake
+[0.148s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core/share/mbf_abstract_core/cmake/mbf_abstract_coreConfig-version.cmake
+[0.148s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core/share/mbf_abstract_core/package.xml
+[0.152s] Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_abstract_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_abstract_core

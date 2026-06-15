@@ -1,0 +1,10 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/cvp_mesh_planner.dir/src/thetastar_mesh_planner.cpp.o[0m
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/src/thetastar_mesh_planner.cpp:263:10:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kuint32_t thetastar_mesh_planner::ThetaStarMeshPlanner::[01;32m[KrunThetaStar[m[K(const mesh_map::Vector&, const mesh_map::Vector&, std::__cxx11::list<pmp::Vertex>&, std::string&)[m[K’
+  263 | uint32_t [01;31m[KThetaStarMeshPlanner[m[K::runThetaStar(const mesh_map::Vector& start, const mesh_map::Vector& goal,
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/src/thetastar_mesh_planner.cpp:102:10:[m[K [01;36m[Knote: [m[K‘[01m[Kuint32_t thetastar_mesh_planner::ThetaStarMeshPlanner::[01;32m[KrunThetaStar[m[K(const mesh_map::Vector&, const mesh_map::Vector&, std::__cxx11::list<pmp::Vertex>&, std::string&)[m[K’ previously defined here
+  102 | uint32_t [01;36m[KThetaStarMeshPlanner[m[K::runThetaStar(const mesh_map::Vector& start, const mesh_map::Vector& goal,
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cvp_mesh_planner.dir/build.make:104: CMakeFiles/cvp_mesh_planner.dir/src/thetastar_mesh_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cvp_mesh_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

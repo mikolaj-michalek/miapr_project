@@ -1,0 +1,564 @@
+[0.214s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.214s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7397e5bb85c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7397e5b97da0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7397e5b97da0>>, mixin_verb=('build',))
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.265s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.266s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[0.266s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.266s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/Shared/MIAPR_Projekt/colcon_ws'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extension 'ros'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extensions ['cmake', 'python']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extension 'cmake'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extension 'python'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extensions ['python_setup_py']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation) by extension 'python_setup_py'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/cvp_mesh_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/cvp_mesh_planner) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/cvp_mesh_planner) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/cvp_mesh_planner) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/cvp_mesh_planner) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/cvp_mesh_planner) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/cvp_mesh_planner) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/cvp_mesh_planner) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/cvp_mesh_planner) by extension 'ros'
+[0.299s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_navigation/cvp_mesh_planner' with type 'ros.ament_cmake' and name 'cvp_mesh_planner'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/dijkstra_mesh_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/dijkstra_mesh_planner) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/dijkstra_mesh_planner) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/dijkstra_mesh_planner) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/dijkstra_mesh_planner) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/dijkstra_mesh_planner) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/dijkstra_mesh_planner) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/dijkstra_mesh_planner) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/dijkstra_mesh_planner) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_navigation/dijkstra_mesh_planner' with type 'ros.ament_cmake' and name 'dijkstra_mesh_planner'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extension 'ros'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extensions ['cmake', 'python']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extension 'cmake'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extension 'python'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extensions ['python_setup_py']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs) by extension 'python_setup_py'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extension 'ros'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extensions ['cmake', 'python']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extension 'cmake'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extension 'python'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extensions ['python_setup_py']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images) by extension 'python_setup_py'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extension 'ros'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extensions ['cmake', 'python']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extension 'cmake'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extension 'python'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extensions ['python_setup_py']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/controllers) by extension 'python_setup_py'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extension 'ros'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extensions ['cmake', 'python']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extension 'cmake'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extension 'python'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extensions ['python_setup_py']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/costlayers) by extension 'python_setup_py'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extension 'ros'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extensions ['cmake', 'python']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extension 'cmake'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extension 'python'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extensions ['python_setup_py']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/docs/images/planners) by extension 'python_setup_py'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_core) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_core) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_core) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_core) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_core) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_core) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_core) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_core) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_core) by extension 'ros'
+[0.304s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_navigation/mbf_mesh_core' with type 'ros.ament_cmake' and name 'mbf_mesh_core'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_nav) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_nav) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_nav) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_nav) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_nav) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_nav) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_nav) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mbf_mesh_nav) by extension 'ros'
+[0.305s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_navigation/mbf_mesh_nav' with type 'ros.ament_cmake' and name 'mbf_mesh_nav'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_controller) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_controller) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_controller) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_controller) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_controller) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_controller) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_controller) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_controller) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_navigation/mesh_controller' with type 'ros.ament_cmake' and name 'mesh_controller'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_layers) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_layers) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_layers) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_layers) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_layers) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_layers) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_layers) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_layers) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_layers) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_navigation/mesh_layers' with type 'ros.ament_cmake' and name 'mesh_layers'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_map) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_map) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_map) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_map) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_map) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_map) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_map) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_map) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_map) by extension 'ros'
+[0.309s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_navigation/mesh_map' with type 'ros.ament_cmake' and name 'mesh_map'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_navigation) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_navigation) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_navigation) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_navigation) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_navigation) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_navigation) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_navigation) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_navigation/mesh_navigation) by extension 'ros'
+[0.309s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_navigation/mesh_navigation' with type 'ros.ament_cmake' and name 'mesh_navigation'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extension 'ros'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extensions ['cmake', 'python']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extension 'cmake'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extension 'python'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extensions ['python_setup_py']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools) by extension 'python_setup_py'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/label_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/label_manager) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/label_manager) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/label_manager) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/label_manager) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/label_manager) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/label_manager) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/label_manager) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/label_manager) by extension 'ros'
+[0.311s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_tools/label_manager' with type 'ros.ament_cmake' and name 'label_manager'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs) by extension 'ros'
+[0.312s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_tools/mesh_msgs' with type 'ros.ament_cmake' and name 'mesh_msgs'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_conversions) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_conversions) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_conversions) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_conversions) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_conversions) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_conversions) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_conversions) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_conversions) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_conversions) by extension 'ros'
+[0.313s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_tools/mesh_msgs_conversions' with type 'ros.ament_cmake' and name 'mesh_msgs_conversions'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_transform) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_transform) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_transform) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_transform) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_transform) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_transform) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_transform) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_transform) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_msgs_transform) by extension 'ros'
+[0.314s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_tools/mesh_msgs_transform' with type 'ros.ament_cmake' and name 'mesh_msgs_transform'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_tools) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_tools) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_tools) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_tools) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_tools) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_tools) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_tools) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/mesh_tools) by extension 'ros'
+[0.315s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_tools/mesh_tools' with type 'ros.ament_cmake' and name 'mesh_tools'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/rviz_mesh_tools_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/rviz_mesh_tools_plugins) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/rviz_mesh_tools_plugins) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/rviz_mesh_tools_plugins) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/rviz_mesh_tools_plugins) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/rviz_mesh_tools_plugins) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/rviz_mesh_tools_plugins) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/rviz_mesh_tools_plugins) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_tools/rviz_mesh_tools_plugins) by extension 'ros'
+[0.317s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_tools/rviz_mesh_tools_plugins' with type 'ros.ament_cmake' and name 'rviz_mesh_tools_plugins'
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs' build argument 'cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs' build argument 'cmake_target' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.356s] DEBUG:colcon.colcon_core.verb:Building package 'mesh_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs', 'merge_install': False, 'path': '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'label_manager' build argument 'cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'label_manager' build argument 'cmake_target' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'label_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'label_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'label_manager' build argument 'cmake_clean_first' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'label_manager' build argument 'cmake_force_configure' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'label_manager' build argument 'ament_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'label_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'label_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.357s] DEBUG:colcon.colcon_core.verb:Building package 'label_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager', 'merge_install': False, 'path': '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/label_manager', 'symlink_install': True, 'test_result_base': None}
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs_conversions' build argument 'cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs_conversions' build argument 'cmake_target' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs_conversions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs_conversions' build argument 'cmake_clean_cache' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs_conversions' build argument 'cmake_clean_first' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs_conversions' build argument 'cmake_force_configure' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs_conversions' build argument 'ament_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs_conversions' build argument 'catkin_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs_conversions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.357s] DEBUG:colcon.colcon_core.verb:Building package 'mesh_msgs_conversions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs_conversions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions', 'merge_install': False, 'path': '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs_conversions', 'symlink_install': True, 'test_result_base': None}
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs_transform' build argument 'cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs_transform' build argument 'cmake_target' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs_transform' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs_transform' build argument 'cmake_clean_cache' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs_transform' build argument 'cmake_clean_first' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs_transform' build argument 'cmake_force_configure' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs_transform' build argument 'ament_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs_transform' build argument 'catkin_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'mesh_msgs_transform' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.357s] DEBUG:colcon.colcon_core.verb:Building package 'mesh_msgs_transform' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs_transform', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform', 'merge_install': False, 'path': '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs_transform', 'symlink_install': True, 'test_result_base': None}
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rviz_mesh_tools_plugins' build argument 'cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rviz_mesh_tools_plugins' build argument 'cmake_target' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rviz_mesh_tools_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rviz_mesh_tools_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rviz_mesh_tools_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rviz_mesh_tools_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rviz_mesh_tools_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rviz_mesh_tools_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'rviz_mesh_tools_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.358s] DEBUG:colcon.colcon_core.verb:Building package 'rviz_mesh_tools_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Shared/MIAPR_Projekt/colcon_ws/build/rviz_mesh_tools_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins', 'merge_install': False, 'path': '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/rviz_mesh_tools_plugins', 'symlink_install': True, 'test_result_base': None}
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'mesh_map' build argument 'cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'mesh_map' build argument 'cmake_target' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'mesh_map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'mesh_map' build argument 'cmake_clean_cache' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'mesh_map' build argument 'cmake_clean_first' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'mesh_map' build argument 'cmake_force_configure' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'mesh_map' build argument 'ament_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'mesh_map' build argument 'catkin_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'mesh_map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.358s] DEBUG:colcon.colcon_core.verb:Building package 'mesh_map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map', 'merge_install': False, 'path': '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/mesh_map', 'symlink_install': True, 'test_result_base': None}
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'mesh_tools' build argument 'cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'mesh_tools' build argument 'cmake_target' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'mesh_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'mesh_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'mesh_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'mesh_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'mesh_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'mesh_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'mesh_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.359s] DEBUG:colcon.colcon_core.verb:Building package 'mesh_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_tools', 'merge_install': False, 'path': '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_tools', 'symlink_install': True, 'test_result_base': None}
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'mbf_mesh_core' build argument 'cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'mbf_mesh_core' build argument 'cmake_target' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'mbf_mesh_core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'mbf_mesh_core' build argument 'cmake_clean_cache' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'mbf_mesh_core' build argument 'cmake_clean_first' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'mbf_mesh_core' build argument 'cmake_force_configure' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'mbf_mesh_core' build argument 'ament_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'mbf_mesh_core' build argument 'catkin_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'mbf_mesh_core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.359s] DEBUG:colcon.colcon_core.verb:Building package 'mbf_mesh_core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_mesh_core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_core', 'merge_install': False, 'path': '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/mbf_mesh_core', 'symlink_install': True, 'test_result_base': None}
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'mesh_layers' build argument 'cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'mesh_layers' build argument 'cmake_target' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'mesh_layers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'mesh_layers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'mesh_layers' build argument 'cmake_clean_first' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'mesh_layers' build argument 'cmake_force_configure' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'mesh_layers' build argument 'ament_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'mesh_layers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'mesh_layers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.359s] DEBUG:colcon.colcon_core.verb:Building package 'mesh_layers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_layers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers', 'merge_install': False, 'path': '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/mesh_layers', 'symlink_install': True, 'test_result_base': None}
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'cvp_mesh_planner' build argument 'cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'cvp_mesh_planner' build argument 'cmake_target' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'cvp_mesh_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'cvp_mesh_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'cvp_mesh_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'cvp_mesh_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'cvp_mesh_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'cvp_mesh_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'cvp_mesh_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.360s] DEBUG:colcon.colcon_core.verb:Building package 'cvp_mesh_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Shared/MIAPR_Projekt/colcon_ws/build/cvp_mesh_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner', 'merge_install': False, 'path': '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner', 'symlink_install': True, 'test_result_base': None}
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'dijkstra_mesh_planner' build argument 'cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'dijkstra_mesh_planner' build argument 'cmake_target' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'dijkstra_mesh_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'dijkstra_mesh_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'dijkstra_mesh_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'dijkstra_mesh_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'dijkstra_mesh_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'dijkstra_mesh_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'dijkstra_mesh_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.360s] DEBUG:colcon.colcon_core.verb:Building package 'dijkstra_mesh_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Shared/MIAPR_Projekt/colcon_ws/build/dijkstra_mesh_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner', 'merge_install': False, 'path': '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/dijkstra_mesh_planner', 'symlink_install': True, 'test_result_base': None}
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'mbf_mesh_nav' build argument 'cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'mbf_mesh_nav' build argument 'cmake_target' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'mbf_mesh_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'mbf_mesh_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'mbf_mesh_nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'mbf_mesh_nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'mbf_mesh_nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'mbf_mesh_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'mbf_mesh_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.361s] DEBUG:colcon.colcon_core.verb:Building package 'mbf_mesh_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_mesh_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_nav', 'merge_install': False, 'path': '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/mbf_mesh_nav', 'symlink_install': True, 'test_result_base': None}
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'mesh_controller' build argument 'cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'mesh_controller' build argument 'cmake_target' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'mesh_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'mesh_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'mesh_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'mesh_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'mesh_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'mesh_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'mesh_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.361s] DEBUG:colcon.colcon_core.verb:Building package 'mesh_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_controller', 'merge_install': False, 'path': '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/mesh_controller', 'symlink_install': True, 'test_result_base': None}
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'mesh_navigation' build argument 'cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'mesh_navigation' build argument 'cmake_target' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'mesh_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'mesh_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'mesh_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'mesh_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'mesh_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'mesh_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'mesh_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.361s] DEBUG:colcon.colcon_core.verb:Building package 'mesh_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation', 'merge_install': False, 'path': '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/mesh_navigation', 'symlink_install': True, 'test_result_base': None}
+[0.361s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.364s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.364s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs' with build type 'ament_cmake'
+[0.364s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs'
+[0.370s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.370s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.370s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs
+[5.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs
+[5.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs -- -j12 -l12
+[22.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs -- -j12 -l12
+[22.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs
+[28.792s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mesh_msgs)
+[28.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs
+[28.799s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs' for CMake module files
+[28.800s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs' for CMake config files
+[28.804s] Level 1:colcon.colcon_core.shell:create_environment_hook('mesh_msgs', 'cmake_prefix_path')
+[28.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/hook/cmake_prefix_path.ps1'
+[28.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/hook/cmake_prefix_path.dsv'
+[28.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/hook/cmake_prefix_path.sh'
+[28.806s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib'
+[28.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('mesh_msgs', 'ld_library_path_lib')
+[28.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/hook/ld_library_path_lib.ps1'
+[28.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/hook/ld_library_path_lib.dsv'
+[28.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/hook/ld_library_path_lib.sh'
+[28.807s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/bin'
+[28.808s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/pkgconfig/mesh_msgs.pc'
+[28.810s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages'
+[28.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('mesh_msgs', 'pythonpath')
+[28.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/hook/pythonpath.ps1'
+[28.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/hook/pythonpath.dsv'
+[28.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/hook/pythonpath.sh'
+[28.811s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/bin'
+[28.811s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/package.ps1'
+[28.812s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/package.dsv'
+[28.813s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/package.sh'
+[28.814s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/package.bash'
+[28.815s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/package.zsh'
+[28.815s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/colcon-core/packages/mesh_msgs)
+[28.816s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mesh_msgs)
+[28.816s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs' for CMake module files
+[28.817s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs' for CMake config files
+[28.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('mesh_msgs', 'cmake_prefix_path')
+[28.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/hook/cmake_prefix_path.ps1'
+[28.821s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/hook/cmake_prefix_path.dsv'
+[28.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/hook/cmake_prefix_path.sh'
+[28.822s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib'
+[28.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('mesh_msgs', 'ld_library_path_lib')
+[28.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/hook/ld_library_path_lib.ps1'
+[28.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/hook/ld_library_path_lib.dsv'
+[28.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/hook/ld_library_path_lib.sh'
+[28.823s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/bin'
+[28.823s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/pkgconfig/mesh_msgs.pc'
+[28.823s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages'
+[28.824s] Level 1:colcon.colcon_core.shell:create_environment_hook('mesh_msgs', 'pythonpath')
+[28.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/hook/pythonpath.ps1'
+[28.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/hook/pythonpath.dsv'
+[28.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/hook/pythonpath.sh'
+[28.825s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/bin'
+[28.825s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/package.ps1'
+[28.825s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/package.dsv'
+[28.826s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/package.sh'
+[28.826s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/package.bash'
+[28.827s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/package.zsh'
+[28.827s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/colcon-core/packages/mesh_msgs)
+[28.827s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs_conversions' with build type 'ament_cmake'
+[28.827s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs_conversions'
+[28.827s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.828s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.831s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs_transform' with build type 'ament_cmake'
+[28.832s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs_transform'
+[28.832s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.832s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.835s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/rviz_mesh_tools_plugins' with build type 'ament_cmake'
+[28.835s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/rviz_mesh_tools_plugins'
+[28.835s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.835s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.838s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/label_manager' with build type 'ament_cmake'
+[28.839s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/label_manager'
+[28.839s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.839s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs_conversions': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs_conversions -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions
+[28.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs_transform': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs_transform -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform
+[28.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/rviz_mesh_tools_plugins': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/rviz_mesh_tools_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins
+[28.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/label_manager -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager
+[30.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs_transform' returned '0': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs_transform -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform
+[30.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs_transform': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs_transform -- -j12 -l12
+[33.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs_conversions' returned '0': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs_conversions -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions
+[33.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs_conversions': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs_conversions -- -j12 -l12
+[33.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager' returned '0': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/label_manager -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager
+[33.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager -- -j12 -l12
+[36.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/rviz_mesh_tools_plugins' returned '0': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/rviz_mesh_tools_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins
+[36.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/rviz_mesh_tools_plugins': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/colcon_ws/build/rviz_mesh_tools_plugins -- -j12 -l12
+[41.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs_transform' returned '0': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs_transform -- -j12 -l12
+[41.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs_transform': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs_transform
+[42.144s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mesh_msgs_transform)
+[42.145s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform' for CMake module files
+[42.146s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform' for CMake config files
+[42.147s] Level 1:colcon.colcon_core.shell:create_environment_hook('mesh_msgs_transform', 'cmake_prefix_path')
+[42.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/share/mesh_msgs_transform/hook/cmake_prefix_path.ps1'
+[42.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs_transform' returned '0': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs_transform
+[42.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/share/mesh_msgs_transform/hook/cmake_prefix_path.dsv'
+[42.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/share/mesh_msgs_transform/hook/cmake_prefix_path.sh'
+[42.151s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/lib'
+[42.151s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/bin'
+[42.151s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/lib/pkgconfig/mesh_msgs_transform.pc'
+[42.158s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/lib/python3.12/site-packages'
+[42.158s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/bin'
+[42.159s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/share/mesh_msgs_transform/package.ps1'
+[42.160s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/share/mesh_msgs_transform/package.dsv'
+[42.164s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/share/mesh_msgs_transform/package.sh'
+[42.165s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/share/mesh_msgs_transform/package.bash'
+[42.165s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/share/mesh_msgs_transform/package.zsh'
+[42.166s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/share/colcon-core/packages/mesh_msgs_transform)
+[42.170s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mesh_msgs_transform)
+[42.170s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform' for CMake module files
+[42.171s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform' for CMake config files
+[42.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('mesh_msgs_transform', 'cmake_prefix_path')
+[42.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/share/mesh_msgs_transform/hook/cmake_prefix_path.ps1'
+[42.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/share/mesh_msgs_transform/hook/cmake_prefix_path.dsv'
+[42.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/share/mesh_msgs_transform/hook/cmake_prefix_path.sh'
+[42.181s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/lib'
+[42.182s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/bin'
+[42.182s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/lib/pkgconfig/mesh_msgs_transform.pc'
+[42.182s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/lib/python3.12/site-packages'
+[42.182s] Level 1:colcon.colcon_core.environment:checking '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/bin'
+[42.183s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/share/mesh_msgs_transform/package.ps1'
+[42.184s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/share/mesh_msgs_transform/package.dsv'
+[42.185s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/share/mesh_msgs_transform/package.sh'
+[42.186s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/share/mesh_msgs_transform/package.bash'
+[42.191s] INFO:colcon.colcon_core.shell:Creating package script '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/share/mesh_msgs_transform/package.zsh'
+[42.192s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/share/colcon-core/packages/mesh_msgs_transform)

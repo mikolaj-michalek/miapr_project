@@ -1,0 +1,83 @@
+[0.016s] Invoking command in '/root/Shared/MIAPR_Projekt/build/mbf_test_utility': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/Shared/MIAPR_Projekt/colcon_ws/src/move_base_flex/mbf_test_utility -DCMAKE_INSTALL_PREFIX=/root/Shared/MIAPR_Projekt/install/mbf_test_utility
+[0.119s] -- The C compiler identification is GNU 13.3.0
+[0.228s] -- The CXX compiler identification is GNU 13.3.0
+[0.252s] -- Detecting C compiler ABI info
+[0.412s] -- Detecting C compiler ABI info - done
+[0.422s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.422s] -- Detecting C compile features
+[0.423s] -- Detecting C compile features - done
+[0.437s] -- Detecting CXX compiler ABI info
+[0.598s] -- Detecting CXX compiler ABI info - done
+[0.609s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.609s] -- Detecting CXX compile features
+[0.610s] -- Detecting CXX compile features - done
+[0.617s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.880s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.107s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.205s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.234s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.270s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.306s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.375s] -- Found mbf_msgs: 1.0.5 (/root/Shared/MIAPR_Projekt/install/mbf_msgs/share/mbf_msgs/cmake)
+[1.533s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.622s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.632s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.804s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.838s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.875s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.023s] -- Found tf2_geometry_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[2.065s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[2.067s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.067s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.287s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.523s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.526s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.526s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/Shared/MIAPR_Projekt/colcon_ws/src/move_base_flex/mbf_test_utility/include>
+[2.526s] -- Configured cppcheck exclude dirs and/or files: 
+[2.528s] -- Added test 'lint_cmake' to check CMake code style
+[2.531s] -- Added test 'uncrustify' to check C / C++ code style
+[2.531s] -- Configured uncrustify additional arguments: 
+[2.533s] -- Added test 'xmllint' to check XML markup files
+[2.537s] -- Configuring done (2.5s)
+[2.568s] -- Generating done (0.0s)
+[2.576s] -- Build files have been written to: /root/Shared/MIAPR_Projekt/build/mbf_test_utility
+[2.597s] Invoked command in '/root/Shared/MIAPR_Projekt/build/mbf_test_utility' returned '0': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/Shared/MIAPR_Projekt/colcon_ws/src/move_base_flex/mbf_test_utility -DCMAKE_INSTALL_PREFIX=/root/Shared/MIAPR_Projekt/install/mbf_test_utility
+[2.598s] Invoking command in '/root/Shared/MIAPR_Projekt/build/mbf_test_utility': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/build/mbf_test_utility -- -j12 -l12
+[2.727s] [ 25%] [32mBuilding CXX object CMakeFiles/mbf_test_utility_sim.dir/src/robot_simulator.cpp.o[0m
+[149.105s] [ 50%] [32m[1mLinking CXX shared library libmbf_test_utility_sim.so[0m
+[150.079s] [ 50%] Built target mbf_test_utility_sim
+[150.121s] [ 75%] [32mBuilding CXX object CMakeFiles/mbf_test_utility_sim_node.dir/src/robot_simulator_node.cpp.o[0m
+[154.085s] [100%] [32m[1mLinking CXX executable mbf_test_utility_sim_node[0m
+[154.708s] [100%] Built target mbf_test_utility_sim_node
+[154.782s] Invoked command in '/root/Shared/MIAPR_Projekt/build/mbf_test_utility' returned '0': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/build/mbf_test_utility -- -j12 -l12
+[154.785s] Invoking command in '/root/Shared/MIAPR_Projekt/build/mbf_test_utility': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/build/mbf_test_utility
+[154.800s] -- Install configuration: ""
+[154.800s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/include
+[154.800s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/include/mbf_test_utility
+[154.801s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/include/mbf_test_utility/robot_simulator.hpp
+[154.801s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/lib/libmbf_test_utility_sim.so
+[154.810s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/mbf_test_utility/lib/libmbf_test_utility_sim.so" to ""
+[154.810s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/lib/mbf_test_utility/mbf_test_utility_sim_node
+[154.811s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/install/mbf_test_utility/lib/mbf_test_utility/mbf_test_utility_sim_node" to ""
+[154.811s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/environment/library_path.sh
+[154.812s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/environment/library_path.dsv
+[154.813s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/ament_index/resource_index/package_run_dependencies/mbf_test_utility
+[154.813s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/ament_index/resource_index/parent_prefix_path/mbf_test_utility
+[154.814s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/environment/ament_prefix_path.sh
+[154.814s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/environment/ament_prefix_path.dsv
+[154.814s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/environment/path.sh
+[154.815s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/environment/path.dsv
+[154.815s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/local_setup.bash
+[154.815s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/local_setup.sh
+[154.815s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/local_setup.zsh
+[154.816s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/local_setup.dsv
+[154.816s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/package.dsv
+[154.817s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/ament_index/resource_index/packages/mbf_test_utility
+[154.818s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/cmake/export_mbf_test_utilityExport.cmake
+[154.818s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/cmake/export_mbf_test_utilityExport-noconfig.cmake
+[154.819s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/cmake/ament_cmake_export_targets-extras.cmake
+[154.819s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/cmake/ament_cmake_export_dependencies-extras.cmake
+[154.820s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/cmake/mbf_test_utilityConfig.cmake
+[154.820s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/cmake/mbf_test_utilityConfig-version.cmake
+[154.821s] -- Installing: /root/Shared/MIAPR_Projekt/install/mbf_test_utility/share/mbf_test_utility/package.xml
+[154.825s] Invoked command in '/root/Shared/MIAPR_Projekt/build/mbf_test_utility' returned '0': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/install/mbf_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/build/mbf_test_utility

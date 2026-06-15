@@ -1,0 +1,1 @@
+/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs/ament_cmake_core/mesh_msgsConfig-version.cmake

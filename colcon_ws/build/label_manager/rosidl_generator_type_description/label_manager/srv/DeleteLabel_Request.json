@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "label_manager/srv/DeleteLabel_Request",
+      "fields": [
+        {
+          "name": "uuid",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "label",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "label_manager/srv/DeleteLabel_Request",
+      "hash_string": "RIHS01_86a0f8e866f08bf5b3d8fc3f5a6fc5cbd45681e4381dd4188bb48491d45ed909"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/label_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/label_manager/srv/detail/dds_fastrtps/delete_label__type_support.cpp.o"
+  "CMakeFiles/label_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/label_manager/srv/detail/dds_fastrtps/delete_label__type_support.cpp.o.d"
+  "CMakeFiles/label_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/label_manager/srv/detail/dds_fastrtps/get_label_groups__type_support.cpp.o"
+  "CMakeFiles/label_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/label_manager/srv/detail/dds_fastrtps/get_label_groups__type_support.cpp.o.d"
+  "CMakeFiles/label_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/label_manager/srv/detail/dds_fastrtps/get_labeled_cluster_group__type_support.cpp.o"
+  "CMakeFiles/label_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/label_manager/srv/detail/dds_fastrtps/get_labeled_cluster_group__type_support.cpp.o.d"
+  "liblabel_manager__rosidl_typesupport_fastrtps_cpp.pdb"
+  "liblabel_manager__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/label_manager/srv/detail/dds_fastrtps/delete_label__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/label_manager/srv/detail/dds_fastrtps/get_label_groups__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/label_manager/srv/detail/dds_fastrtps/get_labeled_cluster_group__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/label_manager/srv/detail/delete_label__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/label_manager/srv/detail/get_label_groups__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/label_manager/srv/detail/get_labeled_cluster_group__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/label_manager__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,176 @@
+[0.000000] (-) TimerEvent: {}
+[0.000923] (-) JobUnselected: {'identifier': 'dijkstra_mesh_planner'}
+[0.000976] (-) JobUnselected: {'identifier': 'label_manager'}
+[0.000998] (-) JobUnselected: {'identifier': 'mbf_abstract_core'}
+[0.001023] (-) JobUnselected: {'identifier': 'mbf_abstract_nav'}
+[0.001045] (-) JobUnselected: {'identifier': 'mbf_mesh_core'}
+[0.001068] (-) JobUnselected: {'identifier': 'mbf_mesh_nav'}
+[0.001089] (-) JobUnselected: {'identifier': 'mbf_msgs'}
+[0.001111] (-) JobUnselected: {'identifier': 'mbf_simple_core'}
+[0.001133] (-) JobUnselected: {'identifier': 'mbf_simple_nav'}
+[0.001156] (-) JobUnselected: {'identifier': 'mbf_test_utility'}
+[0.001178] (-) JobUnselected: {'identifier': 'mbf_utility'}
+[0.001202] (-) JobUnselected: {'identifier': 'mesh_controller'}
+[0.001222] (-) JobUnselected: {'identifier': 'mesh_layers'}
+[0.001243] (-) JobUnselected: {'identifier': 'mesh_map'}
+[0.001265] (-) JobUnselected: {'identifier': 'mesh_msgs'}
+[0.001287] (-) JobUnselected: {'identifier': 'mesh_msgs_conversions'}
+[0.001308] (-) JobUnselected: {'identifier': 'mesh_msgs_transform'}
+[0.001342] (-) JobUnselected: {'identifier': 'mesh_navigation'}
+[0.001368] (-) JobUnselected: {'identifier': 'mesh_navigation_ceres'}
+[0.001397] (-) JobUnselected: {'identifier': 'mesh_navigation_ceres_sim'}
+[0.001420] (-) JobUnselected: {'identifier': 'mesh_navigation_pluto'}
+[0.001443] (-) JobUnselected: {'identifier': 'mesh_navigation_pluto_sim'}
+[0.001466] (-) JobUnselected: {'identifier': 'mesh_navigation_tutorials'}
+[0.001488] (-) JobUnselected: {'identifier': 'mesh_navigation_tutorials_sim'}
+[0.001511] (-) JobUnselected: {'identifier': 'mesh_tools'}
+[0.001533] (-) JobUnselected: {'identifier': 'move_base_flex'}
+[0.001554] (-) JobUnselected: {'identifier': 'rviz_mbf_plugins'}
+[0.001577] (-) JobUnselected: {'identifier': 'rviz_mesh_tools_plugins'}
+[0.001602] (cvp_mesh_planner) JobQueued: {'identifier': 'cvp_mesh_planner', 'dependencies': OrderedDict({'mbf_abstract_core': '/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core', 'mbf_msgs': '/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs', 'mesh_msgs': '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs', 'mbf_utility': '/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility', 'mesh_msgs_conversions': '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions', 'mesh_map': '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map', 'mbf_mesh_core': '/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_core'})}
+[0.001643] (cvp_mesh_planner) JobStarted: {'identifier': 'cvp_mesh_planner'}
+[0.053494] (cvp_mesh_planner) JobProgress: {'identifier': 'cvp_mesh_planner', 'progress': 'cmake'}
+[0.055057] (cvp_mesh_planner) JobProgress: {'identifier': 'cvp_mesh_planner', 'progress': 'build'}
+[0.055735] (cvp_mesh_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/Shared/MIAPR_Projekt/colcon_ws/build/cvp_mesh_planner', '--', '-j12', '-l12'], 'cwd': '/root/Shared/MIAPR_Projekt/colcon_ws/build/cvp_mesh_planner', 'env': OrderedDict({'GZ_SIM_RESOURCE_PATH': '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_pluto_sim/share/mesh_navigation_pluto_sim/models:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_ceres_sim/share/mesh_navigation_ceres_sim/models:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_tutorials_sim/share/mesh_navigation_tutorials_sim/models', 'USER': 'root', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'risa', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mbf_plugins/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_tutorials_sim/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_controller/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_nav/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_simple_nav/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav/lib:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_test_utility/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/root/Shared/MIAPR_Projekt/colcon_ws', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/Shared/MIAPR_Projekt/colcon_ws/install:/root/Shared/MIAPR_Projekt/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_tools:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_pluto:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_ceres:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_tutorials:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mbf_plugins:/root/Shared/MIAPR_Projekt/colcon_ws/install/move_base_flex:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_pluto_sim:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_ceres_sim:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_tutorials_sim:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_controller:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_simple_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_simple_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_test_utility:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/Shared/MIAPR_Projekt/colcon_ws/build/cvp_mesh_planner', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs/lib/python3.12/site-packages:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_utility:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_msgs:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_core:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_tools:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_pluto:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_ceres:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_tutorials:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins:/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mbf_plugins:/root/Shared/MIAPR_Projekt/colcon_ws/install/move_base_flex:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_pluto_sim:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_ceres_sim:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation_tutorials_sim:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_navigation:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_transform:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_layers:/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_controller:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/dijkstra_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/cvp_mesh_planner:/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_simple_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_simple_core:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_abstract_nav:/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_test_utility:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099588] (-) TimerEvent: {}
+[0.199934] (-) TimerEvent: {}
+[0.281713] (cvp_mesh_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cvp_mesh_planner.dir/src/cvp_mesh_planner.cpp.o\x1b[0m\n'}
+[0.300070] (-) TimerEvent: {}
+[0.400427] (-) TimerEvent: {}
+[0.500766] (-) TimerEvent: {}
+[0.601137] (-) TimerEvent: {}
+[0.701493] (-) TimerEvent: {}
+[0.801840] (-) TimerEvent: {}
+[0.902302] (-) TimerEvent: {}
+[1.002861] (-) TimerEvent: {}
+[1.103406] (-) TimerEvent: {}
+[1.203858] (-) TimerEvent: {}
+[1.304185] (-) TimerEvent: {}
+[1.404572] (-) TimerEvent: {}
+[1.504996] (-) TimerEvent: {}
+[1.605409] (-) TimerEvent: {}
+[1.705771] (-) TimerEvent: {}
+[1.806119] (-) TimerEvent: {}
+[1.906555] (-) TimerEvent: {}
+[2.007014] (-) TimerEvent: {}
+[2.107484] (-) TimerEvent: {}
+[2.207833] (-) TimerEvent: {}
+[2.308163] (-) TimerEvent: {}
+[2.408502] (-) TimerEvent: {}
+[2.508862] (-) TimerEvent: {}
+[2.609314] (-) TimerEvent: {}
+[2.709766] (-) TimerEvent: {}
+[2.810231] (-) TimerEvent: {}
+[2.910696] (-) TimerEvent: {}
+[3.011094] (-) TimerEvent: {}
+[3.111509] (-) TimerEvent: {}
+[3.211862] (-) TimerEvent: {}
+[3.312220] (-) TimerEvent: {}
+[3.412580] (-) TimerEvent: {}
+[3.512999] (-) TimerEvent: {}
+[3.613387] (-) TimerEvent: {}
+[3.713756] (-) TimerEvent: {}
+[3.814243] (-) TimerEvent: {}
+[3.914737] (-) TimerEvent: {}
+[4.015137] (-) TimerEvent: {}
+[4.115514] (-) TimerEvent: {}
+[4.215903] (-) TimerEvent: {}
+[4.316420] (-) TimerEvent: {}
+[4.416906] (-) TimerEvent: {}
+[4.517405] (-) TimerEvent: {}
+[4.617839] (-) TimerEvent: {}
+[4.718507] (-) TimerEvent: {}
+[4.819036] (-) TimerEvent: {}
+[4.919566] (-) TimerEvent: {}
+[5.019979] (-) TimerEvent: {}
+[5.120418] (-) TimerEvent: {}
+[5.220920] (-) TimerEvent: {}
+[5.321474] (-) TimerEvent: {}
+[5.422021] (-) TimerEvent: {}
+[5.522438] (-) TimerEvent: {}
+[5.622791] (-) TimerEvent: {}
+[5.723203] (-) TimerEvent: {}
+[5.823651] (-) TimerEvent: {}
+[5.924134] (-) TimerEvent: {}
+[6.024636] (-) TimerEvent: {}
+[6.125129] (-) TimerEvent: {}
+[6.225625] (-) TimerEvent: {}
+[6.325939] (-) TimerEvent: {}
+[6.426254] (-) TimerEvent: {}
+[6.526579] (-) TimerEvent: {}
+[6.626909] (-) TimerEvent: {}
+[6.727234] (-) TimerEvent: {}
+[6.827624] (-) TimerEvent: {}
+[6.928137] (-) TimerEvent: {}
+[7.028685] (-) TimerEvent: {}
+[7.129210] (-) TimerEvent: {}
+[7.229757] (-) TimerEvent: {}
+[7.330280] (-) TimerEvent: {}
+[7.430842] (-) TimerEvent: {}
+[7.531290] (-) TimerEvent: {}
+[7.631632] (-) TimerEvent: {}
+[7.732023] (-) TimerEvent: {}
+[7.832596] (-) TimerEvent: {}
+[7.933117] (-) TimerEvent: {}
+[8.033605] (-) TimerEvent: {}
+[8.133952] (-) TimerEvent: {}
+[8.216997] (cvp_mesh_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/src/cvp_mesh_planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual uint32_t cvp_mesh_planner::CVPMeshPlanner::\x1b[01;32m\x1b[KmakePlan\x1b[m\x1b[K(const geometry_msgs::msg::PoseStamped&, const geometry_msgs::msg::PoseStamped&, double, std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >&, double&, std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.217478] (cvp_mesh_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/src/cvp_mesh_planner.cpp:52:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.217767] (cvp_mesh_planner) StderrLine: {'line': b'   52 |   std::\x1b[01;31m\x1b[Kmsgs\x1b[m\x1b[K::msg::Header header;\n'}
+[8.217911] (cvp_mesh_planner) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.233314] (cvp_mesh_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/src/cvp_mesh_planner.cpp:53:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kheader\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.233706] (cvp_mesh_planner) StderrLine: {'line': b'   53 |   \x1b[01;31m\x1b[Kheader\x1b[m\x1b[K.stamp = node_->now();\n'}
+[8.233889] (cvp_mesh_planner) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.233999] (-) TimerEvent: {}
+[8.235668] (cvp_mesh_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/src/cvp_mesh_planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kuint32_t cvp_mesh_planner::CVPMeshPlanner::\x1b[01;32m\x1b[KrunAStar\x1b[m\x1b[K(const mesh_map::Vector&, const mesh_map::Vector&, std::__cxx11::list<pmp::Vertex>&, std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.235816] (cvp_mesh_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/src/cvp_mesh_planner.cpp:112:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbinding reference of type \xe2\x80\x98\x1b[01m\x1b[Kmesh_map::Vector&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klvr2::BaseVector<float>&\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst mesh_map::Vector\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst lvr2::BaseVector<float>\x1b[m\x1b[K\xe2\x80\x99} discards qualifiers\n'}
+[8.235943] (cvp_mesh_planner) StderrLine: {'line': b'  112 |   const lvr2::OptionalFaceHandle start_opt = mesh_map_->getContainingFace(\x1b[01;31m\x1b[Kstart\x1b[m\x1b[K, 0.4);\n'}
+[8.236061] (cvp_mesh_planner) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.236172] (cvp_mesh_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/Shared/MIAPR_Projekt/colcon_ws/install/mbf_mesh_core/include/mbf_mesh_core/mesh_planner.h:46\x1b[m\x1b[K,\n'}
+[8.236284] (cvp_mesh_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/include/cvp_mesh_planner/cvp_mesh_planner.h:9\x1b[m\x1b[K,\n'}
+[8.236414] (cvp_mesh_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/src/cvp_mesh_planner.cpp:12\x1b[m\x1b[K:\n'}
+[8.236527] (cvp_mesh_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/include/mesh_map/mesh_map.h:114:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Klvr2::OptionalFaceHandle mesh_map::MeshMap::\x1b[01;32m\x1b[KgetContainingFace\x1b[m\x1b[K(mesh_map::Vector&, const float&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.236641] (cvp_mesh_planner) StderrLine: {'line': b'  114 |   lvr2::OptionalFaceHandle getContainingFace(\x1b[01;36m\x1b[KVector& position\x1b[m\x1b[K, const float& max_dist);\n'}
+[8.236752] (cvp_mesh_planner) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[8.236957] (cvp_mesh_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation/cvp_mesh_planner/src/cvp_mesh_planner.cpp:113:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbinding reference of type \xe2\x80\x98\x1b[01m\x1b[Kmesh_map::Vector&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klvr2::BaseVector<float>&\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst mesh_map::Vector\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst lvr2::BaseVector<float>\x1b[m\x1b[K\xe2\x80\x99} discards qualifiers\n'}
+[8.237214] (cvp_mesh_planner) StderrLine: {'line': b'  113 |   const lvr2::OptionalFaceHandle goal_opt = mesh_map_->getContainingFace(\x1b[01;31m\x1b[Kgoal\x1b[m\x1b[K, 0.4);\n'}
+[8.237469] (cvp_mesh_planner) StderrLine: {'line': b'      |                                                                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.237696] (cvp_mesh_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_map/include/mesh_map/mesh_map.h:114:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Klvr2::OptionalFaceHandle mesh_map::MeshMap::\x1b[01;32m\x1b[KgetContainingFace\x1b[m\x1b[K(mesh_map::Vector&, const float&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.237873] (cvp_mesh_planner) StderrLine: {'line': b'  114 |   lvr2::OptionalFaceHandle getContainingFace(\x1b[01;36m\x1b[KVector& position\x1b[m\x1b[K, const float& max_dist);\n'}
+[8.237982] (cvp_mesh_planner) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[8.334206] (-) TimerEvent: {}
+[8.434738] (-) TimerEvent: {}
+[8.535225] (-) TimerEvent: {}
+[8.635645] (-) TimerEvent: {}
+[8.736074] (-) TimerEvent: {}
+[8.836425] (-) TimerEvent: {}
+[8.936840] (-) TimerEvent: {}
+[9.037302] (-) TimerEvent: {}
+[9.137846] (-) TimerEvent: {}
+[9.238381] (-) TimerEvent: {}
+[9.338864] (-) TimerEvent: {}
+[9.439349] (-) TimerEvent: {}
+[9.539757] (-) TimerEvent: {}
+[9.640217] (-) TimerEvent: {}
+[9.740717] (-) TimerEvent: {}
+[9.841163] (-) TimerEvent: {}
+[9.941642] (-) TimerEvent: {}
+[10.042005] (-) TimerEvent: {}
+[10.142415] (-) TimerEvent: {}
+[10.242781] (-) TimerEvent: {}
+[10.343281] (-) TimerEvent: {}
+[10.443769] (-) TimerEvent: {}
+[10.544176] (-) TimerEvent: {}
+[10.644679] (-) TimerEvent: {}
+[10.745171] (-) TimerEvent: {}
+[10.845693] (-) TimerEvent: {}
+[10.946430] (-) TimerEvent: {}
+[11.046882] (-) TimerEvent: {}
+[11.147194] (-) TimerEvent: {}
+[11.247529] (-) TimerEvent: {}
+[11.254715] (cvp_mesh_planner) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cvp_mesh_planner.dir/build.make:76: CMakeFiles/cvp_mesh_planner.dir/src/cvp_mesh_planner.cpp.o] Error 1\n'}
+[11.255450] (cvp_mesh_planner) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cvp_mesh_planner.dir/all] Error 2\n'}
+[11.255855] (cvp_mesh_planner) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.259097] (cvp_mesh_planner) CommandEnded: {'returncode': 2}
+[11.276461] (cvp_mesh_planner) JobEnded: {'identifier': 'cvp_mesh_planner', 'rc': 2}
+[11.286974] (-) EventReactorShutdown: {}

@@ -1,0 +1,928 @@
+[0.022s] Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs
+[0.228s] -- The C compiler identification is GNU 13.3.0
+[0.365s] -- The CXX compiler identification is GNU 13.3.0
+[0.395s] -- Detecting C compiler ABI info
+[0.518s] -- Detecting C compiler ABI info - done
+[0.527s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.528s] -- Detecting C compile features
+[0.529s] -- Detecting C compile features - done
+[0.542s] -- Detecting CXX compiler ABI info
+[0.670s] -- Detecting CXX compiler ABI info - done
+[0.679s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.679s] -- Detecting CXX compile features
+[0.680s] -- Detecting CXX compile features - done
+[0.697s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.859s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.953s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.008s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.020s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.098s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.167s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.173s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.257s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.176s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.789s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.598s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.606s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.761s] -- Found PythonExtra: /usr/bin/python3  
+[4.413s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.521s] -- Configuring done (4.5s)
+[4.620s] -- Generating done (0.1s)
+[4.636s] -- Build files have been written to: /root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs
+[4.649s] Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/mesh_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs
+[4.650s] Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs -- -j12 -l12
+[4.726s] [  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.736s] [  0%] Built target ament_cmake_python_symlink_mesh_msgs
+[4.961s] running egg_info
+[4.962s] creating mesh_msgs.egg-info
+[4.980s] writing mesh_msgs.egg-info/PKG-INFO
+[4.980s] writing dependency_links to mesh_msgs.egg-info/dependency_links.txt
+[4.981s] writing top-level names to mesh_msgs.egg-info/top_level.txt
+[4.981s] writing manifest file 'mesh_msgs.egg-info/SOURCES.txt'
+[5.042s] reading manifest file 'mesh_msgs.egg-info/SOURCES.txt'
+[5.043s] writing manifest file 'mesh_msgs.egg-info/SOURCES.txt'
+[5.113s] [  0%] Built target ament_cmake_python_build_mesh_msgs_egg
+[5.408s] [  0%] Built target mesh_msgs__rosidl_generator_type_description
+[5.427s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.441s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.099s] [  1%] Built target mesh_msgs__cpp
+[7.629s] [  2%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_face_cluster_stamped__functions.c.o[0m
+[7.629s] [  2%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_face_cluster__type_support.c.o[0m
+[7.629s] [  2%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_face_cluster__description.c.o[0m
+[7.631s] [  3%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_face_cluster_stamped__type_support.c.o[0m
+[7.631s] [  3%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_face_cluster_stamped__description.c.o[0m
+[7.631s] [  3%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_material__functions.c.o[0m
+[7.631s] [  3%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_face_cluster__functions.c.o[0m
+[7.632s] [  3%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_material__description.c.o[0m
+[7.632s] [  3%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_geometry__functions.c.o[0m
+[7.632s] [  4%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_geometry__type_support.c.o[0m
+[7.635s] [  5%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_geometry__description.c.o[0m
+[7.635s] [  5%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_material__type_support.c.o[0m
+[7.698s] [  5%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_geometry_stamped__functions.c.o[0m
+[7.698s] [  5%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_geometry_stamped__description.c.o[0m
+[7.700s] [  6%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_geometry_stamped__type_support.c.o[0m
+[7.712s] [  7%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_materials__description.c.o[0m
+[7.712s] [  7%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_materials__functions.c.o[0m
+[7.712s] [  7%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_materials__type_support.c.o[0m
+[7.716s] [  7%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_materials_stamped__description.c.o[0m
+[7.720s] [  8%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_materials_stamped__functions.c.o[0m
+[7.731s] [  8%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_vertex_colors__description.c.o[0m
+[7.731s] [  8%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_materials_stamped__type_support.c.o[0m
+[7.736s] [  9%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_vertex_colors__type_support.c.o[0m
+[7.736s] [  9%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_vertex_colors__functions.c.o[0m
+[7.762s] [  9%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_vertex_colors_stamped__description.c.o[0m
+[7.772s] [ 10%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_vertex_colors_stamped__functions.c.o[0m
+[7.775s] [ 10%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_vertex_colors_stamped__type_support.c.o[0m
+[7.785s] [ 10%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_vertex_costs__description.c.o[0m
+[7.788s] [ 11%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_vertex_costs__type_support.c.o[0m
+[7.789s] [ 11%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_vertex_costs__functions.c.o[0m
+[7.798s] [ 11%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_vertex_costs_stamped__description.c.o[0m
+[7.798s] [ 12%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_vertex_costs_stamped__type_support.c.o[0m
+[7.798s] [ 12%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_vertex_costs_sparse__description.c.o[0m
+[7.799s] [ 13%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_vertex_costs_stamped__functions.c.o[0m
+[7.820s] [ 13%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_vertex_costs_sparse__functions.c.o[0m
+[7.820s] [ 13%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_vertex_costs_sparse__type_support.c.o[0m
+[7.837s] [ 14%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_vertex_costs_sparse_stamped__description.c.o[0m
+[7.840s] [ 14%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_vertex_costs_sparse_stamped__functions.c.o[0m
+[7.853s] [ 15%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_texture__description.c.o[0m
+[7.860s] [ 15%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_vertex_costs_sparse_stamped__type_support.c.o[0m
+[7.862s] [ 15%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_texture__functions.c.o[0m
+[7.868s] [ 16%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_texture__type_support.c.o[0m
+[7.868s] [ 16%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_triangle_indices__description.c.o[0m
+[7.874s] [ 16%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_triangle_indices__functions.c.o[0m
+[7.878s] [ 16%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_triangle_indices__type_support.c.o[0m
+[7.887s] [ 17%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/vector_field__description.c.o[0m
+[7.896s] [ 17%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/vector_field__functions.c.o[0m
+[7.910s] [ 17%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/vector_field__type_support.c.o[0m
+[7.913s] [ 18%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/vector_field_stamped__description.c.o[0m
+[7.922s] [ 18%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/vector_field_stamped__functions.c.o[0m
+[7.930s] [ 19%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_vertex_tex_coords__description.c.o[0m
+[7.930s] [ 19%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/vector_field_stamped__type_support.c.o[0m
+[7.933s] [ 19%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_vertex_tex_coords__functions.c.o[0m
+[7.937s] [ 20%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/msg/detail/mesh_vertex_tex_coords__type_support.c.o[0m
+[7.941s] [ 20%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_geometry__description.c.o[0m
+[7.952s] [ 20%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_geometry__functions.c.o[0m
+[7.962s] [ 21%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_geometry__type_support.c.o[0m
+[7.966s] [ 21%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_labeled_clusters__description.c.o[0m
+[7.971s] [ 21%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_labeled_clusters__functions.c.o[0m
+[7.982s] [ 22%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_labeled_clusters__type_support.c.o[0m
+[7.989s] [ 22%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_materials__description.c.o[0m
+[7.995s] [ 22%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_materials__functions.c.o[0m
+[7.997s] [ 23%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_materials__type_support.c.o[0m
+[8.002s] [ 23%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_texture__description.c.o[0m
+[8.005s] [ 23%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_texture__functions.c.o[0m
+[8.014s] [ 24%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_texture__type_support.c.o[0m
+[8.036s] [ 24%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_uui_ds__description.c.o[0m
+[8.049s] [ 25%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_uui_ds__functions.c.o[0m
+[8.055s] [ 25%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_uui_ds__type_support.c.o[0m
+[8.063s] [ 25%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_vertex_colors__description.c.o[0m
+[8.083s] [ 26%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_vertex_colors__type_support.c.o[0m
+[8.083s] [ 26%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_vertex_colors__functions.c.o[0m
+[8.093s] [ 26%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_vertex_costs__description.c.o[0m
+[8.095s] [ 26%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_vertex_costs__type_support.c.o[0m
+[8.095s] [ 27%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_vertex_costs__functions.c.o[0m
+[8.115s] [ 28%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_vertex_cost_layers__description.c.o[0m
+[8.115s] [ 28%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_vertex_cost_layers__functions.c.o[0m
+[8.124s] [ 28%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_c.dir/rosidl_generator_c/mesh_msgs/srv/detail/get_vertex_cost_layers__type_support.c.o[0m
+[8.205s] [ 28%] [32m[1mLinking C shared library libmesh_msgs__rosidl_generator_c.so[0m
+[8.273s] [ 28%] Built target mesh_msgs__rosidl_generator_c
+[8.288s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.289s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.289s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.289s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.289s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.289s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.272s] [ 29%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/msg/mesh_face_cluster__type_support.cpp.o[0m
+[9.274s] [ 30%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/msg/mesh_material__type_support.cpp.o[0m
+[9.276s] [ 30%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/msg/mesh_face_cluster_stamped__type_support.cpp.o[0m
+[9.284s] [ 30%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/msg/mesh_geometry__type_support.cpp.o[0m
+[9.319s] [ 30%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/msg/mesh_geometry_stamped__type_support.cpp.o[0m
+[9.322s] [ 31%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/msg/mesh_materials__type_support.cpp.o[0m
+[9.334s] [ 31%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/msg/mesh_materials_stamped__type_support.cpp.o[0m
+[9.363s] [ 31%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/msg/mesh_vertex_colors__type_support.cpp.o[0m
+[9.367s] [ 32%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/msg/mesh_vertex_colors_stamped__type_support.cpp.o[0m
+[9.376s] [ 32%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/msg/mesh_vertex_costs__type_support.cpp.o[0m
+[9.387s] [ 32%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/msg/mesh_vertex_costs_stamped__type_support.cpp.o[0m
+[9.408s] [ 33%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/msg/mesh_vertex_costs_sparse__type_support.cpp.o[0m
+[9.421s] [ 33%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/msg/mesh_vertex_costs_sparse_stamped__type_support.cpp.o[0m
+[9.455s] [ 34%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/msg/mesh_texture__type_support.cpp.o[0m
+[9.466s] [ 34%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/msg/mesh_triangle_indices__type_support.cpp.o[0m
+[9.477s] [ 34%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/msg/vector_field__type_support.cpp.o[0m
+[9.481s] [ 35%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/msg/mesh_face_cluster__type_support.cpp.o[0m
+[9.489s] [ 36%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/msg/vector_field_stamped__type_support.cpp.o[0m
+[9.503s] [ 36%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/msg/mesh_vertex_tex_coords__type_support.cpp.o[0m
+[9.525s] [ 36%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/msg/mesh_face_cluster_stamped__type_support.cpp.o[0m
+[9.539s] [ 37%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/msg/mesh_material__type_support.cpp.o[0m
+[9.569s] [ 37%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/srv/get_geometry__type_support.cpp.o[0m
+[9.581s] [ 38%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/srv/get_labeled_clusters__type_support.cpp.o[0m
+[9.588s] [ 38%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/srv/get_materials__type_support.cpp.o[0m
+[9.588s] [ 38%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/msg/mesh_geometry__type_support.cpp.o[0m
+[9.605s] [ 38%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/srv/get_texture__type_support.cpp.o[0m
+[9.683s] [ 39%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/srv/get_uui_ds__type_support.cpp.o[0m
+[9.689s] [ 39%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/srv/get_vertex_colors__type_support.cpp.o[0m
+[9.695s] [ 39%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/srv/get_vertex_costs__type_support.cpp.o[0m
+[9.713s] [ 40%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mesh_msgs/srv/get_vertex_cost_layers__type_support.cpp.o[0m
+[9.791s] [ 40%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/msg/mesh_geometry_stamped__type_support.cpp.o[0m
+[9.791s] [ 41%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/msg/mesh_materials__type_support.cpp.o[0m
+[9.809s] [ 41%] [32m[1mLinking CXX shared library libmesh_msgs__rosidl_typesupport_c.so[0m
+[9.838s] [ 41%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/msg/mesh_materials_stamped__type_support.cpp.o[0m
+[9.984s] [ 41%] Built target mesh_msgs__rosidl_typesupport_c
+[10.034s] [ 41%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/msg/mesh_vertex_colors__type_support.cpp.o[0m
+[10.112s] [ 42%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/msg/mesh_vertex_colors_stamped__type_support.cpp.o[0m
+[10.154s] [ 42%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/msg/mesh_vertex_costs__type_support.cpp.o[0m
+[10.156s] [ 43%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/msg/mesh_vertex_costs_sparse__type_support.cpp.o[0m
+[10.159s] [ 43%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/msg/mesh_vertex_costs_stamped__type_support.cpp.o[0m
+[10.373s] [ 43%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/msg/mesh_vertex_costs_sparse_stamped__type_support.cpp.o[0m
+[10.376s] [ 43%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/msg/mesh_texture__type_support.cpp.o[0m
+[10.395s] [ 44%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/msg/mesh_triangle_indices__type_support.cpp.o[0m
+[10.546s] [ 44%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/msg/detail/mesh_face_cluster__type_support.cpp.o[0m
+[10.578s] [ 45%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/msg/detail/mesh_face_cluster_stamped__type_support.cpp.o[0m
+[10.640s] [ 45%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/msg/detail/mesh_material__type_support.cpp.o[0m
+[10.645s] [ 45%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/msg/detail/mesh_face_cluster__type_support.c.o[0m
+[10.679s] [ 45%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/msg/detail/mesh_geometry__type_support.cpp.o[0m
+[10.690s] [ 45%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/msg/vector_field__type_support.cpp.o[0m
+[10.727s] [ 46%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/msg/detail/mesh_geometry_stamped__type_support.cpp.o[0m
+[10.737s] [ 47%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/msg/detail/mesh_face_cluster_stamped__type_support.c.o[0m
+[10.816s] [ 47%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/msg/detail/mesh_material__type_support.c.o[0m
+[10.895s] [ 47%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/msg/detail/mesh_geometry__type_support.c.o[0m
+[10.906s] [ 47%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/msg/detail/mesh_materials__type_support.cpp.o[0m
+[10.943s] [ 47%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/msg/detail/mesh_materials_stamped__type_support.cpp.o[0m
+[10.982s] [ 47%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/msg/vector_field_stamped__type_support.cpp.o[0m
+[10.986s] [ 48%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/msg/detail/mesh_geometry_stamped__type_support.c.o[0m
+[11.057s] [ 48%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/msg/detail/mesh_materials__type_support.c.o[0m
+[11.142s] [ 49%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/msg/mesh_vertex_tex_coords__type_support.cpp.o[0m
+[11.154s] [ 49%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/msg/detail/mesh_materials_stamped__type_support.c.o[0m
+[11.164s] [ 49%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/srv/get_geometry__type_support.cpp.o[0m
+[11.169s] [ 50%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/msg/detail/mesh_vertex_colors__type_support.c.o[0m
+[11.236s] [ 50%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/srv/get_labeled_clusters__type_support.cpp.o[0m
+[11.252s] [ 50%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/msg/detail/mesh_vertex_colors_stamped__type_support.c.o[0m
+[11.260s] [ 51%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/msg/detail/mesh_vertex_colors__type_support.cpp.o[0m
+[11.333s] [ 52%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/msg/detail/mesh_vertex_costs__type_support.c.o[0m
+[11.337s] [ 52%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/msg/detail/mesh_vertex_costs_stamped__type_support.c.o[0m
+[11.376s] [ 52%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/msg/detail/mesh_vertex_costs_sparse__type_support.c.o[0m
+[11.376s] [ 53%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/msg/detail/dds_fastrtps/mesh_face_cluster__type_support.cpp.o[0m
+[11.414s] [ 53%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/msg/detail/mesh_vertex_colors_stamped__type_support.cpp.o[0m
+[11.419s] [ 54%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/srv/get_materials__type_support.cpp.o[0m
+[11.457s] [ 55%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/msg/detail/mesh_vertex_costs_sparse_stamped__type_support.c.o[0m
+[11.541s] [ 55%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/msg/detail/mesh_texture__type_support.c.o[0m
+[11.570s] [ 55%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/msg/detail/mesh_vertex_costs__type_support.cpp.o[0m
+[11.578s] [ 55%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/msg/detail/dds_fastrtps/mesh_face_cluster_stamped__type_support.cpp.o[0m
+[11.644s] [ 56%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/msg/detail/mesh_face_cluster__type_support_c.cpp.o[0m
+[11.675s] [ 56%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/msg/detail/mesh_triangle_indices__type_support.c.o[0m
+[11.767s] [ 57%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/msg/detail/mesh_vertex_costs_stamped__type_support.cpp.o[0m
+[11.806s] [ 58%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/msg/detail/vector_field__type_support.c.o[0m
+[11.836s] [ 58%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/msg/detail/vector_field_stamped__type_support.c.o[0m
+[11.921s] [ 58%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/msg/detail/dds_fastrtps/mesh_material__type_support.cpp.o[0m
+[11.930s] [ 58%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/msg/detail/mesh_vertex_tex_coords__type_support.c.o[0m
+[11.968s] [ 59%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/srv/detail/get_geometry__type_support.c.o[0m
+[12.037s] [ 60%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/msg/detail/dds_fastrtps/mesh_geometry__type_support.cpp.o[0m
+[12.060s] [ 60%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/srv/get_texture__type_support.cpp.o[0m
+[12.094s] [ 60%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/msg/detail/mesh_vertex_costs_sparse__type_support.cpp.o[0m
+[12.095s] [ 60%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/srv/detail/get_labeled_clusters__type_support.c.o[0m
+[12.146s] [ 60%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/msg/detail/mesh_face_cluster_stamped__type_support_c.cpp.o[0m
+[12.216s] [ 60%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/srv/detail/get_materials__type_support.c.o[0m
+[12.256s] [ 60%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/msg/detail/dds_fastrtps/mesh_geometry_stamped__type_support.cpp.o[0m
+[12.319s] [ 61%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/srv/detail/get_texture__type_support.c.o[0m
+[12.389s] [ 61%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/srv/detail/get_uui_ds__type_support.c.o[0m
+[12.424s] [ 62%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/srv/get_uui_ds__type_support.cpp.o[0m
+[12.466s] [ 62%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/msg/detail/dds_fastrtps/mesh_materials__type_support.cpp.o[0m
+[12.503s] [ 62%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/srv/detail/get_vertex_colors__type_support.c.o[0m
+[12.523s] [ 63%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/msg/detail/dds_fastrtps/mesh_materials_stamped__type_support.cpp.o[0m
+[12.591s] [ 63%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/msg/detail/dds_fastrtps/mesh_vertex_colors__type_support.cpp.o[0m
+[12.633s] [ 64%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/srv/detail/get_vertex_costs__type_support.c.o[0m
+[12.693s] [ 64%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/srv/get_vertex_colors__type_support.cpp.o[0m
+[12.795s] [ 64%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mesh_msgs/srv/detail/get_vertex_cost_layers__type_support.c.o[0m
+[12.901s] [ 64%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/msg/detail/dds_fastrtps/mesh_vertex_colors_stamped__type_support.cpp.o[0m
+[12.936s] [ 64%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/msg/detail/mesh_vertex_costs_sparse_stamped__type_support.cpp.o[0m
+[12.950s] [ 65%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/msg/detail/dds_fastrtps/mesh_vertex_costs__type_support.cpp.o[0m
+[12.972s] [ 66%] [32m[1mLinking C shared library libmesh_msgs__rosidl_typesupport_introspection_c.so[0m
+[13.131s] [ 66%] Built target mesh_msgs__rosidl_typesupport_introspection_c
+[13.151s] [ 66%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/msg/detail/mesh_material__type_support_c.cpp.o[0m
+[13.236s] [ 67%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/msg/detail/mesh_geometry__type_support_c.cpp.o[0m
+[13.308s] [ 67%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/srv/get_vertex_costs__type_support.cpp.o[0m
+[13.368s] [ 68%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/msg/detail/mesh_texture__type_support.cpp.o[0m
+[13.484s] [ 68%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/msg/detail/mesh_geometry_stamped__type_support_c.cpp.o[0m
+[13.562s] [ 68%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/msg/detail/mesh_triangle_indices__type_support.cpp.o[0m
+[13.640s] [ 69%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/msg/detail/vector_field__type_support.cpp.o[0m
+[13.681s] [ 70%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mesh_msgs/srv/get_vertex_cost_layers__type_support.cpp.o[0m
+[13.699s] [ 70%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/msg/detail/mesh_materials__type_support_c.cpp.o[0m
+[13.783s] [ 70%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/msg/detail/vector_field_stamped__type_support.cpp.o[0m
+[13.871s] [ 71%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/msg/detail/mesh_materials_stamped__type_support_c.cpp.o[0m
+[13.994s] [ 71%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/msg/detail/dds_fastrtps/mesh_vertex_costs_stamped__type_support.cpp.o[0m
+[14.002s] [ 71%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/msg/detail/mesh_vertex_colors__type_support_c.cpp.o[0m
+[14.075s] [ 71%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/msg/detail/mesh_vertex_colors_stamped__type_support_c.cpp.o[0m
+[14.156s] [ 71%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/msg/detail/mesh_vertex_tex_coords__type_support.cpp.o[0m
+[14.256s] [ 71%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/msg/detail/dds_fastrtps/mesh_vertex_costs_sparse__type_support.cpp.o[0m
+[14.326s] [ 72%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/msg/detail/dds_fastrtps/mesh_vertex_costs_sparse_stamped__type_support.cpp.o[0m
+[14.359s] [ 73%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/msg/detail/mesh_vertex_costs__type_support_c.cpp.o[0m
+[14.440s] [ 73%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/msg/detail/dds_fastrtps/mesh_texture__type_support.cpp.o[0m
+[14.492s] [ 73%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/msg/detail/mesh_vertex_costs_stamped__type_support_c.cpp.o[0m
+[14.548s] [ 73%] [32m[1mLinking CXX shared library libmesh_msgs__rosidl_typesupport_cpp.so[0m
+[14.582s] [ 74%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/srv/detail/get_geometry__type_support.cpp.o[0m
+[14.742s] [ 74%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/msg/detail/dds_fastrtps/mesh_triangle_indices__type_support.cpp.o[0m
+[14.838s] [ 75%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/msg/detail/dds_fastrtps/vector_field__type_support.cpp.o[0m
+[14.851s] [ 75%] Built target mesh_msgs__rosidl_typesupport_cpp
+[14.870s] [ 75%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/srv/detail/get_labeled_clusters__type_support.cpp.o[0m
+[14.886s] [ 75%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/msg/detail/dds_fastrtps/vector_field_stamped__type_support.cpp.o[0m
+[15.011s] [ 76%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/msg/detail/dds_fastrtps/mesh_vertex_tex_coords__type_support.cpp.o[0m
+[15.103s] [ 76%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/srv/detail/dds_fastrtps/get_geometry__type_support.cpp.o[0m
+[15.185s] [ 77%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/msg/detail/mesh_vertex_costs_sparse__type_support_c.cpp.o[0m
+[15.206s] [ 77%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/srv/detail/get_materials__type_support.cpp.o[0m
+[15.251s] [ 78%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/srv/detail/get_texture__type_support.cpp.o[0m
+[15.265s] [ 78%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/srv/detail/get_uui_ds__type_support.cpp.o[0m
+[15.398s] [ 78%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/srv/detail/dds_fastrtps/get_labeled_clusters__type_support.cpp.o[0m
+[15.580s] [ 79%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/srv/detail/dds_fastrtps/get_materials__type_support.cpp.o[0m
+[15.647s] [ 79%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/srv/detail/dds_fastrtps/get_texture__type_support.cpp.o[0m
+[15.828s] [ 79%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/msg/detail/mesh_vertex_costs_sparse_stamped__type_support_c.cpp.o[0m
+[15.840s] [ 79%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/msg/detail/mesh_texture__type_support_c.cpp.o[0m
+[15.870s] [ 80%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/msg/detail/mesh_triangle_indices__type_support_c.cpp.o[0m
+[16.032s] [ 80%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/srv/detail/dds_fastrtps/get_uui_ds__type_support.cpp.o[0m
+[16.069s] [ 81%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/srv/detail/dds_fastrtps/get_vertex_colors__type_support.cpp.o[0m
+[16.155s] [ 81%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/srv/detail/get_vertex_colors__type_support.cpp.o[0m
+[16.171s] [ 82%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/srv/detail/get_vertex_costs__type_support.cpp.o[0m
+[16.375s] [ 82%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/srv/detail/dds_fastrtps/get_vertex_costs__type_support.cpp.o[0m
+[16.499s] [ 82%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mesh_msgs/srv/detail/dds_fastrtps/get_vertex_cost_layers__type_support.cpp.o[0m
+[16.673s] [ 82%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mesh_msgs/srv/detail/get_vertex_cost_layers__type_support.cpp.o[0m
+[16.753s] [ 82%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/msg/detail/vector_field__type_support_c.cpp.o[0m
+[16.753s] [ 82%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/msg/detail/vector_field_stamped__type_support_c.cpp.o[0m
+[16.811s] [ 83%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/msg/detail/mesh_vertex_tex_coords__type_support_c.cpp.o[0m
+[16.985s] [ 83%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/srv/detail/get_geometry__type_support_c.cpp.o[0m
+[17.041s] [ 83%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/srv/detail/get_labeled_clusters__type_support_c.cpp.o[0m
+[17.078s] [ 84%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/srv/detail/get_materials__type_support_c.cpp.o[0m
+[17.154s] [ 84%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/srv/detail/get_texture__type_support_c.cpp.o[0m
+[17.309s] [ 84%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/srv/detail/get_uui_ds__type_support_c.cpp.o[0m
+[17.446s] [ 85%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/srv/detail/get_vertex_colors__type_support_c.cpp.o[0m
+[17.579s] [ 85%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/srv/detail/get_vertex_costs__type_support_c.cpp.o[0m
+[17.579s] [ 85%] [32mBuilding CXX object CMakeFiles/mesh_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mesh_msgs/srv/detail/get_vertex_cost_layers__type_support_c.cpp.o[0m
+[17.677s] [ 85%] [32m[1mLinking CXX shared library libmesh_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[17.740s] [ 86%] [32m[1mLinking CXX shared library libmesh_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[18.026s] [ 86%] Built target mesh_msgs__rosidl_typesupport_introspection_cpp
+[18.078s] [ 86%] Built target mesh_msgs__rosidl_typesupport_fastrtps_cpp
+[18.277s] [ 87%] [32m[1mLinking CXX shared library libmesh_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[18.413s] [ 87%] Built target mesh_msgs__rosidl_typesupport_fastrtps_c
+[18.439s] [ 87%] Built target mesh_msgs
+[18.468s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[21.100s] [ 87%] Built target mesh_msgs__py
+[21.134s] [ 87%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/msg/_mesh_face_cluster_stamped_s.c.o[0m
+[21.134s] [ 88%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/msg/_mesh_face_cluster_s.c.o[0m
+[21.137s] [ 90%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/msg/_mesh_materials_stamped_s.c.o[0m
+[21.137s] [ 90%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/msg/_mesh_material_s.c.o[0m
+[21.137s] [ 90%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/msg/_mesh_geometry_stamped_s.c.o[0m
+[21.137s] [ 90%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/msg/_mesh_geometry_s.c.o[0m
+[21.137s] [ 90%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/msg/_mesh_materials_s.c.o[0m
+[21.137s] [ 90%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/msg/_mesh_vertex_colors_s.c.o[0m
+[21.141s] [ 90%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/msg/_mesh_vertex_costs_s.c.o[0m
+[21.141s] [ 90%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/msg/_mesh_vertex_costs_stamped_s.c.o[0m
+[21.141s] [ 91%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/msg/_mesh_vertex_colors_stamped_s.c.o[0m
+[21.145s] [ 92%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/msg/_mesh_vertex_costs_sparse_s.c.o[0m
+[21.400s] [ 92%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/msg/_mesh_vertex_costs_sparse_stamped_s.c.o[0m
+[21.403s] [ 93%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/msg/_mesh_texture_s.c.o[0m
+[21.403s] [ 93%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/msg/_mesh_triangle_indices_s.c.o[0m
+[21.405s] [ 93%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/msg/_vector_field_stamped_s.c.o[0m
+[21.408s] [ 93%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/msg/_vector_field_s.c.o[0m
+[21.413s] [ 93%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/srv/_get_geometry_s.c.o[0m
+[21.414s] [ 94%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/msg/_mesh_vertex_tex_coords_s.c.o[0m
+[21.421s] [ 94%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/srv/_get_labeled_clusters_s.c.o[0m
+[21.421s] [ 95%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/srv/_get_materials_s.c.o[0m
+[21.433s] [ 95%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/srv/_get_texture_s.c.o[0m
+[21.458s] [ 95%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/srv/_get_uui_ds_s.c.o[0m
+[21.458s] [ 96%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/srv/_get_vertex_colors_s.c.o[0m
+[21.635s] [ 96%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/srv/_get_vertex_costs_s.c.o[0m
+[21.638s] [ 97%] [32mBuilding C object CMakeFiles/mesh_msgs__rosidl_generator_py.dir/rosidl_generator_py/mesh_msgs/srv/_get_vertex_cost_layers_s.c.o[0m
+[21.850s] [ 97%] [32m[1mLinking C shared library libmesh_msgs__rosidl_generator_py.so[0m
+[21.926s] [ 97%] Built target mesh_msgs__rosidl_generator_py
+[21.951s] [ 97%] [32mBuilding C object CMakeFiles/mesh_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/mesh_msgs/_mesh_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[21.951s] [ 97%] [32mBuilding C object CMakeFiles/mesh_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/mesh_msgs/_mesh_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[21.951s] [ 98%] [32mBuilding C object CMakeFiles/mesh_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/mesh_msgs/_mesh_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[22.183s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/mesh_msgs/mesh_msgs_s__rosidl_typesupport_c.so[0m
+[22.183s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/mesh_msgs/mesh_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[22.194s] [100%] [32m[1mLinking C shared module rosidl_generator_py/mesh_msgs/mesh_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[22.227s] [100%] Built target mesh_msgs_s__rosidl_typesupport_c
+[22.228s] [100%] Built target mesh_msgs_s__rosidl_typesupport_introspection_c
+[22.241s] [100%] Built target mesh_msgs_s__rosidl_typesupport_fastrtps_c
+[22.261s] Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs -- -j12 -l12
+[22.273s] Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs
+[22.282s] -- Install configuration: ""
+[22.283s] -- Execute custom install script
+[22.283s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/ament_index/resource_index/rosidl_interfaces/mesh_msgs
+[22.295s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshFaceCluster.json
+[22.307s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshFaceClusterStamped.json
+[22.318s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshMaterial.json
+[22.329s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshGeometry.json
+[22.342s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshGeometryStamped.json
+[22.354s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshMaterials.json
+[22.366s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshMaterialsStamped.json
+[22.377s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshVertexColors.json
+[22.390s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshVertexColorsStamped.json
+[22.401s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshVertexCosts.json
+[22.412s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshVertexCostsStamped.json
+[22.424s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshVertexCostsSparse.json
+[22.436s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshVertexCostsSparseStamped.json
+[22.449s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshTexture.json
+[22.461s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshTriangleIndices.json
+[22.472s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/VectorField.json
+[22.483s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/VectorFieldStamped.json
+[22.495s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshVertexTexCoords.json
+[22.506s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetGeometry.json
+[22.517s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetLabeledClusters.json
+[22.528s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetMaterials.json
+[22.539s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetTexture.json
+[22.551s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetUUIDs.json
+[22.564s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetVertexColors.json
+[22.575s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetVertexCosts.json
+[22.586s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetVertexCostLayers.json
+[22.600s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_face_cluster__functions.h
+[22.611s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_face_cluster__struct.h
+[22.623s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_face_cluster__type_support.h
+[22.636s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_face_cluster_stamped__functions.h
+[22.647s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_face_cluster_stamped__struct.h
+[22.660s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_face_cluster_stamped__type_support.h
+[22.671s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_geometry__functions.h
+[22.682s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_geometry__struct.h
+[22.693s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_geometry__type_support.h
+[22.704s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_geometry_stamped__functions.h
+[22.716s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_geometry_stamped__struct.h
+[22.729s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_geometry_stamped__type_support.h
+[22.741s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_material__functions.h
+[22.752s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_material__struct.h
+[22.764s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_material__type_support.h
+[22.777s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_materials__functions.h
+[22.790s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_materials__struct.h
+[22.801s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_materials__type_support.h
+[22.812s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_materials_stamped__functions.h
+[22.824s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_materials_stamped__struct.h
+[22.836s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_materials_stamped__type_support.h
+[22.847s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_texture__functions.h
+[22.860s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_texture__struct.h
+[22.873s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_texture__type_support.h
+[22.884s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_triangle_indices__functions.h
+[22.896s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_triangle_indices__struct.h
+[22.908s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_triangle_indices__type_support.h
+[22.919s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_colors__functions.h
+[22.930s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_colors__struct.h
+[22.941s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_colors__type_support.h
+[22.953s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_colors_stamped__functions.h
+[22.964s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_colors_stamped__struct.h
+[22.975s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_colors_stamped__type_support.h
+[22.987s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs__functions.h
+[22.997s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs__struct.h
+[23.009s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs__type_support.h
+[23.021s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_sparse__functions.h
+[23.032s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_sparse__struct.h
+[23.043s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_sparse__type_support.h
+[23.055s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_sparse_stamped__functions.h
+[23.068s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_sparse_stamped__struct.h
+[23.080s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_sparse_stamped__type_support.h
+[23.092s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_stamped__functions.h
+[23.104s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_stamped__struct.h
+[23.116s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_stamped__type_support.h
+[23.129s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_tex_coords__functions.h
+[23.141s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_tex_coords__struct.h
+[23.153s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_tex_coords__type_support.h
+[23.164s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/vector_field__functions.h
+[23.177s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/vector_field__struct.h
+[23.190s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/vector_field__type_support.h
+[23.202s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/vector_field_stamped__functions.h
+[23.212s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/vector_field_stamped__struct.h
+[23.225s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/vector_field_stamped__type_support.h
+[23.237s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_face_cluster.h
+[23.249s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_face_cluster_stamped.h
+[23.261s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_geometry.h
+[23.273s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_geometry_stamped.h
+[23.286s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_material.h
+[23.297s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_materials.h
+[23.309s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_materials_stamped.h
+[23.321s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_texture.h
+[23.334s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_triangle_indices.h
+[23.346s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_vertex_colors.h
+[23.358s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_vertex_colors_stamped.h
+[23.370s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_vertex_costs.h
+[23.382s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_vertex_costs_sparse.h
+[23.395s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_vertex_costs_sparse_stamped.h
+[23.407s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_vertex_costs_stamped.h
+[23.419s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_vertex_tex_coords.h
+[23.431s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/rosidl_generator_c__visibility_control.h
+[23.443s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/vector_field.h
+[23.456s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/vector_field_stamped.h
+[23.468s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_geometry__functions.h
+[23.479s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_geometry__struct.h
+[23.490s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_geometry__type_support.h
+[23.504s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_labeled_clusters__functions.h
+[23.514s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_labeled_clusters__struct.h
+[23.527s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_labeled_clusters__type_support.h
+[23.537s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_materials__functions.h
+[23.549s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_materials__struct.h
+[23.562s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_materials__type_support.h
+[23.574s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_texture__functions.h
+[23.586s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_texture__struct.h
+[23.598s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_texture__type_support.h
+[23.610s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_uui_ds__functions.h
+[23.623s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_uui_ds__struct.h
+[23.635s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_uui_ds__type_support.h
+[23.646s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_colors__functions.h
+[23.659s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_colors__struct.h
+[23.670s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_colors__type_support.h
+[23.682s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_cost_layers__functions.h
+[23.695s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_cost_layers__struct.h
+[23.705s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_cost_layers__type_support.h
+[23.717s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_costs__functions.h
+[23.729s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_costs__struct.h
+[23.740s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_costs__type_support.h
+[23.753s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/get_geometry.h
+[23.764s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/get_labeled_clusters.h
+[23.776s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/get_materials.h
+[23.788s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/get_texture.h
+[23.799s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/get_uui_ds.h
+[23.810s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/get_vertex_colors.h
+[23.823s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/get_vertex_cost_layers.h
+[23.834s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/get_vertex_costs.h
+[23.846s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/environment/library_path.sh
+[23.860s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/environment/library_path.dsv
+[23.875s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_face_cluster__rosidl_typesupport_fastrtps_c.h
+[23.886s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_face_cluster_stamped__rosidl_typesupport_fastrtps_c.h
+[23.899s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_geometry__rosidl_typesupport_fastrtps_c.h
+[23.912s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_geometry_stamped__rosidl_typesupport_fastrtps_c.h
+[23.925s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_material__rosidl_typesupport_fastrtps_c.h
+[23.938s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_materials__rosidl_typesupport_fastrtps_c.h
+[23.951s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_materials_stamped__rosidl_typesupport_fastrtps_c.h
+[23.962s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_texture__rosidl_typesupport_fastrtps_c.h
+[23.974s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_triangle_indices__rosidl_typesupport_fastrtps_c.h
+[23.986s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_colors__rosidl_typesupport_fastrtps_c.h
+[23.998s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_colors_stamped__rosidl_typesupport_fastrtps_c.h
+[24.009s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs__rosidl_typesupport_fastrtps_c.h
+[24.022s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_sparse__rosidl_typesupport_fastrtps_c.h
+[24.034s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_sparse_stamped__rosidl_typesupport_fastrtps_c.h
+[24.046s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_stamped__rosidl_typesupport_fastrtps_c.h
+[24.059s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_tex_coords__rosidl_typesupport_fastrtps_c.h
+[24.071s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/vector_field__rosidl_typesupport_fastrtps_c.h
+[24.083s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/vector_field_stamped__rosidl_typesupport_fastrtps_c.h
+[24.096s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[24.107s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_geometry__rosidl_typesupport_fastrtps_c.h
+[24.120s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_labeled_clusters__rosidl_typesupport_fastrtps_c.h
+[24.132s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_materials__rosidl_typesupport_fastrtps_c.h
+[24.143s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_texture__rosidl_typesupport_fastrtps_c.h
+[24.156s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_uui_ds__rosidl_typesupport_fastrtps_c.h
+[24.168s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_colors__rosidl_typesupport_fastrtps_c.h
+[24.180s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_cost_layers__rosidl_typesupport_fastrtps_c.h
+[24.192s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_costs__rosidl_typesupport_fastrtps_c.h
+[24.206s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_face_cluster__rosidl_typesupport_introspection_c.h
+[24.217s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_face_cluster_stamped__rosidl_typesupport_introspection_c.h
+[24.230s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_geometry__rosidl_typesupport_introspection_c.h
+[24.242s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_geometry_stamped__rosidl_typesupport_introspection_c.h
+[24.254s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_material__rosidl_typesupport_introspection_c.h
+[24.265s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_materials__rosidl_typesupport_introspection_c.h
+[24.277s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_materials_stamped__rosidl_typesupport_introspection_c.h
+[24.289s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_texture__rosidl_typesupport_introspection_c.h
+[24.302s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_triangle_indices__rosidl_typesupport_introspection_c.h
+[24.313s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_colors__rosidl_typesupport_introspection_c.h
+[24.327s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_colors_stamped__rosidl_typesupport_introspection_c.h
+[24.340s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs__rosidl_typesupport_introspection_c.h
+[24.352s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_sparse__rosidl_typesupport_introspection_c.h
+[24.364s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_sparse_stamped__rosidl_typesupport_introspection_c.h
+[24.377s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_stamped__rosidl_typesupport_introspection_c.h
+[24.389s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_tex_coords__rosidl_typesupport_introspection_c.h
+[24.400s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/vector_field__rosidl_typesupport_introspection_c.h
+[24.413s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/vector_field_stamped__rosidl_typesupport_introspection_c.h
+[24.426s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[24.439s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_geometry__rosidl_typesupport_introspection_c.h
+[24.451s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_labeled_clusters__rosidl_typesupport_introspection_c.h
+[24.463s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_materials__rosidl_typesupport_introspection_c.h
+[24.477s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_texture__rosidl_typesupport_introspection_c.h
+[24.489s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_uui_ds__rosidl_typesupport_introspection_c.h
+[24.501s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_colors__rosidl_typesupport_introspection_c.h
+[24.515s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_cost_layers__rosidl_typesupport_introspection_c.h
+[24.528s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_costs__rosidl_typesupport_introspection_c.h
+[24.542s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_face_cluster__builder.hpp
+[24.553s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_face_cluster__struct.hpp
+[24.565s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_face_cluster__traits.hpp
+[24.576s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_face_cluster__type_support.hpp
+[24.587s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_face_cluster_stamped__builder.hpp
+[24.598s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_face_cluster_stamped__struct.hpp
+[24.610s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_face_cluster_stamped__traits.hpp
+[24.621s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_face_cluster_stamped__type_support.hpp
+[24.632s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_geometry__builder.hpp
+[24.643s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_geometry__struct.hpp
+[24.654s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_geometry__traits.hpp
+[24.665s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_geometry__type_support.hpp
+[24.676s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_geometry_stamped__builder.hpp
+[24.688s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_geometry_stamped__struct.hpp
+[24.699s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_geometry_stamped__traits.hpp
+[24.711s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_geometry_stamped__type_support.hpp
+[24.722s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_material__builder.hpp
+[24.733s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_material__struct.hpp
+[24.744s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_material__traits.hpp
+[24.757s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_material__type_support.hpp
+[24.769s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_materials__builder.hpp
+[24.780s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_materials__struct.hpp
+[24.791s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_materials__traits.hpp
+[24.803s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_materials__type_support.hpp
+[24.815s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_materials_stamped__builder.hpp
+[24.826s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_materials_stamped__struct.hpp
+[24.838s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_materials_stamped__traits.hpp
+[24.848s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_materials_stamped__type_support.hpp
+[24.860s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_texture__builder.hpp
+[24.871s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_texture__struct.hpp
+[24.882s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_texture__traits.hpp
+[24.894s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_texture__type_support.hpp
+[24.905s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_triangle_indices__builder.hpp
+[24.917s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_triangle_indices__struct.hpp
+[24.929s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_triangle_indices__traits.hpp
+[24.940s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_triangle_indices__type_support.hpp
+[24.952s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_colors__builder.hpp
+[24.963s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_colors__struct.hpp
+[24.975s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_colors__traits.hpp
+[24.986s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_colors__type_support.hpp
+[24.997s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_colors_stamped__builder.hpp
+[25.008s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_colors_stamped__struct.hpp
+[25.019s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_colors_stamped__traits.hpp
+[25.030s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_colors_stamped__type_support.hpp
+[25.041s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs__builder.hpp
+[25.052s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs__struct.hpp
+[25.064s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs__traits.hpp
+[25.075s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs__type_support.hpp
+[25.088s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_sparse__builder.hpp
+[25.100s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_sparse__struct.hpp
+[25.112s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_sparse__traits.hpp
+[25.124s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_sparse__type_support.hpp
+[25.135s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_sparse_stamped__builder.hpp
+[25.146s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_sparse_stamped__struct.hpp
+[25.158s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_sparse_stamped__traits.hpp
+[25.169s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_sparse_stamped__type_support.hpp
+[25.181s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_stamped__builder.hpp
+[25.193s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_stamped__struct.hpp
+[25.206s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_stamped__traits.hpp
+[25.217s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_stamped__type_support.hpp
+[25.229s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_tex_coords__builder.hpp
+[25.241s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_tex_coords__struct.hpp
+[25.252s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_tex_coords__traits.hpp
+[25.263s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_tex_coords__type_support.hpp
+[25.275s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/vector_field__builder.hpp
+[25.286s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/vector_field__struct.hpp
+[25.297s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/vector_field__traits.hpp
+[25.311s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/vector_field__type_support.hpp
+[25.323s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/vector_field_stamped__builder.hpp
+[25.334s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/vector_field_stamped__struct.hpp
+[25.346s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/vector_field_stamped__traits.hpp
+[25.357s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/vector_field_stamped__type_support.hpp
+[25.370s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_face_cluster.hpp
+[25.381s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_face_cluster_stamped.hpp
+[25.393s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_geometry.hpp
+[25.404s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_geometry_stamped.hpp
+[25.416s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_material.hpp
+[25.428s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_materials.hpp
+[25.441s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_materials_stamped.hpp
+[25.452s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_texture.hpp
+[25.464s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_triangle_indices.hpp
+[25.476s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_vertex_colors.hpp
+[25.487s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_vertex_colors_stamped.hpp
+[25.498s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_vertex_costs.hpp
+[25.509s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_vertex_costs_sparse.hpp
+[25.521s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_vertex_costs_sparse_stamped.hpp
+[25.532s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_vertex_costs_stamped.hpp
+[25.544s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/mesh_vertex_tex_coords.hpp
+[25.555s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[25.565s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/vector_field.hpp
+[25.578s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/vector_field_stamped.hpp
+[25.588s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_geometry__builder.hpp
+[25.601s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_geometry__struct.hpp
+[25.612s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_geometry__traits.hpp
+[25.623s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_geometry__type_support.hpp
+[25.635s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_labeled_clusters__builder.hpp
+[25.646s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_labeled_clusters__struct.hpp
+[25.657s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_labeled_clusters__traits.hpp
+[25.669s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_labeled_clusters__type_support.hpp
+[25.681s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_materials__builder.hpp
+[25.692s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_materials__struct.hpp
+[25.703s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_materials__traits.hpp
+[25.716s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_materials__type_support.hpp
+[25.729s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_texture__builder.hpp
+[25.741s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_texture__struct.hpp
+[25.752s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_texture__traits.hpp
+[25.764s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_texture__type_support.hpp
+[25.778s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_uui_ds__builder.hpp
+[25.790s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_uui_ds__struct.hpp
+[25.802s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_uui_ds__traits.hpp
+[25.814s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_uui_ds__type_support.hpp
+[25.825s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_colors__builder.hpp
+[25.837s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_colors__struct.hpp
+[25.849s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_colors__traits.hpp
+[25.861s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_colors__type_support.hpp
+[25.872s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_cost_layers__builder.hpp
+[25.884s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_cost_layers__struct.hpp
+[25.895s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_cost_layers__traits.hpp
+[25.906s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_cost_layers__type_support.hpp
+[25.917s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_costs__builder.hpp
+[25.928s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_costs__struct.hpp
+[25.940s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_costs__traits.hpp
+[25.952s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_costs__type_support.hpp
+[25.965s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/get_geometry.hpp
+[25.976s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/get_labeled_clusters.hpp
+[25.988s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/get_materials.hpp
+[26.000s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/get_texture.hpp
+[26.012s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/get_uui_ds.hpp
+[26.023s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/get_vertex_colors.hpp
+[26.034s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/get_vertex_cost_layers.hpp
+[26.046s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/get_vertex_costs.hpp
+[26.060s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_face_cluster__rosidl_typesupport_fastrtps_cpp.hpp
+[26.072s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_face_cluster_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[26.084s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_geometry__rosidl_typesupport_fastrtps_cpp.hpp
+[26.096s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_geometry_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[26.107s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_material__rosidl_typesupport_fastrtps_cpp.hpp
+[26.118s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_materials__rosidl_typesupport_fastrtps_cpp.hpp
+[26.129s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_materials_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[26.141s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_texture__rosidl_typesupport_fastrtps_cpp.hpp
+[26.152s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_triangle_indices__rosidl_typesupport_fastrtps_cpp.hpp
+[26.162s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_colors__rosidl_typesupport_fastrtps_cpp.hpp
+[26.173s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_colors_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[26.184s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs__rosidl_typesupport_fastrtps_cpp.hpp
+[26.196s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_sparse__rosidl_typesupport_fastrtps_cpp.hpp
+[26.207s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_sparse_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[26.218s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[26.229s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_tex_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[26.240s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/vector_field__rosidl_typesupport_fastrtps_cpp.hpp
+[26.252s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/vector_field_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[26.264s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[26.275s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_geometry__rosidl_typesupport_fastrtps_cpp.hpp
+[26.286s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_labeled_clusters__rosidl_typesupport_fastrtps_cpp.hpp
+[26.298s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_materials__rosidl_typesupport_fastrtps_cpp.hpp
+[26.309s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_texture__rosidl_typesupport_fastrtps_cpp.hpp
+[26.320s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_uui_ds__rosidl_typesupport_fastrtps_cpp.hpp
+[26.332s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_colors__rosidl_typesupport_fastrtps_cpp.hpp
+[26.344s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_cost_layers__rosidl_typesupport_fastrtps_cpp.hpp
+[26.357s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_costs__rosidl_typesupport_fastrtps_cpp.hpp
+[26.369s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_face_cluster__rosidl_typesupport_introspection_cpp.hpp
+[26.380s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_face_cluster_stamped__rosidl_typesupport_introspection_cpp.hpp
+[26.392s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_geometry__rosidl_typesupport_introspection_cpp.hpp
+[26.403s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_geometry_stamped__rosidl_typesupport_introspection_cpp.hpp
+[26.414s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_material__rosidl_typesupport_introspection_cpp.hpp
+[26.426s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_materials__rosidl_typesupport_introspection_cpp.hpp
+[26.438s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_materials_stamped__rosidl_typesupport_introspection_cpp.hpp
+[26.450s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_texture__rosidl_typesupport_introspection_cpp.hpp
+[26.461s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_triangle_indices__rosidl_typesupport_introspection_cpp.hpp
+[26.474s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_colors__rosidl_typesupport_introspection_cpp.hpp
+[26.485s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_colors_stamped__rosidl_typesupport_introspection_cpp.hpp
+[26.496s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs__rosidl_typesupport_introspection_cpp.hpp
+[26.508s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_sparse__rosidl_typesupport_introspection_cpp.hpp
+[26.519s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_sparse_stamped__rosidl_typesupport_introspection_cpp.hpp
+[26.531s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_costs_stamped__rosidl_typesupport_introspection_cpp.hpp
+[26.542s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/mesh_vertex_tex_coords__rosidl_typesupport_introspection_cpp.hpp
+[26.555s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/vector_field__rosidl_typesupport_introspection_cpp.hpp
+[26.568s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/msg/detail/vector_field_stamped__rosidl_typesupport_introspection_cpp.hpp
+[26.579s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_geometry__rosidl_typesupport_introspection_cpp.hpp
+[26.590s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_labeled_clusters__rosidl_typesupport_introspection_cpp.hpp
+[26.602s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_materials__rosidl_typesupport_introspection_cpp.hpp
+[26.612s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_texture__rosidl_typesupport_introspection_cpp.hpp
+[26.624s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_uui_ds__rosidl_typesupport_introspection_cpp.hpp
+[26.635s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_colors__rosidl_typesupport_introspection_cpp.hpp
+[26.646s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_cost_layers__rosidl_typesupport_introspection_cpp.hpp
+[26.658s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/include/mesh_msgs/mesh_msgs/srv/detail/get_vertex_costs__rosidl_typesupport_introspection_cpp.hpp
+[26.669s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/environment/pythonpath.sh
+[26.680s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/environment/pythonpath.dsv
+[26.692s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs-2.1.1-py3.12.egg-info/PKG-INFO
+[26.703s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs-2.1.1-py3.12.egg-info/SOURCES.txt
+[26.714s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs-2.1.1-py3.12.egg-info/dependency_links.txt
+[26.725s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs-2.1.1-py3.12.egg-info/top_level.txt
+[26.739s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/__init__.py
+[26.750s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/_mesh_msgs_s.ep.rosidl_typesupport_c.c
+[26.763s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/_mesh_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[26.775s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/_mesh_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[26.786s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/mesh_msgs_s__rosidl_typesupport_c.so
+[26.797s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/mesh_msgs_s__rosidl_typesupport_fastrtps_c.so
+[26.809s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/mesh_msgs_s__rosidl_typesupport_introspection_c.so
+[26.821s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/__init__.py
+[26.832s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_face_cluster.py
+[26.844s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_face_cluster_s.c
+[26.855s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_face_cluster_stamped.py
+[26.867s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_face_cluster_stamped_s.c
+[26.878s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_geometry.py
+[26.888s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_geometry_s.c
+[26.900s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_geometry_stamped.py
+[26.911s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_geometry_stamped_s.c
+[26.923s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_material.py
+[26.934s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_material_s.c
+[26.946s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_materials.py
+[26.958s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_materials_s.c
+[26.972s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_materials_stamped.py
+[26.983s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_materials_stamped_s.c
+[26.995s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_texture.py
+[27.007s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_texture_s.c
+[27.018s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_triangle_indices.py
+[27.029s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_triangle_indices_s.c
+[27.041s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_vertex_colors.py
+[27.053s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_vertex_colors_s.c
+[27.064s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_vertex_colors_stamped.py
+[27.076s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_vertex_colors_stamped_s.c
+[27.087s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_vertex_costs.py
+[27.098s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_vertex_costs_s.c
+[27.109s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_vertex_costs_sparse.py
+[27.120s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_vertex_costs_sparse_s.c
+[27.131s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_vertex_costs_sparse_stamped.py
+[27.143s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_vertex_costs_sparse_stamped_s.c
+[27.154s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_vertex_costs_stamped.py
+[27.166s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_vertex_costs_stamped_s.c
+[27.178s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_vertex_tex_coords.py
+[27.190s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_vertex_tex_coords_s.c
+[27.201s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_vector_field.py
+[27.212s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_vector_field_s.c
+[27.223s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_vector_field_stamped.py
+[27.235s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_vector_field_stamped_s.c
+[27.246s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/__init__.py
+[27.257s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_geometry.py
+[27.269s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_geometry_s.c
+[27.280s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_labeled_clusters.py
+[27.291s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_labeled_clusters_s.c
+[27.302s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_materials.py
+[27.314s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_materials_s.c
+[27.326s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_texture.py
+[27.337s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_texture_s.c
+[27.348s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_uui_ds.py
+[27.362s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_uui_ds_s.c
+[27.373s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_vertex_colors.py
+[27.385s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_vertex_colors_s.c
+[27.397s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_vertex_cost_layers.py
+[27.408s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_vertex_cost_layers_s.c
+[27.421s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_vertex_costs.py
+[27.432s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_vertex_costs_s.c
+[27.445s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/mesh_msgs_s__rosidl_typesupport_fastrtps_c.so
+[27.446s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/mesh_msgs_s__rosidl_typesupport_introspection_c.so
+[27.446s] -- Up-to-date symlink: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/mesh_msgs_s__rosidl_typesupport_c.so
+[27.446s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshFaceCluster.idl
+[27.458s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshFaceClusterStamped.idl
+[27.471s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshMaterial.idl
+[27.483s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshGeometry.idl
+[27.496s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshGeometryStamped.idl
+[27.508s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshMaterials.idl
+[27.520s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshMaterialsStamped.idl
+[27.531s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshVertexColors.idl
+[27.543s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshVertexColorsStamped.idl
+[27.556s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshVertexCosts.idl
+[27.568s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshVertexCostsStamped.idl
+[27.579s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshVertexCostsSparse.idl
+[27.591s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshVertexCostsSparseStamped.idl
+[27.602s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshTexture.idl
+[27.614s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshTriangleIndices.idl
+[27.625s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/VectorField.idl
+[27.636s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/VectorFieldStamped.idl
+[27.647s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshVertexTexCoords.idl
+[27.659s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetGeometry.idl
+[27.670s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetLabeledClusters.idl
+[27.682s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetMaterials.idl
+[27.693s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetTexture.idl
+[27.705s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetUUIDs.idl
+[27.716s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetVertexColors.idl
+[27.728s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetVertexCosts.idl
+[27.740s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetVertexCostLayers.idl
+[27.751s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshFaceCluster.msg
+[27.763s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshFaceClusterStamped.msg
+[27.775s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshMaterial.msg
+[27.788s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshGeometry.msg
+[27.800s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshGeometryStamped.msg
+[27.811s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshMaterials.msg
+[27.823s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshMaterialsStamped.msg
+[27.836s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshVertexColors.msg
+[27.847s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshVertexColorsStamped.msg
+[27.858s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshVertexCosts.msg
+[27.869s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshVertexCostsStamped.msg
+[27.880s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshVertexCostsSparse.msg
+[27.891s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshVertexCostsSparseStamped.msg
+[27.902s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshTexture.msg
+[27.914s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshTriangleIndices.msg
+[27.927s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/VectorField.msg
+[27.938s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/VectorFieldStamped.msg
+[27.950s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/msg/MeshVertexTexCoords.msg
+[27.961s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetGeometry.srv
+[27.973s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetLabeledClusters.srv
+[27.984s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetMaterials.srv
+[27.996s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetTexture.srv
+[28.008s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetUUIDs.srv
+[28.020s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetVertexColors.srv
+[28.032s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetVertexCosts.srv
+[28.044s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/srv/GetVertexCostLayers.srv
+[28.057s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/ament_index/resource_index/package_run_dependencies/mesh_msgs
+[28.069s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/ament_index/resource_index/parent_prefix_path/mesh_msgs
+[28.081s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/environment/ament_prefix_path.sh
+[28.092s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/environment/ament_prefix_path.dsv
+[28.105s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/environment/path.sh
+[28.117s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/environment/path.dsv
+[28.128s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/local_setup.bash
+[28.140s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/local_setup.sh
+[28.152s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/local_setup.zsh
+[28.164s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/local_setup.dsv
+[28.177s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/package.dsv
+[28.190s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/ament_index/resource_index/packages/mesh_msgs
+[28.202s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/rosidl_cmake-extras.cmake
+[28.214s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.225s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.237s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[28.249s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[28.261s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[28.273s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[28.284s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/mesh_msgsConfig.cmake
+[28.297s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/mesh_msgsConfig-version.cmake
+[28.310s] -- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/package.xml
+[28.322s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/libmesh_msgs__rosidl_generator_c.so
+[28.324s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/libmesh_msgs__rosidl_generator_c.so" to ""
+[28.324s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/libmesh_msgs__rosidl_typesupport_fastrtps_c.so
+[28.324s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/libmesh_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[28.325s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/libmesh_msgs__rosidl_typesupport_introspection_c.so
+[28.325s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/libmesh_msgs__rosidl_typesupport_introspection_c.so" to ""
+[28.325s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/libmesh_msgs__rosidl_typesupport_c.so
+[28.326s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/libmesh_msgs__rosidl_typesupport_c.so" to ""
+[28.326s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/libmesh_msgs__rosidl_typesupport_fastrtps_cpp.so
+[28.327s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/libmesh_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[28.328s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/libmesh_msgs__rosidl_typesupport_introspection_cpp.so
+[28.329s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/libmesh_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[28.329s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/libmesh_msgs__rosidl_typesupport_cpp.so
+[28.330s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/libmesh_msgs__rosidl_typesupport_cpp.so" to ""
+[28.413s] Listing '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs'...
+[28.414s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/__init__.py'...
+[28.414s] Listing '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg'...
+[28.414s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/__init__.py'...
+[28.414s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_face_cluster.py'...
+[28.414s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_face_cluster_stamped.py'...
+[28.414s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_geometry.py'...
+[28.414s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_geometry_stamped.py'...
+[28.414s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_material.py'...
+[28.415s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_materials.py'...
+[28.415s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_materials_stamped.py'...
+[28.415s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_texture.py'...
+[28.415s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_triangle_indices.py'...
+[28.415s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_vertex_colors.py'...
+[28.415s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_vertex_colors_stamped.py'...
+[28.415s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_vertex_costs.py'...
+[28.415s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_vertex_costs_sparse.py'...
+[28.415s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_vertex_costs_sparse_stamped.py'...
+[28.415s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_vertex_costs_stamped.py'...
+[28.415s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_mesh_vertex_tex_coords.py'...
+[28.415s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_vector_field.py'...
+[28.415s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/msg/_vector_field_stamped.py'...
+[28.416s] Listing '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv'...
+[28.416s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/__init__.py'...
+[28.416s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_geometry.py'...
+[28.416s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_labeled_clusters.py'...
+[28.416s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_materials.py'...
+[28.416s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_texture.py'...
+[28.416s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_uui_ds.py'...
+[28.416s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_vertex_colors.py'...
+[28.416s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_vertex_cost_layers.py'...
+[28.416s] Compiling '/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages/mesh_msgs/srv/_get_vertex_costs.py'...
+[28.420s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/libmesh_msgs__rosidl_generator_py.so
+[28.421s] -- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/libmesh_msgs__rosidl_generator_py.so" to ""
+[28.422s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/export_mesh_msgs__rosidl_generator_cExport.cmake
+[28.422s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/export_mesh_msgs__rosidl_generator_cExport-noconfig.cmake
+[28.422s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/export_mesh_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[28.422s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/export_mesh_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[28.422s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/mesh_msgs__rosidl_typesupport_introspection_cExport.cmake
+[28.423s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/mesh_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[28.423s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/mesh_msgs__rosidl_typesupport_cExport.cmake
+[28.423s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/mesh_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[28.423s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/export_mesh_msgs__rosidl_generator_cppExport.cmake
+[28.423s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/export_mesh_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[28.423s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/export_mesh_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[28.424s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/mesh_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[28.424s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/mesh_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[28.424s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/mesh_msgs__rosidl_typesupport_cppExport.cmake
+[28.424s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/mesh_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[28.424s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/export_mesh_msgs__rosidl_generator_pyExport.cmake
+[28.425s] -- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake/export_mesh_msgs__rosidl_generator_pyExport-noconfig.cmake
+[28.428s] Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs

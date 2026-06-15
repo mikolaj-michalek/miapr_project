@@ -1,0 +1,30 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/mesh_msgs_conversions.dir/src/conversions.cpp.o[0m
+[100%] [32m[1mLinking CXX static library libmesh_msgs_conversions.a[0m
+[100%] Built target mesh_msgs_conversions
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/include/mesh_msgs_conversions/conversions.h
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/mesh_msgs_conversions/environment/library_path.sh
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/mesh_msgs_conversions/environment/library_path.dsv
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/ament_index/resource_index/package_run_dependencies/mesh_msgs_conversions
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/ament_index/resource_index/parent_prefix_path/mesh_msgs_conversions
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/mesh_msgs_conversions/environment/ament_prefix_path.sh
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/mesh_msgs_conversions/environment/ament_prefix_path.dsv
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/mesh_msgs_conversions/environment/path.sh
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/mesh_msgs_conversions/environment/path.dsv
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/mesh_msgs_conversions/local_setup.bash
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/mesh_msgs_conversions/local_setup.sh
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/mesh_msgs_conversions/local_setup.zsh
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/mesh_msgs_conversions/local_setup.dsv
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/mesh_msgs_conversions/package.dsv
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/ament_index/resource_index/packages/mesh_msgs_conversions
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/mesh_msgs_conversions/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/mesh_msgs_conversions/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/mesh_msgs_conversions/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/mesh_msgs_conversions/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/mesh_msgs_conversions/cmake/mesh_msgs_conversionsConfig.cmake
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/mesh_msgs_conversions/cmake/mesh_msgs_conversionsConfig-version.cmake
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/mesh_msgs_conversions/package.xml
+-- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/lib/libmesh_msgs_conversions.a
+-- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/mesh_msgs_conversions/cmake/export_mesh_msgs_conversionsExport.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs_conversions/share/mesh_msgs_conversions/cmake/export_mesh_msgs_conversionsExport-release.cmake

@@ -1,0 +1,1 @@
+/root/Shared/MIAPR_Projekt/colcon_ws/build/mbf_msgs/rosidl_typesupport_introspection_c/mbf_msgs/action/detail/get_path__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,129 @@
+[0.013s] Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/label_manager -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager
+[0.078s] -- The C compiler identification is GNU 13.3.0
+[0.146s] -- The CXX compiler identification is GNU 13.3.0
+[0.165s] -- Detecting C compiler ABI info
+[0.277s] -- Detecting C compiler ABI info - done
+[0.287s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.287s] -- Detecting C compile features
+[0.287s] -- Detecting C compile features - done
+[0.298s] -- Detecting CXX compiler ABI info
+[0.418s] -- Detecting CXX compiler ABI info - done
+[0.431s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.432s] -- Detecting CXX compile features
+[0.432s] -- Detecting CXX compile features - done
+[0.438s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.605s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.697s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.751s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.808s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.825s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.846s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.869s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.976s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.982s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.108s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.130s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.161s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.270s] -- Found rclcpp_action: 28.1.16 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.338s] -- Found rclcpp_components: 28.1.16 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.400s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.419s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.421s] -- Found mesh_msgs: 2.1.1 (/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/share/mesh_msgs/cmake)
+[1.558s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem 
+[2.345s] -- Found ament_cmake_cppcheck: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[2.350s] -- Found ament_cmake_cpplint: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[2.354s] -- Found ament_cmake_uncrustify: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[2.358s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.519s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.987s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.992s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.158s] -- Found PythonExtra: /usr/bin/python3  
+[4.693s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.795s] -- Found ament_cmake_flake8: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[4.799s] -- Found ament_cmake_pep257: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[4.815s] -- Configuring done (4.8s)
+[4.887s] -- Generating done (0.1s)
+[4.903s] -- Build files have been written to: /root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager
+[4.928s] Invoked command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager' returned '0': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/label_manager -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Shared/MIAPR_Projekt/colcon_ws/install/label_manager
+[4.930s] Invoking command in '/root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager': AMENT_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Shared/MIAPR_Projekt/colcon_ws/install/mesh_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/Shared/MIAPR_Projekt/colcon_ws/build/label_manager -- -j12 -l12
+[5.006s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.017s] [  1%] Built target ament_cmake_python_symlink_label_manager
+[5.257s] [  1%] Built target label_manager__rosidl_generator_type_description
+[5.268s] running egg_info
+[5.269s] creating label_manager.egg-info
+[5.273s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.285s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.291s] writing label_manager.egg-info/PKG-INFO
+[5.291s] writing dependency_links to label_manager.egg-info/dependency_links.txt
+[5.291s] writing top-level names to label_manager.egg-info/top_level.txt
+[5.291s] writing manifest file 'label_manager.egg-info/SOURCES.txt'
+[5.351s] reading manifest file 'label_manager.egg-info/SOURCES.txt'
+[5.352s] writing manifest file 'label_manager.egg-info/SOURCES.txt'
+[5.410s] [  5%] Built target ament_cmake_python_build_label_manager_egg
+[5.745s] [  5%] Built target label_manager__cpp
+[5.839s] [ 12%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_c.dir/rosidl_generator_c/label_manager/srv/detail/delete_label__functions.c.o[0m
+[5.839s] [ 12%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_c.dir/rosidl_generator_c/label_manager/srv/detail/get_label_groups__description.c.o[0m
+[5.839s] [ 12%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_c.dir/rosidl_generator_c/label_manager/srv/detail/delete_label__type_support.c.o[0m
+[5.839s] [ 12%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_c.dir/rosidl_generator_c/label_manager/srv/detail/delete_label__description.c.o[0m
+[5.839s] [ 15%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_c.dir/rosidl_generator_c/label_manager/srv/detail/get_labeled_cluster_group__description.c.o[0m
+[5.839s] [ 15%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_c.dir/rosidl_generator_c/label_manager/srv/detail/get_label_groups__functions.c.o[0m
+[5.840s] [ 17%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_c.dir/rosidl_generator_c/label_manager/srv/detail/get_labeled_cluster_group__functions.c.o[0m
+[5.840s] [ 19%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_c.dir/rosidl_generator_c/label_manager/srv/detail/get_label_groups__type_support.c.o[0m
+[5.840s] [ 21%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_c.dir/rosidl_generator_c/label_manager/srv/detail/get_labeled_cluster_group__type_support.c.o[0m
+[5.955s] [ 22%] [32m[1mLinking C shared library liblabel_manager__rosidl_generator_c.so[0m
+[6.016s] [ 22%] Built target label_manager__rosidl_generator_c
+[6.033s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.033s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.034s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.034s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.034s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.036s] [ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.413s] [ 35%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/label_manager/srv/get_labeled_cluster_group__type_support.cpp.o[0m
+[6.415s] [ 36%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/label_manager/srv/get_label_groups__type_support.cpp.o[0m
+[6.420s] [ 38%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/label_manager/srv/delete_label__type_support.cpp.o[0m
+[6.575s] [ 40%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_c.dir/rosidl_typesupport_c/label_manager/srv/delete_label__type_support.cpp.o[0m
+[6.578s] [ 42%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_c.dir/rosidl_typesupport_c/label_manager/srv/get_label_groups__type_support.cpp.o[0m
+[6.579s] [ 43%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_c.dir/rosidl_typesupport_c/label_manager/srv/get_labeled_cluster_group__type_support.cpp.o[0m
+[6.593s] [ 45%] [32mBuilding C object CMakeFiles/label_manager__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/label_manager/srv/detail/delete_label__type_support.c.o[0m
+[6.602s] [ 47%] [32mBuilding C object CMakeFiles/label_manager__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/label_manager/srv/detail/get_labeled_cluster_group__type_support.c.o[0m
+[6.603s] [ 49%] [32mBuilding C object CMakeFiles/label_manager__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/label_manager/srv/detail/get_label_groups__type_support.c.o[0m
+[6.614s] [ 50%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/label_manager/srv/detail/delete_label__type_support.cpp.o[0m
+[6.690s] [ 52%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/label_manager/srv/detail/get_label_groups__type_support.cpp.o[0m
+[6.717s] [ 54%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/label_manager/srv/detail/get_labeled_cluster_group__type_support.cpp.o[0m
+[6.756s] [ 56%] [32m[1mLinking CXX shared library liblabel_manager__rosidl_typesupport_c.so[0m
+[6.764s] [ 57%] [32m[1mLinking C shared library liblabel_manager__rosidl_typesupport_introspection_c.so[0m
+[6.836s] [ 59%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/label_manager/srv/detail/dds_fastrtps/get_label_groups__type_support.cpp.o[0m
+[6.836s] [ 61%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/label_manager/srv/detail/dds_fastrtps/delete_label__type_support.cpp.o[0m
+[6.836s] [ 63%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/label_manager/srv/detail/dds_fastrtps/get_labeled_cluster_group__type_support.cpp.o[0m
+[6.850s] [ 63%] Built target label_manager__rosidl_typesupport_introspection_c
+[6.951s] [ 64%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/label_manager/srv/detail/get_label_groups__type_support_c.cpp.o[0m
+[6.957s] [ 66%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/label_manager/srv/detail/delete_label__type_support_c.cpp.o[0m
+[6.965s] [ 66%] Built target label_manager__rosidl_typesupport_c
+[6.988s] [ 68%] [32mBuilding CXX object CMakeFiles/label_manager__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/label_manager/srv/detail/get_labeled_cluster_group__type_support_c.cpp.o[0m
+[7.323s] [ 70%] [32m[1mLinking CXX shared library liblabel_manager__rosidl_typesupport_cpp.so[0m
+[7.674s] [ 70%] Built target label_manager__rosidl_typesupport_cpp
+[7.989s] [ 71%] [32m[1mLinking CXX shared library liblabel_manager__rosidl_typesupport_introspection_cpp.so[0m
+[8.090s] [ 73%] [32m[1mLinking CXX shared library liblabel_manager__rosidl_typesupport_fastrtps_c.so[0m
+[8.281s] [ 73%] Built target label_manager__rosidl_typesupport_introspection_cpp
+[8.304s] [ 73%] Built target label_manager__rosidl_typesupport_fastrtps_c
+[8.345s] [ 75%] [32m[1mLinking CXX shared library liblabel_manager__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.614s] [ 75%] Built target label_manager__rosidl_typesupport_fastrtps_cpp
+[8.671s] [ 75%] Built target label_manager
+[8.718s] [ 77%] [32mBuilding CXX object CMakeFiles/label_manager_node.dir/src/manager_node.cpp.o[0m
+[8.722s] [ 78%] [32mBuilding CXX object CMakeFiles/label_manager_node.dir/src/manager.cpp.o[0m
+[8.743s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.999s] [ 80%] Built target label_manager__py
+[10.030s] [ 82%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_py.dir/rosidl_generator_py/label_manager/srv/_get_label_groups_s.c.o[0m
+[10.032s] [ 85%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_py.dir/rosidl_generator_py/label_manager/srv/_get_labeled_cluster_group_s.c.o[0m
+[10.032s] [ 85%] [32mBuilding C object CMakeFiles/label_manager__rosidl_generator_py.dir/rosidl_generator_py/label_manager/srv/_delete_label_s.c.o[0m
+[10.478s] [ 87%] [32m[1mLinking C shared library liblabel_manager__rosidl_generator_py.so[0m
+[10.742s] [ 87%] Built target label_manager__rosidl_generator_py
+[10.823s] [ 89%] [32mBuilding C object CMakeFiles/label_manager_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/label_manager/_label_manager_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.835s] [ 91%] [32mBuilding C object CMakeFiles/label_manager_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/label_manager/_label_manager_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.835s] [ 92%] [32mBuilding C object CMakeFiles/label_manager_s__rosidl_typesupport_c.dir/rosidl_generator_py/label_manager/_label_manager_s.ep.rosidl_typesupport_c.c.o[0m
+[11.200s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/label_manager/label_manager_s__rosidl_typesupport_introspection_c.so[0m
+[11.247s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/label_manager/label_manager_s__rosidl_typesupport_fastrtps_c.so[0m
+[11.329s] [ 96%] Built target label_manager_s__rosidl_typesupport_introspection_c
+[11.405s] [ 96%] Built target label_manager_s__rosidl_typesupport_fastrtps_c
+[11.467s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/label_manager/label_manager_s__rosidl_typesupport_c.so[0m
+[11.586s] [ 98%] Built target label_manager_s__rosidl_typesupport_c

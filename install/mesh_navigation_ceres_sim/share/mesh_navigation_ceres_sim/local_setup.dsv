@@ -1,0 +1,4 @@
+source;share/mesh_navigation_ceres_sim/environment/ament_prefix_path.sh
+source;share/mesh_navigation_ceres_sim/environment/mesh_navigation_ceres_sim.sh
+source;share/mesh_navigation_ceres_sim/environment/path.sh
+source;share/mesh_navigation_ceres_sim/environment/mesh_navigation_ceres_sim.dsv

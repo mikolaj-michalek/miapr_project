@@ -1,0 +1,87 @@
+[  0%] Built target rviz_mesh_tools_plugins_autogen_timestamp_deps
+[  6%] Built target rviz_mesh_tools_plugins_autogen
+[ 18%] [32mBuilding CXX object CMakeFiles/rviz_mesh_tools_plugins.dir/rviz_mesh_tools_plugins_autogen/mocs_compilation.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rviz_mesh_tools_plugins.dir/src/ClusterLabelDisplay.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rviz_mesh_tools_plugins.dir/src/MapDisplay.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rviz_mesh_tools_plugins.dir/src/ClusterLabelTool.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rviz_mesh_tools_plugins.dir/src/MeshDisplay.cpp.o[0m
+In file included from [01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/MeshPoseTool.hpp:48[m[K,
+                 from [01m[K/root/Shared/MIAPR_Projekt/colcon_ws/build/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins_autogen/RHH6IMX7JG/../../../../src/mesh_tools/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/MeshGoalTool.hpp:48[m[K,
+                 from [01m[K/root/Shared/MIAPR_Projekt/colcon_ws/build/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins_autogen/RHH6IMX7JG/moc_MeshGoalTool.cpp:10[m[K,
+                 from [01m[K/root/Shared/MIAPR_Projekt/colcon_ws/build/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins_autogen/mocs_compilation.cpp:7[m[K:
+[01m[K/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h[m[K’
+    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h"[01;36m[K)[m[K
+      |                                                              [01;36m[K^[m[K
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/rviz_mesh_tools_plugins/src/MeshDisplay.cpp:[m[K In member function ‘[01m[Kvoid rviz_mesh_tools_plugins::MeshDisplay::[01;32m[KupdateBufferSize[m[K()[m[K’:
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/rviz_mesh_tools_plugins/src/MeshDisplay.cpp:623:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<std::shared_ptr<rviz_mesh_tools_plugins::MeshVisual> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  623 |   while ([01;35m[Km_visuals.size() > m_bufferSize->getInt()[m[K)
+      |          [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/rviz_mesh_tools_plugins/src/MeshDisplay.cpp:[m[K In member function ‘[01m[Kvoid rviz_mesh_tools_plugins::MeshDisplay::[01;32m[KrequestMaterials[m[K(std::string)[m[K’:
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/rviz_mesh_tools_plugins/src/MeshDisplay.cpp:1374:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<mesh_msgs::msg::MeshMaterial_<std::allocator<void> >, std::allocator<mesh_msgs::msg::MeshMaterial_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+ 1374 |     for (int i = 0; [01;35m[Ki < meshMaterialsStamped.mesh_materials.materials.size()[m[K; i++)
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/rviz_mesh_tools_plugins/src/MeshDisplay.cpp:1380:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<mesh_msgs::msg::MeshFaceCluster_<std::allocator<void> >, std::allocator<mesh_msgs::msg::MeshFaceCluster_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+ 1380 |     for (int i = 0; [01;35m[Ki < meshMaterialsStamped.mesh_materials.clusters.size()[m[K; i++)
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/rviz_mesh_tools_plugins/src/MeshDisplay.cpp:1385:43:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmat[m[K’ [[01;35m[K-Wunused-variable[m[K]
+ 1385 |       const mesh_msgs::msg::MeshMaterial& [01;35m[Kmat[m[K = meshMaterialsStamped.mesh_materials.materials[materialIndex];
+      |                                           [01;35m[K^~~[m[K
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/rviz_mesh_tools_plugins/src/MeshDisplay.cpp:1356:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksrv[m[K’ [[01;35m[K-Wunused-variable[m[K]
+ 1356 |   mesh_msgs::srv::GetMaterials [01;35m[Ksrv[m[K;
+      |                                [01;35m[K^~~[m[K
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/rviz_mesh_tools_plugins/src/MeshDisplay.cpp:[m[K In member function ‘[01m[Kstd::shared_ptr<rviz_mesh_tools_plugins::MeshVisual> rviz_mesh_tools_plugins::MeshDisplay::[01;32m[KaddNewVisual[m[K()[m[K’:
+[01m[K/root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_tools/rviz_mesh_tools_plugins/src/MeshDisplay.cpp:1482:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<std::shared_ptr<rviz_mesh_tools_plugins::MeshVisual> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+ 1482 |   if ([01;35m[Km_visuals.size() > bufferCapacity[m[K)
+      |       [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[ 43%] [32m[1mLinking CXX shared library librviz_mesh_tools_plugins.so[0m
+[100%] Built target rviz_mesh_tools_plugins
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins//plugins_description.xml
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/environment/library_path.sh
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/environment/library_path.dsv
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/ClusterLabelDisplay.hpp
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/ClusterLabelPanel.hpp
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/ClusterLabelTool.hpp
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/ClusterLabelVisual.hpp
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/InteractionHelper.hpp
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/MapDisplay.hpp
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/MeshDisplay.hpp
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/MeshGoalTool.hpp
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/MeshPoseGuessTool.hpp
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/MeshPoseTool.hpp
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/MeshVisual.hpp
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/RVizMessageFilter.hpp
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/RvizFileProperty.hpp
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/ThreadSafeQueue.hpp
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/Types.hpp
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/include/rviz_mesh_tools_plugins/rviz_mesh_tools_plugins/kernels/cast_rays.cl
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/icons/classes/ClusterLabel.png
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/icons/classes/Map3D.png
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/icons/classes/Mesh.png
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/icons/classes/MeshGoal.png
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/icons/classes/MeshPoseGuess.png
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/ament_index/resource_index/package_run_dependencies/rviz_mesh_tools_plugins
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/ament_index/resource_index/parent_prefix_path/rviz_mesh_tools_plugins
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/environment/ament_prefix_path.sh
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/environment/ament_prefix_path.dsv
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/environment/path.sh
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/environment/path.dsv
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/local_setup.bash
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/local_setup.sh
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/local_setup.zsh
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/local_setup.dsv
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/package.dsv
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/ament_index/resource_index/packages/rviz_mesh_tools_plugins
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_mesh_tools_plugins
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/cmake/rviz_mesh_tools_plugins-extras.cmake
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/cmake/rviz_mesh_tools_pluginsConfig.cmake
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/cmake/rviz_mesh_tools_pluginsConfig-version.cmake
+-- Symlinking: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/package.xml
+-- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/lib/librviz_mesh_tools_plugins.so
+-- Set non-toolchain portion of runtime path of "/root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/lib/librviz_mesh_tools_plugins.so" to ""
+-- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/cmake/rviz_mesh_tools_pluginsExport.cmake
+-- Installing: /root/Shared/MIAPR_Projekt/colcon_ws/install/rviz_mesh_tools_plugins/share/rviz_mesh_tools_plugins/cmake/rviz_mesh_tools_pluginsExport-release.cmake

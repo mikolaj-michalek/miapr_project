@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/Shared/MIAPR_Projekt/colcon_ws/build/mesh_msgs/rosidl_generator_py/mesh_msgs/mesh_msgs_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "mesh_msgs_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/mesh_msgs")
