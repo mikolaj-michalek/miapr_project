@@ -9,61 +9,79 @@ Ten plik README zawiera instrukcję krok po kroku, jak uruchomić środowisko pr
 W ramach projektu zaimplementowano oraz przetestowano dwa algorytmy przeszukiwania przestrzeni: **A*** oraz **Theta***.
 
 1. **Kod źródłowy algorytmów:**
-   Wszystkie pliki implementacji algorytmów A* oraz Theta* znajdują się w podścieżce:
-   colcon_ws/src/mesh_navigation/cvp_mesh_planner
+   Wszystkie pliki implementacji algorytmów A* oraz Theta* znajdują się w strukturze pakietu `cvp_mesh_planner` pod ścieżką:
+   `colcon_ws/src/mesh_navigation/cvp_mesh_planner`
 
 2. **Konfiguracja planistów (RViz / Move Base Flex):**
-   Aby zaimplementowane algorytmy były widoczne i gotowe do użycia w środowisku nawigacyjnym oraz wizualizacji RViz, zostały one odpowiednio dodane i skonfigurowane w pliku konfiguracyjnym Move Base Flex (MBF) pod ścieżką:
-   /root/Shared/MIAPR_Projekt/colcon_ws/src/mesh_navigation_tutorials/mesh_navigation_tutorials/config/mbf_mesh_nav.yaml
+   Aby zaimplementowane algorytmy były widoczne i gotowe do użycia w środowisku nawigacyjnym oraz wizualizacji RViz, zostały odpowiednio skonfigurowane w pliku Move Base Flex (MBF) pod ścieżką:
+   `colcon_ws/src/mesh_navigation_tutorials/mesh_navigation_tutorials/config/mbf_mesh_nav.yaml`
 
 ---
 
-## Instrukcja Odtworzenia Rezultatów (Krok po Kroku)
-
-Postępuj zgodnie z poniższymi krokami, zaczynając od czystego systemu z zainstalowanym Dockerem.
+## Instrukcja Odtworzenia Rezultatów
 
 ### Krok 1: Klonowanie Repozytorium
-Pobierz repozytorium projektu na swój lokalny komputer za pomocą narzędzia Git, a następnie przejdź do pobranego katalogu:
+Pobierz repozytorium projektu na swój lokalny komputer, a następnie przejdź do katalogu projektu:
 
-    git clone https://github.com/mikolaj-michalek/miapr_project.git
-    cd miapr_project
+```bash
+git clone https://github.com/mikolaj-michalek/miapr_project.git
+cd miapr_project
+```
 
-### Krok 2: Uruchomienie Kontenera Docker
-Uruchom skrypt przygotowujący i odpalający kontener ze środowiskiem ROS 2 Jazzy:
+### Krok 2: Przygotowanie i Uruchomienie Kontenera Docker
+Zbuduj obraz środowiska na podstawie dołączonego pliku `Dockerfile`, a następnie uruchom skrypt startowy kontenera:
 
-    ./docker_run_jazzy.sh "Nazwa_folderu"
+```bash
+docker build -t jazzy:latest .
+./docker_run_jazzy.sh miapr_project
+```
 
-Po wykonaniu tej komendy zostaniesz automatycznie zalogowany do wnętrza kontenera jako użytkownik root.
+Po wykonaniu tej komendy zostaniesz automatycznie zalogowany do wnętrza kontenera jako użytkownik `root`.
 
-### Krok 3: Instalacja Paczek i Zależności
-Będąc wewnątrz kontenera, przejdź do głównego folderu projektu i zaktualizuj menedżer pakietów oraz zainstaluj niezbędne zależności wymagane przez pakiety ROS 2:
+### Krok 3: Instalacja Zależności i Bibliotek
+Będąc wewnątrz kontenera, przejdź do katalogu przestrzeni roboczej i wpisz:
 
-    cd /root/Shared/Nazwa_folderu
-    apt-get update
+```bash
+cd /root/Shared/miapr_project/colcon_ws
+apt-get update
+rosdep update
+rosdep install --from-paths src --ignore-src -r -y
+```
 
 ### Krok 4: Budowanie Środowiska
-Przejdź do katalogu przestrzeni roboczej colcon_ws, zbuduj pakiety za pomocą colcon i załaduj zmienne środowiskowe:
+Skompiluj wszystkie pakiety za pomocą narzędzia `colcon` i załaduj wygenerowane zmienne środowiskowe:
 
-    cd colcon_ws
-    colcon build --symlink-install
-    source install/setup.bash
+```bash
+colcon build --symlink-install
+source install/setup.bash
+```
 
-### Krok 5: Uruchomienie Środowiska i Tutoriala
-Aby uruchomić symulację, węzły nawigacji oraz interfejs graficzny RViz z załadowanym światłem (tutaj: parking garage), wykonaj następujące polecenie launch:
+### Krok 5: Uruchomienie Środowiska i Symulacji
+Aby uruchomić symulację, węzły nawigacji oraz interfejs graficzny RViz z załadowanym światem wielopoziomowego garażu, wykonaj następujące polecenie:
 
-    ros2 launch mesh_navigation_tutorials mesh_navigation_tutorials_launch.py world_name:=parking_garage
+```bash
+ros2 launch mesh_navigation_tutorials mesh_navigation_tutorials_launch.py world_name:=parking_garage
+```
 
-Po uruchomieniu powinieneś zobaczyć okno RViz z załadowaną siatką trójwymiarową terenu. W celu zmiany algorytmu planowania ruchu należy wybrać go w oknie po prawej stronie w sekcji MbfGoalAction pod parametrem Planner Name. Aby wybrać cel ruchu robota należy użyć narzędzia Mesh Goal z górnego paska i wybrać punkt na siatce świata.
+Po uruchomieniu zobaczysz okno RViz z załadowaną trójwymiarową siatką terenu. W celu zmiany algorytmu planowania ruchu wybierz go w oknie po prawej stronie w sekcji `MbfGoalAction` pod parametrem `Planner Name`. Aby wskazać cel ruchu robota, użyj narzędzia `Mesh Goal` z górnego paska narzędziowego i kliknij punkt na siatce świata.
 
 ### Krok 6: Uruchomienie Plików Benchmarkowych
-W celu zebrania wyników i uruchomienia testów porównawczych dla algorytmów, otwórz nowy terminal, wejdź do kontenera (Docker exec -it "Nazwa_kontenera" bash), załaduj środowisko (source colcon_ws/install/setup.bash) i uruchom dedykowane skrypty benchmarkowe dla mapy parking_garage:
+W celu zebrania wyników i uruchomienia testów porównawczych dla algorytmów, otwórz nowy terminal na swoim komputerze, wejdź do działającego kontenera, załaduj środowisko i uruchom dedykowane skrypty pythonowe:
 
-* Benchmark Łatwy (Ten sam poziom parkingu):
+```bash
+# Wejście do kontenera z nowego terminala
+docker exec -it miapr_project_kontener bash
 
-    python3 Algorithm_Benchmark_Easy.py
+# Załadowanie środowiska
+cd /root/Shared/miapr_project/colcon_ws
+source install/setup.bash
+cd ..
 
-* Benchmark Trudny (Różne poziomy parkingu):
+# Uruchomienie testu łatwego (ten sam poziom parkingu)
+python3 Algorithm_Benchmark_Easy.py
 
-    python3 Algorithm_Benchmark_Hard.py
+# Uruchomienie testu trudnego (różne poziomy parkingu)
+python3 Algorithm_Benchmark_Hard.py
+```
 
-Skrypty te przetestują zaimplementowane algorytmy w zdefiniowanych scenariuszach i pozwolą na weryfikację uzyskanych czasów planowania, długości wyznaczonych ścieżek i ich krzywizn. Możliwa jest w nich zmiana świata (np: "tray", "floor_is_lava"), pozycji początkowej robota i celu oraz ilości testów i ścieżek zapisu danych.
+Skrypty te przetestują zaimplementowane algorytmy w zdefiniowanych scenariuszach i pozwolą na weryfikację uzyskanych czasów planowania, długości wyznaczonych ścieżek i ich krzywizn.
